@@ -1,0 +1,2648 @@
+{
+  "bucketQuery": "bucket('infobox_bestiary').select('page_name','name','dlc','description','bestiary_number','type','theme').limit(5000).run()",
+  "bucket": [
+    {
+      "bestiary_number": 119,
+      "name": "The Reaper",
+      "page_name": "The Reaper",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 7,
+      "name": "Zombie",
+      "page_name": "Zombie",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 6,
+      "name": "Skeleton",
+      "page_name": "Skeleton",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 11,
+      "name": "Ghost",
+      "page_name": "Ghost",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 35,
+      "name": "Mantichana",
+      "page_name": "Mantichana",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 34,
+      "name": "Giant Bat",
+      "page_name": "Giant Bat",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 12,
+      "name": "Werewolf",
+      "page_name": "Werewolf",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 36,
+      "name": "Big Mummy",
+      "page_name": "Big Mummy",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 9,
+      "name": "Flower Wall",
+      "page_name": "Flower Wall",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 37,
+      "name": "Venus",
+      "page_name": "Venus",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 13,
+      "type": "Normal",
+      "name": "Dust Elemental",
+      "page_name": "Dust Elemental",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 17,
+      "name": "Sig.ra Rossi",
+      "page_name": "Sig.ra Rossi",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 22,
+      "name": "Sneaky Head",
+      "page_name": "Sneaky Head",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 21,
+      "name": "Mummy",
+      "page_name": "Mummy",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 26,
+      "name": "Testa di Mano",
+      "page_name": "Testa di Mano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 24,
+      "name": "Musc Musc",
+      "page_name": "Musc Musc",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 14,
+      "name": "Lionhead",
+      "page_name": "Lionhead",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 29,
+      "name": "Undead Witch",
+      "page_name": "Undead Witch",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Count",
+      "name": "Count",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 30,
+      "name": "Undead Sassy Witch",
+      "page_name": "Undead Sassy Witch",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 20,
+      "type": "Boss",
+      "name": "Nesufritto",
+      "page_name": "Nesufritto",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 33,
+      "name": "Merdusa",
+      "page_name": "Merdusa",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Fishman",
+      "name": "Fishman",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 41,
+      "name": "Lizard Rook",
+      "page_name": "Lizard Rook",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 39,
+      "name": "Lizard Pawn",
+      "page_name": "Lizard Pawn",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 15,
+      "name": "Milk Elemental",
+      "page_name": "Milk Elemental",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 38,
+      "name": "Merman",
+      "page_name": "Merman",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 44,
+      "name": "Skeleton Ninja",
+      "page_name": "Skeleton Ninja",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 47,
+      "name": "Minotaur",
+      "page_name": "Minotaur",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 42,
+      "name": "Twin Demons",
+      "page_name": "Twin Demons",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 40,
+      "name": "Twin Snakes",
+      "page_name": "Twin Snakes",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 46,
+      "name": "Melone",
+      "page_name": "Melone",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 50,
+      "name": "Archon Ascia",
+      "page_name": "Archon Ascia",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 45,
+      "name": "Lost Twin",
+      "page_name": "Lost Twin",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 49,
+      "name": "Archon Lancia",
+      "page_name": "Archon Lancia",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 48,
+      "name": "Mignotaur",
+      "page_name": "Mignotaur",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 52,
+      "name": "Tritont",
+      "page_name": "Tritont",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 55,
+      "name": "Big Golem",
+      "page_name": "Big Golem",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 43,
+      "name": "Jellyfish",
+      "page_name": "Jellyfish",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 54,
+      "name": "Gallotrice",
+      "page_name": "Gallotrice",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Minotaur Boss",
+      "name": "Minotaur Boss",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 57,
+      "name": "Sword Guardian",
+      "page_name": "Sword Guardian",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 121,
+      "name": "The Stalker",
+      "page_name": "The Stalker",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 59,
+      "name": "Sad Molisano",
+      "page_name": "Sad Molisano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 61,
+      "name": "Cute Molisano",
+      "page_name": "Cute Molisano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Molisano Grosso",
+      "name": "Molisano Grosso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 60,
+      "name": "Happy Molisano",
+      "page_name": "Happy Molisano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 62,
+      "name": "Old Molisano",
+      "page_name": "Old Molisano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 63,
+      "name": "Dead Molisano",
+      "page_name": "Dead Molisano",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Containers",
+      "name": "Containers",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 3,
+      "name": "Skullino",
+      "page_name": "Skullino",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 4,
+      "type": "Normal",
+      "name": "Skulorosso",
+      "page_name": "Skulorosso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 5,
+      "name": "Scarleton",
+      "page_name": "Scarleton",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Elite Devil",
+      "name": "Elite Devil",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 28,
+      "name": "Undead Mage",
+      "page_name": "Undead Mage",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 27,
+      "name": "Ghiavolo",
+      "page_name": "Ghiavolo",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 2,
+      "type": "Normal",
+      "name": "Bloodbath",
+      "page_name": "Bloodbath",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 25,
+      "name": "Impefinger",
+      "page_name": "Impefinger",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 16,
+      "name": "Dragon Shrimp",
+      "page_name": "Dragon Shrimp",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 23,
+      "name": "Harzia",
+      "page_name": "Harzia",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Gallo (enemy)",
+      "name": "Gallo",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 31,
+      "name": "Archon Spada",
+      "page_name": "Archon Spada",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 32,
+      "name": "Archon Disco",
+      "page_name": "Archon Disco",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 53,
+      "name": "Manticore",
+      "page_name": "Manticore",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 56,
+      "name": "Meat Golem",
+      "page_name": "Meat Golem",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 58,
+      "name": "Giant Enemy Crab",
+      "page_name": "Giant Enemy Crab",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 122,
+      "name": "The Drowner",
+      "page_name": "The Drowner",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Leda (enemy)",
+      "name": "Leda",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 18,
+      "name": "Poltergeist",
+      "page_name": "Poltergeist",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 88,
+      "name": "Twin Skulls",
+      "page_name": "Twin Skulls",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 90,
+      "name": "Skeleton Panther",
+      "page_name": "Skeleton Panther",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 91,
+      "name": "Giant Skeleton",
+      "page_name": "Giant Skeleton",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Glowing Skeleton",
+      "name": "Glowing Skeleton",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 92,
+      "name": "Skeletone",
+      "page_name": "Skeletone",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 123,
+      "name": "The Maddener",
+      "page_name": "The Maddener",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 99,
+      "name": "Serpentvine",
+      "page_name": "Serpentvine",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 102,
+      "name": "Sig.ra Blu",
+      "page_name": "Sig.ra Blu",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 103,
+      "name": "Non-Giant Enemy Crab",
+      "page_name": "Non-Giant Enemy Crab",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 101,
+      "name": "Nightshade",
+      "page_name": "Nightshade",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 100,
+      "name": "Garlic",
+      "page_name": "Garlic (enemy)",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 104,
+      "name": "Unknown",
+      "page_name": "Unknown",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 98,
+      "name": "Moongolow Atlanteans",
+      "page_name": "Moongolow Atlanteans",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 19,
+      "name": "Hag",
+      "page_name": "Hag",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 118,
+      "name": "Stage Killer",
+      "page_name": "Stage Killer",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 120,
+      "name": "The Trickster",
+      "page_name": "The Trickster",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 117,
+      "name": "Trinacria",
+      "page_name": "Trinacria",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 106,
+      "name": "Tetrabrachia",
+      "page_name": "Tetrabrachia",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 108,
+      "name": "Succubus",
+      "page_name": "Succubus (enemy)",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 107,
+      "name": "Archon Fiamma",
+      "page_name": "Archon Fiamma",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 109,
+      "name": "Archon Rame",
+      "page_name": "Archon Rame",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 114,
+      "name": "Archon Oro",
+      "page_name": "Archon Oro",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 110,
+      "name": "Demon Priest",
+      "page_name": "Demon Priest",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 115,
+      "name": "Demon Beast",
+      "page_name": "Demon Beast",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 116,
+      "name": "Archdemon",
+      "page_name": "Archdemon",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 111,
+      "name": "Fallen Cherub",
+      "page_name": "Fallen Cherub",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 112,
+      "name": "Fallen Cherubbello",
+      "page_name": "Fallen Cherubbello",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 113,
+      "name": "Fallen Throne",
+      "page_name": "Fallen Throne",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 125,
+      "name": "The Ender",
+      "page_name": "The Ender",
+      "theme": [
+        "Cosmic Delight"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 1,
+      "name": "Pipeestrello",
+      "page_name": "Pipeestrello",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 93,
+      "name": "Sketamari",
+      "page_name": "Sketamari",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Colossal Panther",
+      "name": "Colossal Panther",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 126,
+      "name": "Mimic Season One",
+      "page_name": "Mimic Season One",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 129,
+      "name": "Tri-Anchors",
+      "page_name": "Tri-Anchors",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 8,
+      "name": "Mudman",
+      "page_name": "Mudman",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 51,
+      "name": "Skelewing",
+      "page_name": "Skelewing",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 89,
+      "name": "Skullone",
+      "page_name": "Skullone",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 105,
+      "name": "Reaper Trainee",
+      "page_name": "Reaper Trainee",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 131,
+      "name": "The Directer",
+      "page_name": "The Directer",
+      "theme": [
+        "Cosmic Delight"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Medusa Head",
+      "name": "Medusa Head",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 285,
+      "type": "Normal",
+      "name": "Harpy",
+      "page_name": "Harpy",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 300,
+      "type": "Normal",
+      "name": "Dullahan",
+      "page_name": "Dullahan",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 94,
+      "name": "Sun Atlantean",
+      "page_name": "Sun Atlantean",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 95,
+      "name": "Moon Atlantean",
+      "page_name": "Moon Atlantean",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 96,
+      "name": "City Atlantean",
+      "page_name": "City Atlantean",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 97,
+      "name": "Volcano Atlantean",
+      "page_name": "Volcano Atlantean",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 127,
+      "name": "Mimic Season Two",
+      "page_name": "Mimic Season Two",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 128,
+      "name": "Mimic Season Three",
+      "page_name": "Mimic Season Three",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 130,
+      "name": "LV128 Golden Bat",
+      "page_name": "LV128 Golden Bat",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Swordian",
+      "name": "Swordian",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Scorej-Oni (enemy)",
+      "name": "Scorej-Oni",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Boon Marrabbio (enemy)",
+      "name": "Boon Marrabbio",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 183,
+      "name": "Kappa",
+      "page_name": "Kappa",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 181,
+      "name": "Spiritello",
+      "page_name": "Spiritello",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 182,
+      "name": "Hitotsume-kozo",
+      "page_name": "Hitotsume-kozo",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 184,
+      "name": "Tsuchinoko",
+      "page_name": "Tsuchinoko",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 196,
+      "name": "Orochimario",
+      "page_name": "Orochimario",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 185,
+      "name": "Mikoshi-nyudo",
+      "page_name": "Mikoshi-nyudo",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 186,
+      "name": "Kamaitachi",
+      "page_name": "Kamaitachi",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 187,
+      "name": "Raiju",
+      "page_name": "Raiju",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 188,
+      "name": "Yamamba",
+      "page_name": "Yamamba",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 189,
+      "name": "Tanuki",
+      "page_name": "Tanuki",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 190,
+      "name": "Tengu",
+      "page_name": "Tengu",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 191,
+      "name": "Tsuchigumo",
+      "page_name": "Tsuchigumo",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 192,
+      "name": "Windy Oni",
+      "page_name": "Windy Oni",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 193,
+      "name": "Thunderous Oni",
+      "page_name": "Thunderous Oni",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 194,
+      "name": "Big Oni",
+      "page_name": "Big Oni",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "bestiary_number": 195,
+      "name": "Goshadokuro",
+      "page_name": "Goshadokuro",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "page_name": "Diamond",
+      "name": "Diamond",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Fake Fallen Cherub",
+      "name": "Fake Fallen Cherub",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Fake Fallen Cherubbello",
+      "name": "Fake Fallen Cherubbello",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Avatar Infernas (enemy)",
+      "theme": [
+        "Extinguished Flame"
+      ],
+      "name": "Avatar Infernas",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Undead Head",
+      "name": "Undead Head",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Undead Eyes",
+      "name": "Undead Eyes",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 238,
+      "name": "Je-Ne-Viv",
+      "page_name": "Je-Ne-Viv (enemy)",
+      "theme": [
+        "The World Eater (track)"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 124,
+      "name": "The Blinder",
+      "page_name": "The Blinder",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 206,
+      "name": "Sammy the Caterpillar",
+      "page_name": "Sammy the Caterpillar",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 217,
+      "name": "Avatar of Gaea",
+      "page_name": "Avatar of Gaea",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 222,
+      "name": "Rotting Ghoul",
+      "page_name": "Rotting Ghoul",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 228,
+      "name": "Followa",
+      "page_name": "Followa",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 197,
+      "name": "Chompo",
+      "page_name": "Chompo",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 207,
+      "name": "Brownie",
+      "page_name": "Brownie",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 198,
+      "name": "Ceffoose",
+      "page_name": "Ceffoose",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 204,
+      "name": "Sea Trow",
+      "page_name": "Sea Trow",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 203,
+      "name": "Hill Trow",
+      "page_name": "Hill Trow",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 199,
+      "name": "Wiseparke",
+      "page_name": "Wiseparke",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 200,
+      "name": "Nutmeg",
+      "page_name": "Nutmeg",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 213,
+      "name": "Njuggles",
+      "page_name": "Njuggles",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 201,
+      "name": "Vulvio",
+      "page_name": "Vulvio",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 202,
+      "name": "Lammuga",
+      "page_name": "Lammuga",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 205,
+      "name": "Sam the Sandown Clown",
+      "page_name": "Sam the Sandown Clown",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 210,
+      "name": "Notadam",
+      "page_name": "Notadam",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 209,
+      "name": "Crocifriggitore",
+      "page_name": "Crocifriggitore",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 224,
+      "name": "Missing Church",
+      "page_name": "Missing Church",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 208,
+      "name": "Green Knight",
+      "page_name": "Green Knight",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 216,
+      "name": "Ghostly Apparition",
+      "page_name": "Ghostly Apparition",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 214,
+      "name": "Average Hag",
+      "page_name": "Average Hag",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 212,
+      "name": "Maronna",
+      "page_name": "Maronna",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 211,
+      "name": "Hand of Glory",
+      "page_name": "Hand of Glory",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 218,
+      "name": "Cauld",
+      "page_name": "Cauld",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 219,
+      "name": "Redusa Head",
+      "page_name": "Redusa Head",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 221,
+      "name": "Blood Moss",
+      "page_name": "Blood Moss",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 223,
+      "name": "Burning Skull",
+      "page_name": "Burning Skull",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 225,
+      "name": "Snek",
+      "page_name": "Snek",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 227,
+      "name": "Meatball",
+      "page_name": "Meatball",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 226,
+      "name": "Lost Head",
+      "page_name": "Lost Head",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 230,
+      "name": "Cold Cauld",
+      "page_name": "Cold Cauld",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 232,
+      "name": "Wet Njuggles",
+      "page_name": "Wet Njuggles",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 229,
+      "name": "Edna",
+      "page_name": "Edna",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 231,
+      "name": "Well Dweller",
+      "page_name": "Well Dweller",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 233,
+      "name": "Crocifriggitone",
+      "page_name": "Crocifriggitone",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 234,
+      "name": "Still Notadam",
+      "page_name": "Still Notadam",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 235,
+      "name": "Glove of Glory",
+      "page_name": "Glove of Glory",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 236,
+      "name": "Maronna Meea",
+      "page_name": "Maronna Meea",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 237,
+      "name": "Fomorians",
+      "page_name": "Fomorians",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 220,
+      "name": "Rellyfish",
+      "page_name": "Rellyfish",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 215,
+      "name": "Fungoman",
+      "page_name": "Fungoman",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "bestiary_number": 278,
+      "type": "Boss",
+      "name": "Big Fuzz",
+      "page_name": "Big Fuzz",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 69,
+      "type": "Normal",
+      "name": "Holy Circuit Creations",
+      "page_name": "Holy Circuit Creations",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 70,
+      "type": "Normal",
+      "name": "Bounty Hunter",
+      "page_name": "Bounty Hunter",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 72,
+      "type": "Normal",
+      "name": "Tri-Blunder",
+      "page_name": "Tri-Blunder",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 71,
+      "type": "Normal",
+      "name": "Space Hunter",
+      "page_name": "Space Hunter",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 64,
+      "type": "Normal",
+      "name": "Bambaman",
+      "page_name": "Bambaman",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 65,
+      "type": "Normal",
+      "name": "Miragellos",
+      "page_name": "Miragellos",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 66,
+      "type": "Normal",
+      "name": "Menta Elemental",
+      "page_name": "Menta Elemental",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 67,
+      "type": "Normal",
+      "name": "Madd-Onna",
+      "page_name": "Madd-Onna",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 68,
+      "type": "Boss",
+      "name": "Kizzune",
+      "page_name": "Kizzune",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 81,
+      "type": "Normal",
+      "name": "Gala Invader",
+      "page_name": "Gala Invader",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 82,
+      "type": "Normal",
+      "name": "Moon Rabbit",
+      "page_name": "Moon Rabbit",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 83,
+      "type": "Normal",
+      "name": "Moon Duck",
+      "page_name": "Moon Duck",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 84,
+      "type": "Normal",
+      "name": "Space Ant Onion",
+      "page_name": "Space Ant Onion",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 85,
+      "type": "Normal",
+      "name": "Space Pickle",
+      "page_name": "Space Pickle",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 86,
+      "type": "Normal",
+      "name": "ECMASlime",
+      "page_name": "ECMASlime",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 87,
+      "type": "Normal",
+      "name": "Sinistronz",
+      "page_name": "Sinistronz",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 132,
+      "type": "Normal",
+      "name": "Astral Elemental",
+      "page_name": "Astral Elemental",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 133,
+      "type": "Normal",
+      "name": "Astral Chair",
+      "page_name": "Astral Chair",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 134,
+      "type": "Normal",
+      "name": "Astral Curtain",
+      "page_name": "Astral Curtain",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 135,
+      "type": "Normal",
+      "name": "Undead Stars",
+      "page_name": "Undead Stars",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 136,
+      "type": "Normal",
+      "name": "Poetrait",
+      "page_name": "Poetrait",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 137,
+      "type": "Normal",
+      "name": "Lord Ghost",
+      "page_name": "Lord Ghost",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 138,
+      "type": "Normal",
+      "name": "Cosmic Egg",
+      "page_name": "Cosmic Egg",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 239,
+      "type": "Normal",
+      "name": "Frijjitello",
+      "page_name": "Frijjitello",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 240,
+      "type": "Normal",
+      "name": "Brainoid",
+      "page_name": "Brainoid",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 241,
+      "type": "Normal",
+      "name": "Spotter",
+      "page_name": "Spotter",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 242,
+      "type": "Normal",
+      "name": "Shapeunshifter",
+      "page_name": "Shapeunshifter",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 243,
+      "type": "Normal",
+      "name": "Pinthot & Coldellini",
+      "page_name": "Pinthot & Coldellini",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 244,
+      "type": "Normal",
+      "name": "Space Apparition",
+      "page_name": "Space Apparition",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 245,
+      "type": "Normal",
+      "name": "Mocholo",
+      "page_name": "Mocholo",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 246,
+      "type": "Normal",
+      "name": "Meat Bean",
+      "page_name": "Meat Bean",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 247,
+      "type": "Normal",
+      "name": "Martian Face",
+      "page_name": "Martian Face",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 248,
+      "type": "Normal",
+      "name": "Suspicio",
+      "page_name": "Suspicio",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 249,
+      "type": "Normal",
+      "name": "Victor Frankenstein",
+      "page_name": "Victor Frankenstein",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 250,
+      "type": "Normal",
+      "name": "Sponkey",
+      "page_name": "Sponkey",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 251,
+      "type": "Normal",
+      "name": "Steroid",
+      "page_name": "Steroid",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 252,
+      "type": "Normal",
+      "name": "Trip Trop",
+      "page_name": "Trip Trop",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 253,
+      "type": "Normal",
+      "name": "G062T",
+      "page_name": "G062T",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 254,
+      "type": "Normal",
+      "name": "Suspicious Eyes",
+      "page_name": "Suspicious Eyes",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "bestiary_number": 255,
+      "type": "Normal",
+      "name": "Ledder",
+      "page_name": "Ledder",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 256,
+      "type": "Normal",
+      "name": "Greeder",
+      "page_name": "Greeder",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 257,
+      "type": "Normal",
+      "name": "Warlord",
+      "page_name": "Warlord",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 258,
+      "type": "Normal",
+      "name": "Evil Snowman",
+      "page_name": "Evil Snowman",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 259,
+      "type": "Normal",
+      "name": "Alien Centipede",
+      "page_name": "Alien Centipede",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 260,
+      "type": "Normal",
+      "name": "Gulcan Tank",
+      "page_name": "Gulcan Tank",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 261,
+      "type": "Normal",
+      "name": "Metal Alien",
+      "page_name": "Metal Alien",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 262,
+      "type": "Normal",
+      "name": "Human Faced Dog",
+      "page_name": "Human Faced Dog",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 263,
+      "type": "Normal",
+      "name": "Garth",
+      "page_name": "Garth",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 264,
+      "type": "Normal",
+      "name": "Ball Walker",
+      "page_name": "Ball Walker",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 265,
+      "type": "Normal",
+      "name": "Hellrider",
+      "page_name": "Hellrider",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 266,
+      "type": "Normal",
+      "name": "Junkyard Car",
+      "page_name": "Junkyard Car",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 267,
+      "type": "Normal",
+      "name": "Flight Zako",
+      "page_name": "Flight Zako",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 268,
+      "type": "Normal",
+      "name": "M78",
+      "page_name": "M78",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 269,
+      "type": "Normal",
+      "name": "Bugger",
+      "page_name": "Bugger",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 270,
+      "type": "Normal",
+      "name": "Poisonous Insect Gel",
+      "page_name": "Poisonous Insect Gel",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 271,
+      "type": "Normal",
+      "name": "Bundle",
+      "page_name": "Bundle",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 272,
+      "type": "Normal",
+      "name": "Zako Alien",
+      "page_name": "Zako Alien",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 273,
+      "type": "Normal",
+      "name": "Gigafly",
+      "page_name": "Gigafly",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 274,
+      "type": "Normal",
+      "name": "Mutant Crawler",
+      "page_name": "Mutant Crawler",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 275,
+      "type": "Normal",
+      "name": "Kimkoh",
+      "page_name": "Kimkoh",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 276,
+      "type": "Normal",
+      "name": "Big Bot Gordea",
+      "page_name": "Big Bot Gordea",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 277,
+      "type": "Normal",
+      "name": "Taka",
+      "page_name": "Taka",
+      "dlc": "Operation Guns"
+    },
+    {
+      "bestiary_number": 279,
+      "type": "Normal",
+      "name": "Simondo Belmont",
+      "page_name": "Simondo Belmont (enemy)",
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Olrox",
+      "name": "Olrox",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 287,
+      "type": "Normal",
+      "name": "Imp",
+      "page_name": "Imp",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 139,
+      "type": "Normal",
+      "name": "Ska'sa Ka'sos",
+      "page_name": "Ska'sa Ka'sos",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 140,
+      "type": "Normal",
+      "name": "Juda R'kasso",
+      "page_name": "Juda R'kasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 141,
+      "type": "Normal",
+      "name": "Foo'Ori Darkasso",
+      "page_name": "Foo'Ori Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 142,
+      "type": "Normal",
+      "name": "Shendi Darkasso",
+      "page_name": "Shendi Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 143,
+      "type": "Normal",
+      "name": "Sphon'Dato Darkasso",
+      "page_name": "Sphon'Dato Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 144,
+      "type": "Normal",
+      "name": "Eh'Lleve-Teh Darkasso",
+      "page_name": "Eh'Lleve-Teh Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 145,
+      "type": "Normal",
+      "name": "Levatee Darkasso",
+      "page_name": "Levatee Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 146,
+      "type": "Normal",
+      "name": "Levarsee Darkasso",
+      "page_name": "Levarsee Darkasso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 281,
+      "type": "Normal",
+      "name": "Flea Rider",
+      "page_name": "Flea Rider",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 282,
+      "type": "Normal",
+      "name": "Flea Armor",
+      "page_name": "Flea Armor",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 283,
+      "type": "Normal",
+      "name": "Spellbook",
+      "page_name": "Spellbook",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 284,
+      "type": "Normal",
+      "name": "Frozen Shade",
+      "page_name": "Frozen Shade",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 286,
+      "type": "Normal",
+      "name": "Hippogryph",
+      "page_name": "Hippogryph",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 288,
+      "type": "Normal",
+      "name": "Moldy Corpse",
+      "page_name": "Moldy Corpse",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 289,
+      "type": "Normal",
+      "name": "Spittle Bone",
+      "page_name": "Spittle Bone",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 290,
+      "type": "Normal",
+      "name": "Ukoback",
+      "page_name": "Ukoback",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 295,
+      "type": "Normal",
+      "name": "Bloody Painting",
+      "page_name": "Bloody Painting",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 291,
+      "type": "Normal",
+      "name": "Spectre",
+      "page_name": "Spectre",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 292,
+      "type": "Normal",
+      "name": "Valhalla Knight",
+      "page_name": "Valhalla Knight",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 293,
+      "type": "Normal",
+      "name": "Warg",
+      "page_name": "Warg",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 294,
+      "type": "Normal",
+      "name": "Bitterfly",
+      "page_name": "Bitterfly",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 296,
+      "type": "Normal",
+      "name": "OG Merman",
+      "page_name": "OG Merman",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 298,
+      "type": "Normal",
+      "name": "OG Ghost",
+      "page_name": "OG Ghost",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 299,
+      "type": "Normal",
+      "name": "Flying Zombie",
+      "page_name": "Flying Zombie",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 301,
+      "type": "Normal",
+      "name": "Yorick",
+      "page_name": "Yorick",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 302,
+      "type": "Normal",
+      "name": "Amalaric Sniper",
+      "page_name": "Amalaric Sniper",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 303,
+      "type": "Normal",
+      "name": "Gurkha Knife Master",
+      "page_name": "Gurkha Knife Master",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 304,
+      "type": "Normal",
+      "name": "Gorgon",
+      "page_name": "Gorgon",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 305,
+      "type": "Normal",
+      "name": "Bone Golem",
+      "page_name": "Bone Golem",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 306,
+      "type": "Normal",
+      "name": "Disc Armor",
+      "page_name": "Disc Armor",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 307,
+      "type": "Normal",
+      "name": "Alastor",
+      "page_name": "Alastor",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 308,
+      "type": "Normal",
+      "name": "Malachi",
+      "page_name": "Malachi",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 309,
+      "type": "Normal",
+      "name": "OG Werewolf",
+      "page_name": "OG Werewolf",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 311,
+      "type": "Normal",
+      "name": "Killer Doll",
+      "page_name": "Killer Doll",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 312,
+      "type": "Normal",
+      "name": "Corpseweed",
+      "page_name": "Corpseweed",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 313,
+      "type": "Normal",
+      "name": "Bone Ark",
+      "page_name": "Bone Ark",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 314,
+      "type": "Normal",
+      "name": "Bone Pillar",
+      "page_name": "Bone Pillar",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 330,
+      "type": "Normal",
+      "name": "Death",
+      "page_name": "Death (boss)",
+      "theme": [
+        "Dance of Illusions (Harmony of Despair)"
+      ],
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 315,
+      "type": "Normal",
+      "name": "Jiang Shi",
+      "page_name": "Jiang Shi",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 280,
+      "type": "Normal",
+      "name": "Fleaman",
+      "page_name": "Fleaman (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 310,
+      "type": "Normal",
+      "name": "Axe Armor",
+      "page_name": "Axe Armor (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 316,
+      "type": "Normal",
+      "name": "Keremet",
+      "page_name": "Keremet (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 318,
+      "type": "Normal",
+      "name": "Gaibon",
+      "page_name": "Gaibon",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 319,
+      "type": "Normal",
+      "name": "Slogra",
+      "page_name": "Slogra",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 320,
+      "type": "Normal",
+      "name": "Behemoth",
+      "page_name": "Behemoth",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 321,
+      "type": "Normal",
+      "name": "Treant",
+      "page_name": "Treant",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 322,
+      "type": "Normal",
+      "name": "Abbadon",
+      "page_name": "Abbadon",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 323,
+      "type": "Normal",
+      "name": "Menace",
+      "page_name": "Menace",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 324,
+      "type": "Normal",
+      "name": "Eligor",
+      "page_name": "Eligor",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 325,
+      "type": "Normal",
+      "name": "Gergoth",
+      "page_name": "Gergoth",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 326,
+      "type": "Normal",
+      "name": "Giant Medusa Head",
+      "page_name": "Giant Medusa Head",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 327,
+      "type": "Normal",
+      "name": "Puppet Master",
+      "page_name": "Puppet Master",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 328,
+      "type": "Normal",
+      "name": "Blackmore",
+      "page_name": "Blackmore (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 329,
+      "type": "Normal",
+      "name": "Paranoia",
+      "page_name": "Paranoia",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 331,
+      "type": "Normal",
+      "name": "Doppelganger",
+      "page_name": "Doppelganger",
+      "theme": [
+        "Festival Of Servants"
+      ],
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 332,
+      "type": "Normal",
+      "name": "The Creature",
+      "page_name": "The Creature",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 333,
+      "type": "Normal",
+      "name": "Bugbear",
+      "page_name": "Bugbear",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 334,
+      "type": "Normal",
+      "name": "Devil",
+      "page_name": "Devil",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 335,
+      "type": "Normal",
+      "name": "OG Minotaur",
+      "page_name": "OG Minotaur",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Legion",
+      "type": "Normal",
+      "name": "Legion",
+      "theme": [
+        "Festival Of Servants"
+      ],
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Beelzebub",
+      "type": "Normal",
+      "name": "Beelzebub",
+      "theme": [
+        "Festival Of Servants"
+      ],
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Brachyura",
+      "type": "Normal",
+      "name": "Brachyura",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Medusa",
+      "name": "Medusa",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 76,
+      "type": "Normal",
+      "name": "Egge",
+      "page_name": "Egge",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 75,
+      "type": "Normal",
+      "name": "Chik",
+      "page_name": "Chik",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 73,
+      "type": "Normal",
+      "name": "Chickenfantry",
+      "page_name": "Chickenfantry",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 74,
+      "type": "Normal",
+      "name": "Cockreliutennant",
+      "page_name": "Cockreliutennant",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 77,
+      "type": "Normal",
+      "name": "Pol.lo Rosso",
+      "page_name": "Pol.lo Rosso",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 79,
+      "type": "Normal",
+      "name": "Abraxas Phronesis",
+      "page_name": "Abraxas Phronesis",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 80,
+      "type": "Normal",
+      "name": "Abraxas Dynamis",
+      "page_name": "Abraxas Dynamis",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 78,
+      "type": "Normal",
+      "name": "Abraxas",
+      "page_name": "Abraxas",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 336,
+      "type": "Normal",
+      "name": "Calamity",
+      "page_name": "Calamity",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 350,
+      "type": "Normal",
+      "name": "Alraune",
+      "page_name": "Alraune",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 351,
+      "type": "Normal",
+      "name": "Anti-Ant",
+      "page_name": "Anti-Ant",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 341,
+      "type": "Normal",
+      "name": "Maggot Ball",
+      "page_name": "Maggot Ball",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 344,
+      "type": "Normal",
+      "name": "Decobat",
+      "page_name": "Decobat",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 342,
+      "type": "Normal",
+      "name": "Skydiver",
+      "page_name": "Skydiver",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 338,
+      "type": "Normal",
+      "name": "Boar Infantry",
+      "page_name": "Boar Infantry",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 345,
+      "type": "Normal",
+      "name": "Failinis",
+      "page_name": "Failinis",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 346,
+      "type": "Normal",
+      "name": "Rana Combatant",
+      "page_name": "Rana Combatant",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 340,
+      "type": "Normal",
+      "name": "Forest Hermit",
+      "page_name": "Forest Hermit",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 347,
+      "type": "Normal",
+      "name": "Kelpie",
+      "page_name": "Kelpie",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 352,
+      "type": "Normal",
+      "name": "Moch",
+      "page_name": "Moch",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 343,
+      "type": "Normal",
+      "name": "Psychic Ogre",
+      "page_name": "Psychic Ogre",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 348,
+      "type": "Normal",
+      "name": "Rascal",
+      "page_name": "Rascal",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 353,
+      "type": "Normal",
+      "name": "Skeleton from Beyond",
+      "page_name": "Skeleton from Beyond",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 349,
+      "type": "Normal",
+      "name": "Golden Baum",
+      "page_name": "Golden Baum",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 354,
+      "type": "Normal",
+      "name": "Werewolf from Beyond",
+      "page_name": "Werewolf from Beyond",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 339,
+      "type": "Normal",
+      "name": "Earth Dragon",
+      "page_name": "Earth Dragon",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 337,
+      "type": "Normal",
+      "name": "Divine Wood Spirit",
+      "page_name": "Divine Wood Spirit",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 355,
+      "type": "Normal",
+      "name": "Specter of Iwanaga-hime",
+      "page_name": "Specter of Iwanaga-hime",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 356,
+      "type": "Normal",
+      "name": "Iron Maiden",
+      "page_name": "Iron Maiden",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 357,
+      "type": "Normal",
+      "name": "Malevolent Door Spirit",
+      "page_name": "Malevolent Door Spirit (enemy)",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "bestiary_number": 358,
+      "type": "Normal",
+      "name": "Living Anguish",
+      "page_name": "Living Anguish",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "page_name": "Cursed Monarch",
+      "name": "Cursed Monarch",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "page_name": "Succubus (Ode to Castlevania enemy)",
+      "type": "Normal",
+      "name": "Succubus",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Giant Bat (boss)",
+      "type": "Normal",
+      "name": "Giant Bat",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Cave Troll (enemy)",
+      "type": "Normal",
+      "name": "Cave Troll",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Galamoth (enemy)",
+      "type": "Normal",
+      "name": "Galamoth",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Ninety-Nine Nights",
+      "name": "Ninety-Nine Nights",
+      "dlc": "Legacy of the Moonspell"
+    },
+    {
+      "page_name": "Company Bat",
+      "name": "Company Bat",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Wing Lizard",
+      "name": "Wing Lizard",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Mud Man",
+      "name": "Mud Man",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Flying Skeleton",
+      "name": "Flying Skeleton",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Skeleton Ape",
+      "name": "Skeleton Ape",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Akmodan II",
+      "name": "Akmodan II",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Skeleton Spear",
+      "name": "Skeleton Spear",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Stone Rose",
+      "name": "Stone Rose",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Warg Rider",
+      "name": "Warg Rider",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 10,
+      "name": "Skelegem",
+      "page_name": "Skelegem",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 368,
+      "name": "Big Blind",
+      "page_name": "Big Blind",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 365,
+      "name": "Blue Venus",
+      "page_name": "Blue Venus",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 372,
+      "name": "Crimson Heart",
+      "page_name": "Crimson Heart",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 364,
+      "name": "Flower Pot",
+      "page_name": "Flower Pot",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 359,
+      "name": "Jimbats",
+      "page_name": "Jimbats",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 366,
+      "name": "Moonlover",
+      "page_name": "Moonlover",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 361,
+      "name": "Mr Bones",
+      "page_name": "Mr Bones",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 297,
+      "type": "Normal",
+      "name": "Persephone",
+      "page_name": "Persephone (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 363,
+      "name": "Playing Mantis",
+      "page_name": "Playing Mantis",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 367,
+      "name": "Small Blind",
+      "page_name": "Small Blind",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 371,
+      "name": "The Manacle",
+      "page_name": "The Manacle",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 369,
+      "name": "The Ox",
+      "page_name": "The Ox",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 370,
+      "name": "The Wall",
+      "page_name": "The Wall",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 317,
+      "type": "Normal",
+      "name": "Zephyr",
+      "page_name": "Zephyr (enemy)",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 360,
+      "name": "Zombalatro",
+      "page_name": "Zombalatro",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 152,
+      "name": "Barm",
+      "page_name": "Barm",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 155,
+      "name": "Dandybrine",
+      "page_name": "Dandybrine",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 156,
+      "name": "Daimon",
+      "page_name": "Daimon",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 157,
+      "name": "Gambergar",
+      "page_name": "Gambergar",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 158,
+      "name": "Gamblin",
+      "page_name": "Gamblin",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 159,
+      "name": "Jastor",
+      "page_name": "Jastor",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 160,
+      "name": "Mushroulette",
+      "page_name": "Mushroulette",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 161,
+      "name": "Toll",
+      "page_name": "Toll",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 162,
+      "name": "Valentine",
+      "page_name": "Valentine",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 164,
+      "name": "Card Sharp",
+      "page_name": "Card Sharp",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 165,
+      "name": "Torino",
+      "page_name": "Torino (enemy)",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 166,
+      "name": "Joyatauro",
+      "page_name": "Joyatauro",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 167,
+      "name": "AccumulaTori",
+      "page_name": "AccumulaTori",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 168,
+      "name": "17th Collossus",
+      "page_name": "17th Collossus",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 362,
+      "name": "Spectral Joker",
+      "page_name": "Spectral Joker",
+      "dlc": "Ante Chamber"
+    },
+    {
+      "bestiary_number": 147,
+      "name": "Much Much",
+      "page_name": "Much Much",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 148,
+      "name": "Gold Pile",
+      "page_name": "Gold Pile",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 149,
+      "name": "Gold Jellys",
+      "page_name": "Gold Jellys",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 150,
+      "name": "Mantichana Idol",
+      "page_name": "Mantichana Idol",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 151,
+      "name": "Knight of Spades",
+      "page_name": "Knight of Spades",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 153,
+      "name": "Ghoulette",
+      "page_name": "Ghoulette",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 154,
+      "name": "Goldie",
+      "page_name": "Goldie",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 163,
+      "name": "Squillers",
+      "page_name": "Squillers",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Malphas (enemy)",
+      "name": "Malphas",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Specter Head",
+      "type": "Normal",
+      "name": "Specter Head",
+      "dlc": "Emerald Diorama"
+    },
+    {
+      "page_name": "Persephone Vaccuum",
+      "type": "Normal",
+      "name": "Persephone Vaccuum",
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "bestiary_number": 170,
+      "name": "Bat Drakelet",
+      "page_name": "Bat Drakelet",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 169,
+      "name": "Bat Dragon",
+      "page_name": "Bat Dragon",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 171,
+      "name": "Deep Angellette",
+      "page_name": "Deep Angellette",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 172,
+      "name": "Sea Ham",
+      "page_name": "Sea Ham",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 173,
+      "name": "Deep Sluge",
+      "page_name": "Deep Sluge",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 174,
+      "name": "Itchiocentaur",
+      "page_name": "Itchiocentaur",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 175,
+      "name": "Sea Spinach",
+      "page_name": "Sea Spinach",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 176,
+      "name": "Olmo",
+      "page_name": "Olmo",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 177,
+      "name": "Awizotl",
+      "page_name": "Awizotl",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 178,
+      "name": "Buklavaca",
+      "page_name": "Buklavaca",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 179,
+      "name": "Enypnastys",
+      "page_name": "Enypnastys",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "bestiary_number": 180,
+      "name": "Deep Sphynx",
+      "page_name": "Deep Sphynx",
+      "dlc": "Vampire Survivors"
+    }
+  ]
+}

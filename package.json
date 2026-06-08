@@ -1,0 +1,27 @@
+{
+  "name": "vs",
+  "version": "0.1.0",
+  "description": "Vampire Survivors companion TUI — browse weapon evolutions and game data from the wiki",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "vs": "index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "build:bin": "bun build index.ts --compile --outfile dist/vs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@opentui/core": "0.3.4",
+    "commander": "^15.0.0"
+  }
+}

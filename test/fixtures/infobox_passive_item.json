@@ -1,0 +1,323 @@
+{
+  "bucketQuery": "bucket('infobox_passive_item').select('page_name','name','description','id','dlc','is_default','order').limit(5000).run()",
+  "bucket": [
+    {
+      "page_name": "Hollow Heart",
+      "description": "Augments Max Health by 20%.",
+      "order": 87,
+      "id": "MAXHEALTH",
+      "name": "Hollow Heart",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Empty Tome",
+      "description": "Reduces weapons cooldown by 8%.",
+      "order": 89,
+      "id": "COOLDOWN",
+      "name": "Empty Tome",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Bracer",
+      "description": "Increases projectile speed by 10%.",
+      "order": 91,
+      "id": "SPEED",
+      "name": "Bracer",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Candelabrador",
+      "description": "Augments area of attacks by 10%.",
+      "order": 90,
+      "id": "AREA",
+      "name": "Candelabrador",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Clover",
+      "description": "Character gets 10% luckier.",
+      "order": 96,
+      "id": "LUCK",
+      "name": "Clover",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Spellbinder",
+      "description": "Increases duration of weapon effects by 10%.",
+      "order": 92,
+      "id": "DURATION",
+      "name": "Spellbinder",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Spinach",
+      "description": "Raises inflicted damage by 10%.",
+      "order": 85,
+      "id": "POWER",
+      "name": "Spinach",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Pummarola",
+      "description": "Character recovers 0.2 HP per second.",
+      "order": 88,
+      "id": "REGEN",
+      "name": "Pummarola",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Duplicator",
+      "description": "Weapons fire more projectiles.",
+      "order": 93,
+      "id": "AMOUNT",
+      "name": "Duplicator",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Wings",
+      "description": "Character moves 10% faster.",
+      "order": 94,
+      "id": "MOVESPEED",
+      "name": "Wings",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Attractorb",
+      "description": "Character picks up items from further away.",
+      "order": 95,
+      "id": "MAGNET",
+      "name": "Attractorb",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Crown",
+      "description": "Character gains 8% more experience.",
+      "order": 97,
+      "id": "GROWTH",
+      "name": "Crown",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Stone Mask",
+      "description": "Character earns 10% more Gold coins.",
+      "order": 98,
+      "id": "GREED",
+      "name": "Stone Mask",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Armor (item)",
+      "description": "Reduces incoming damage by 1. Increases retaliatory Damage by 10%.",
+      "order": 86,
+      "id": "ARMOR",
+      "name": "Armor",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Tirajisú",
+      "description": "Revives once with 50% Health.",
+      "order": 100,
+      "id": "REVIVAL",
+      "name": "Tirajisú",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Skull O'Maniac",
+      "description": "Increases enemy speed, health, quantity, and frequency by 10%.",
+      "id": "CURSE",
+      "name": "Skull O&#39;Maniac",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Silver Ring",
+      "description": "Wear ... Clock ...",
+      "order": 111,
+      "id": "SILVER",
+      "name": "Silver Ring",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Metaglio Left",
+      "description": "Channels dark powers to protect the bearer.",
+      "order": 113,
+      "id": "LEFT",
+      "name": "Metaglio Left",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Gold Ring",
+      "description": "... With ... Lancet",
+      "order": 112,
+      "id": "GOLD",
+      "name": "Gold Ring",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Metaglio Right",
+      "description": "Channels dark powers to curse the bearer.",
+      "order": 114,
+      "id": "RIGHT",
+      "name": "Metaglio Right",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Torrona's Box",
+      "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
+      "id": "PANDORA",
+      "name": "Torrona&#39;s Box",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Academy Badge",
+      "description": "Will provide bonus Amount and Revivals in exchange for Growth.",
+      "order": 141,
+      "id": "ACADEMYBADGE",
+      "name": "Academy Badge",
+      "is_default": "",
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "Mini Crewmate",
+      "description": "Might occasionally shout at nearby enemies.",
+      "order": 160,
+      "id": "C1_SHRINK_CREWMA",
+      "name": "Mini Crewmate",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Engineer",
+      "description": "Might occasionally electrocute enemies.",
+      "order": 161,
+      "id": "C1_SHRINK_ENGINE",
+      "name": "Mini Engineer",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Ghost",
+      "description": "Might occasionally freeze enemies in fear.",
+      "order": 162,
+      "id": "C1_SHRINK_GHOSTT",
+      "name": "Mini Ghost",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Shapeshifter",
+      "description": "Might occasionally fling leftover body parts at enemies.",
+      "order": 163,
+      "id": "C1_SHRINK_SHAPES",
+      "name": "Mini Shapeshifter",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Guardian",
+      "description": "Might occasionally take a hit for you.",
+      "order": 164,
+      "id": "C1_SHRINK_GUARDI",
+      "name": "Mini Guardian",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Impostor",
+      "description": "Might occasionally stab enemies.",
+      "order": 165,
+      "id": "C1_SHRINK_IMPOST",
+      "name": "Mini Impostor",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Scientist",
+      "description": "Might occasionally throw science at enemies.",
+      "order": 166,
+      "id": "C1_SHRINK_SCIENT",
+      "name": "Mini Scientist",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Mini Horse",
+      "description": "Might occasionally infect you with its relentless happiness.",
+      "order": 167,
+      "id": "C1_SHRINK_HORSEE",
+      "name": "Mini Horse",
+      "is_default": "",
+      "dlc": "Emergency Meeting"
+    },
+    {
+      "page_name": "Weapon Power-Up",
+      "description": "Levels up a random equipped weapon. Gives +1 Revival. Does not occupy a weapon slot.",
+      "order": 190,
+      "id": "FB_WEAPONPU",
+      "name": "Weapon Power-Up",
+      "is_default": "",
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Karoma's Mana",
+      "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%.",
+      "id": "DOMINION",
+      "name": "Karoma&#39;s Mana",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Parm Aegis",
+      "description": "Increases invulnerability time after getting damaged by 50ms.",
+      "order": 102,
+      "id": "PARMA",
+      "name": "Parm Aegis",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Lantern of Foscari",
+      "name": "Lantern of Foscari",
+      "id": "PURIFY2",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Flames of Moonspell",
+      "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone.",
+      "id": "PURIFY",
+      "name": "Flames of Moonspell",
+      "is_default": "",
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Outer Saboteur",
+      "description": "Gives you gold coins, then makes an improper use of your savings.",
+      "order": 380,
+      "id": "LEM_ACC_SABOTEUR",
+      "name": "Outer Saboteur",
+      "is_default": "",
+      "dlc": "Ante Chamber"
+    }
+  ]
+}

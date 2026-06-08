@@ -1,0 +1,3083 @@
+{
+  "bucketQuery": "bucket('infobox_stage').select('page_name','name','dlc','description','id','effects','stage_type','time_limit','gold_multiplier','luck_bonus','xp_bonus','enemy_health_bonus','theme','adventure_only').limit(5000).run()",
+  "bucket": [
+    {
+      "page_name": "Mad Forest",
+      "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
+      "id": "FOREST",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Mad Forest",
+      "gold_multiplier": 1,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Forest Night Fever"
+      ],
+      "luck_bonus": 0
+    },
+    {
+      "page_name": "Mad Forest",
+      "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
+      "id": "FOREST",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Mad Forest",
+      "gold_multiplier": 1.5,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Forest Night Fever"
+      ],
+      "luck_bonus": 0
+    },
+    {
+      "page_name": "Mad Forest",
+      "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
+      "id": "FOREST",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Mad Forest",
+      "gold_multiplier": 3,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 3,
+      "theme": [
+        "The Beginning"
+      ],
+      "luck_bonus": 0.2
+    },
+    {
+      "page_name": "Inlaid Library",
+      "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight... or damnation. A mask of stone whispers endlessly within.",
+      "id": "LIBRARY",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Inlaid Library",
+      "gold_multiplier": 1,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Reincarnated Echoes"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Inlaid Library",
+      "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight... or damnation. A mask of stone whispers endlessly within.",
+      "id": "LIBRARY",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Inlaid Library",
+      "gold_multiplier": 1.5,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Reincarnated Echoes"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Inlaid Library",
+      "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight... or damnation. A mask of stone whispers endlessly within.",
+      "id": "LIBRARY",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Inlaid Library",
+      "gold_multiplier": 2,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Reincarnated Echoes"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Green Acres",
+      "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards wait those who challenge its rules? Treasure? Glory? Poultry?",
+      "id": "GREENACRES",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1.5,
+      "name": "Green Acres",
+      "stage_type": "Challenge",
+      "theme": [
+        "No Mortals Allowed"
+      ],
+      "effects": "\n* Random enemy waves from normal stages."
+    },
+    {
+      "page_name": "Green Acres",
+      "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards wait those who challenge its rules? Treasure? Glory? Poultry?",
+      "id": "GREENACRES",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1.5,
+      "name": "Green Acres",
+      "gold_multiplier": 1.5,
+      "stage_type": "Challenge",
+      "theme": [
+        "No Mortals Allowed"
+      ],
+      "effects": "\n* Random enemy waves from normal stages."
+    },
+    {
+      "page_name": "Green Acres",
+      "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards wait those who challenge its rules? Treasure? Glory? Poultry?",
+      "id": "GREENACRES",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1.5,
+      "name": "Green Acres",
+      "stage_type": "Challenge",
+      "theme": [
+        "No Mortals Allowed"
+      ],
+      "effects": "\n* Random enemy waves from normal stages."
+    },
+    {
+      "page_name": "Dairy Plant",
+      "description": "The birthplace of Milk Magic churns with chaos. Here, it's not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
+      "id": "WAREHOUSE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Dairy Plant",
+      "gold_multiplier": 1.2,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Iron Green Intent"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Dairy Plant",
+      "description": "The birthplace of Milk Magic churns with chaos. Here, it's not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
+      "id": "WAREHOUSE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Dairy Plant",
+      "gold_multiplier": 1.7,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Iron Green Intent"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Dairy Plant",
+      "description": "The birthplace of Milk Magic churns with chaos. Here, it's not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
+      "id": "WAREHOUSE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "xp_bonus": 1,
+      "name": "Dairy Plant",
+      "gold_multiplier": 2.2,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 3,
+      "theme": [
+        "Iron Green Intent"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Il Molise",
+      "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
+      "id": "MOLISE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Il Molise",
+      "stage_type": "Bonus",
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "effects": "\n* Enemies don't move."
+    },
+    {
+      "page_name": "Il Molise",
+      "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
+      "id": "MOLISE",
+      "luck_bonus": 1.2,
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1.6,
+      "name": "Il Molise",
+      "gold_multiplier": 1.5,
+      "stage_type": "Bonus",
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "effects": "\n* Enemies don't move."
+    },
+    {
+      "page_name": "Il Molise",
+      "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
+      "id": "MOLISE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Il Molise",
+      "stage_type": "Bonus",
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "effects": "\n* Enemies don't move."
+    },
+    {
+      "page_name": "Gallo Tower",
+      "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek.",
+      "id": "TOWER",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Gallo Tower",
+      "gold_multiplier": 1.3,
+      "stage_type": "Stage",
+      "theme": [
+        "Gaze up at the Stars"
+      ]
+    },
+    {
+      "page_name": "Gallo Tower",
+      "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek.",
+      "id": "TOWER",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Gallo Tower",
+      "gold_multiplier": 1.8,
+      "stage_type": "Stage",
+      "theme": [
+        "Gaze up at the Stars"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Gallo Tower",
+      "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek.",
+      "id": "TOWER",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Gallo Tower",
+      "gold_multiplier": 1.3,
+      "stage_type": "Stage",
+      "theme": [
+        "Gaze up at the Stars"
+      ]
+    },
+    {
+      "page_name": "The Bone Zone",
+      "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
+      "id": "BONEZONE",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1,
+      "name": "The Bone Zone",
+      "gold_multiplier": 1.5,
+      "stage_type": "Challenge",
+      "theme": [
+        "Unholy Invocation"
+      ],
+      "effects": "\n* No item drops.\n* Enemies grow stronger over time."
+    },
+    {
+      "page_name": "The Bone Zone",
+      "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
+      "id": "BONEZONE",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1,
+      "name": "The Bone Zone",
+      "gold_multiplier": 2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Unholy Invocation"
+      ],
+      "effects": "\n* No item drops.\n* Enemies grow stronger over time."
+    },
+    {
+      "page_name": "The Bone Zone",
+      "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
+      "id": "BONEZONE",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "enemy_health_bonus": 1,
+      "name": "The Bone Zone",
+      "gold_multiplier": 1.5,
+      "stage_type": "Challenge",
+      "theme": [
+        "Unholy Invocation"
+      ],
+      "effects": "\n* No item drops.\n* Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Moongolow",
+      "description": "Legend tells of a city swallowed by the sea under a full moon's callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
+      "id": "SINKING",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1,
+      "name": "Moongolow",
+      "gold_multiplier": 1,
+      "stage_type": "Bonus",
+      "theme": [
+        "When the Clouds Drown"
+      ],
+      "effects": "\n* Extra stage items."
+    },
+    {
+      "page_name": "Moongolow",
+      "description": "Legend tells of a city swallowed by the sea under a full moon's callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
+      "id": "SINKING",
+      "luck_bonus": 1.2,
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1.6,
+      "name": "Moongolow",
+      "gold_multiplier": 1.5,
+      "stage_type": "Bonus",
+      "theme": [
+        "When the Clouds Drown"
+      ],
+      "effects": "\n* Extra stage items."
+    },
+    {
+      "page_name": "Moongolow",
+      "description": "Legend tells of a city swallowed by the sea under a full moon's callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
+      "id": "SINKING",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1,
+      "name": "Moongolow",
+      "gold_multiplier": 1,
+      "stage_type": "Bonus",
+      "theme": [
+        "When the Clouds Drown"
+      ],
+      "effects": "\n* Extra stage items."
+    },
+    {
+      "page_name": "Holy Forbidden",
+      "description": "Wait, you can see this too? This isn't right...",
+      "id": "STAGEX",
+      "dlc": "Vampire Survivors",
+      "time_limit": 300,
+      "name": "Holy Forbidden",
+      "gold_multiplier": 1,
+      "stage_type": "Hidden Ground",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession X"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Holy Forbidden",
+      "description": "Wait, you can see this too? This isn't right...",
+      "id": "STAGEX",
+      "dlc": "Vampire Survivors",
+      "time_limit": 300,
+      "name": "Holy Forbidden",
+      "gold_multiplier": 1,
+      "stage_type": "Hidden Ground",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession X"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Holy Forbidden",
+      "description": "Wait, you can see this too? This isn't right...",
+      "id": "STAGEX",
+      "dlc": "Vampire Survivors",
+      "time_limit": 300,
+      "name": "Holy Forbidden",
+      "gold_multiplier": 1,
+      "stage_type": "Hidden Ground",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession X"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Cappella Magna",
+      "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably.",
+      "id": "CHAPEL",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Cappella Magna",
+      "gold_multiplier": 1.4,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession"
+      ]
+    },
+    {
+      "page_name": "Cappella Magna",
+      "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably.",
+      "id": "CHAPEL",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Cappella Magna",
+      "gold_multiplier": 1.9,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Cappella Magna",
+      "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably.",
+      "id": "CHAPEL",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Cappella Magna",
+      "gold_multiplier": 1.4,
+      "stage_type": "Stage",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Before Concession"
+      ]
+    },
+    {
+      "page_name": "Boss Rash",
+      "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best... survive!",
+      "id": "RASH",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1.5,
+      "name": "Boss Rash",
+      "stage_type": "Challenge",
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "effects": "\n* Waves include a lot of bosses from all stages."
+    },
+    {
+      "page_name": "Boss Rash",
+      "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best... survive!",
+      "id": "RASH",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1.5,
+      "name": "Boss Rash",
+      "gold_multiplier": 1.5,
+      "stage_type": "Challenge",
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "effects": "\n* Waves include a lot of bosses from all stages."
+    },
+    {
+      "page_name": "Boss Rash",
+      "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best... survive!",
+      "id": "RASH",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "enemy_health_bonus": 1.5,
+      "name": "Boss Rash",
+      "stage_type": "Challenge",
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "effects": "\n* Waves include a lot of bosses from all stages."
+    },
+    {
+      "page_name": "Eudaimonia Machine",
+      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you're it.",
+      "id": "MACHINE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 5940,
+      "name": "Eudaimonia Machine",
+      "stage_type": "???",
+      "theme": [
+        "The Eudaimonia Machine"
+      ]
+    },
+    {
+      "page_name": "Eudaimonia Machine",
+      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you're it.",
+      "id": "MACHINE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 5940,
+      "name": "Eudaimonia Machine",
+      "stage_type": "???",
+      "theme": [
+        "The Eudaimonia Machine"
+      ]
+    },
+    {
+      "page_name": "Eudaimonia Machine",
+      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you're it.",
+      "id": "MACHINE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 5940,
+      "name": "Eudaimonia Machine",
+      "stage_type": "???",
+      "theme": [
+        "The Eudaimonia Machine"
+      ]
+    },
+    {
+      "page_name": "Tiny Bridge",
+      "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless.",
+      "id": "TOWERBRIDGE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Tiny Bridge",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Roaring Thunder"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Tiny Bridge",
+      "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless.",
+      "id": "TOWERBRIDGE",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Tiny Bridge",
+      "gold_multiplier": 1.8,
+      "stage_type": "Challenge",
+      "theme": [
+        "Roaring Thunder"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Tiny Bridge",
+      "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless.",
+      "id": "TOWERBRIDGE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Tiny Bridge",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Roaring Thunder"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Mt.Moonspell",
+      "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. In this world where the sun doesn't shine, the night is victorious.",
+      "id": "MOONSPELL",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt.Moonspell",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Mt.Moonspell",
+      "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. In this world where the sun doesn't shine, the night is victorious.",
+      "id": "MOONSPELL",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt.Moonspell",
+      "gold_multiplier": 2,
+      "stage_type": "Special",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Mt.Moonspell",
+      "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. In this world where the sun doesn't shine, the night is victorious.",
+      "id": "MOONSPELL",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt.Moonspell",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Bat Country",
+      "description": "We can't stop here.",
+      "id": "BATCOUNTRY",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Bat Country",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Mighty Illusion"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Bat Country",
+      "description": "We can't stop here.",
+      "id": "BATCOUNTRY",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Bat Country",
+      "gold_multiplier": 1.8,
+      "stage_type": "Challenge",
+      "theme": [
+        "Mighty Illusion"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Bat Country",
+      "description": "We can't stop here.",
+      "id": "BATCOUNTRY",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Bat Country",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Mighty Illusion"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Abyss Foscari",
+      "description": "Sealed by Luminaire in ancient times to contain the darkness within, these underground ruins are now accessible, but so is the outside world to the evil from the depths.",
+      "id": "FOSCARI2",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Abyss Foscari",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Ashes of the Banished"
+      ]
+    },
+    {
+      "page_name": "Abyss Foscari",
+      "description": "Sealed by Luminaire in ancient times to contain the darkness within, these underground ruins are now accessible, but so is the outside world to the evil from the depths.",
+      "id": "FOSCARI2",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Abyss Foscari",
+      "gold_multiplier": 2,
+      "stage_type": "Special",
+      "theme": [
+        "Ashes of the Banished"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Abyss Foscari",
+      "description": "Sealed by Luminaire in ancient times to contain the darkness within, these underground ruins are now accessible, but so is the outside world to the evil from the depths.",
+      "id": "FOSCARI2",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Abyss Foscari",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Ashes of the Banished"
+      ]
+    },
+    {
+      "page_name": "Lake Foscari",
+      "description": "An enchanted forest stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications.",
+      "id": "FOSCARI",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Lake Foscari",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Tides of the Foscari (track)"
+      ]
+    },
+    {
+      "page_name": "Lake Foscari",
+      "description": "An enchanted forest stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications.",
+      "id": "FOSCARI",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Lake Foscari",
+      "gold_multiplier": 2,
+      "stage_type": "Special",
+      "theme": [
+        "Tides of the Foscari (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Lake Foscari",
+      "description": "An enchanted forest stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications.",
+      "id": "FOSCARI",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "Lake Foscari",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Tides of the Foscari (track)"
+      ]
+    },
+    {
+      "page_name": "Astral Stair",
+      "description": "A highway used to reach other worlds and dimensions. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
+      "id": "ASTRALSTAIR",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Astral Stair",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "You only happen once"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Astral Stair",
+      "description": "A highway used to reach other worlds and dimensions. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
+      "id": "ASTRALSTAIR",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Astral Stair",
+      "gold_multiplier": 1.8,
+      "stage_type": "Challenge",
+      "theme": [
+        "You only happen once"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Astral Stair",
+      "description": "A highway used to reach other worlds and dimensions. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
+      "id": "ASTRALSTAIR",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "enemy_health_bonus": 1,
+      "name": "Astral Stair",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "You only happen once"
+      ],
+      "effects": "Enemies grow stronger over time."
+    },
+    {
+      "page_name": "Whiteout",
+      "description": "Arctic mirages and a slow, constant snowstorm make this great glacier a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.",
+      "id": "WHITEOUT",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Whiteout",
+      "stage_type": "Bonus",
+      "theme": [
+        "Remedy in the Snow"
+      ]
+    },
+    {
+      "page_name": "Whiteout",
+      "description": "Arctic mirages and a slow, constant snowstorm make this great glacier a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.",
+      "id": "WHITEOUT",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Whiteout",
+      "gold_multiplier": 1.25,
+      "stage_type": "Bonus",
+      "theme": [
+        "Remedy in the Snow"
+      ]
+    },
+    {
+      "page_name": "Whiteout",
+      "description": "Arctic mirages and a slow, constant snowstorm make this great glacier a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.",
+      "id": "WHITEOUT",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Whiteout",
+      "stage_type": "Bonus",
+      "theme": [
+        "Remedy in the Snow"
+      ]
+    },
+    {
+      "page_name": "Polus Replica",
+      "description": "Summoned to a mysterious science station amongst the stars, survival is far from certain. Extraterrestrial evil and inter-dimensional duplicity lurk behind every space rock.",
+      "id": "POLUS",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Polus Replica",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Emergency Meeting (track)"
+      ]
+    },
+    {
+      "page_name": "Polus Replica",
+      "description": "Summoned to a mysterious science station amongst the stars, survival is far from certain. Extraterrestrial evil and inter-dimensional duplicity lurk behind every space rock.",
+      "id": "POLUS",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Polus Replica",
+      "gold_multiplier": 2,
+      "stage_type": "Special",
+      "theme": [
+        "Emergency Meeting (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Polus Replica",
+      "description": "Summoned to a mysterious science station amongst the stars, survival is far from certain. Extraterrestrial evil and inter-dimensional duplicity lurk behind every space rock.",
+      "id": "POLUS",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Polus Replica",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Emergency Meeting (track)"
+      ]
+    },
+    {
+      "page_name": "Space 54",
+      "description": "The 54th ritual is complete, and space itself has folded under the weight of an otherworldly will. This veil between cosmic planes is dimensionally misaligned, phasing in unlikely friends, nightmarish foes, and a curio of immense chaotic potential.",
+      "id": "SPAZIE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Space 54",
+      "stage_type": "Bonus",
+      "theme": [
+        "Moving the sun and the other stars"
+      ]
+    },
+    {
+      "page_name": "Space 54",
+      "description": "The 54th ritual is complete, and space itself has folded under the weight of an otherworldly will. This veil between cosmic planes is dimensionally misaligned, phasing in unlikely friends, nightmarish foes, and a curio of immense chaotic potential.",
+      "id": "SPAZIE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Space 54",
+      "gold_multiplier": 1.8,
+      "stage_type": "Bonus",
+      "theme": [
+        "Moving the sun and the other stars"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Space 54",
+      "description": "The 54th ritual is complete, and space itself has folded under the weight of an otherworldly will. This veil between cosmic planes is dimensionally misaligned, phasing in unlikely friends, nightmarish foes, and a curio of immense chaotic potential.",
+      "id": "SPAZIE",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Space 54",
+      "stage_type": "Bonus",
+      "theme": [
+        "Moving the sun and the other stars"
+      ]
+    },
+    {
+      "page_name": "Neo Galuga",
+      "description": "Join Contra Force to run and gun across the relentlessly horizontal width of Galuga, from the jungle to Neo City and through the horrors lurking beyond. Let's survive determinedly!",
+      "id": "FB_GALUGA",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Neo Galuga",
+      "gold_multiplier": 1,
+      "stage_type": "Special",
+      "theme": [
+        "Battle in the Jungle - VS version"
+      ]
+    },
+    {
+      "page_name": "Neo Galuga",
+      "description": "Join Contra Force to run and gun across the relentlessly horizontal width of Galuga, from the jungle to Neo City and through the horrors lurking beyond. Let's survive determinedly!",
+      "id": "FB_GALUGA",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Neo Galuga",
+      "gold_multiplier": 1.25,
+      "stage_type": "Special",
+      "theme": [
+        "Battle in the Jungle - VS version"
+      ]
+    },
+    {
+      "page_name": "Neo Galuga",
+      "description": "Join Contra Force to run and gun across the relentlessly horizontal width of Galuga, from the jungle to Neo City and through the horrors lurking beyond. Let's survive determinedly!",
+      "id": "FB_GALUGA",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Neo Galuga",
+      "gold_multiplier": 1,
+      "stage_type": "Special",
+      "theme": [
+        "Battle in the Jungle - VS version"
+      ]
+    },
+    {
+      "page_name": "Laborratory",
+      "description": "Formerly the foundry where the famed anti-vampiric weaponologist Santa Ladonna created many trinkets, the Laborratory now lies abandoned. Whispers echo that Santa fled from this makeshift workshop when her experimental alchemy somehow opened a door that was never supposed to be breached.",
+      "id": "LABORRATORY",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Laborratory",
+      "gold_multiplier": 1.2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Awe of the Unknown"
+      ],
+      "effects": "\n*Pull levers for bonuses."
+    },
+    {
+      "page_name": "Laborratory",
+      "description": "Formerly the foundry where the famed anti-vampiric weaponologist Santa Ladonna created many trinkets, the Laborratory now lies abandoned. Whispers echo that Santa fled from this makeshift workshop when her experimental alchemy somehow opened a door that was never supposed to be breached.",
+      "id": "LABORRATORY",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Laborratory",
+      "gold_multiplier": 1.7,
+      "stage_type": "Challenge",
+      "theme": [
+        "Awe of the Unknown"
+      ],
+      "effects": "\n*Pull levers for bonuses."
+    },
+    {
+      "page_name": "Laborratory",
+      "description": "Formerly the foundry where the famed anti-vampiric weaponologist Santa Ladonna created many trinkets, the Laborratory now lies abandoned. Whispers echo that Santa fled from this makeshift workshop when her experimental alchemy somehow opened a door that was never supposed to be breached.",
+      "id": "LABORRATORY",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Laborratory",
+      "gold_multiplier": 1.2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Awe of the Unknown"
+      ],
+      "effects": "\n*Pull levers for bonuses."
+    },
+    {
+      "page_name": "Carlo Cart",
+      "description": "Once known as the “King Bible” underground train station, these tunnels beneath the Laborratory now host chaotic, clandestine, and incredibly dangerous go-kart races run by the lizardman King Carlo.",
+      "id": "CARLOCART",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Carlo Cart",
+      "gold_multiplier": 1.2,
+      "stage_type": "Bonus",
+      "theme": [
+        "Catch you at Carlo's"
+      ],
+      "effects": "Can't stop moving"
+    },
+    {
+      "page_name": "Carlo Cart",
+      "description": "Once known as the “King Bible” underground train station, these tunnels beneath the Laborratory now host chaotic, clandestine, and incredibly dangerous go-kart races run by the lizardman King Carlo.",
+      "id": "CARLOCART",
+      "luck_bonus": 1.1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Carlo Cart",
+      "gold_multiplier": 1.7,
+      "stage_type": "Bonus",
+      "theme": [
+        "Catch you at Carlo's"
+      ],
+      "effects": "Can't stop moving"
+    },
+    {
+      "page_name": "Carlo Cart",
+      "description": "Once known as the “King Bible” underground train station, these tunnels beneath the Laborratory now host chaotic, clandestine, and incredibly dangerous go-kart races run by the lizardman King Carlo.",
+      "id": "CARLOCART",
+      "luck_bonus": 1,
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Carlo Cart",
+      "gold_multiplier": 1.2,
+      "stage_type": "Bonus",
+      "theme": [
+        "Catch you at Carlo's"
+      ],
+      "effects": "Can't stop moving"
+    },
+    {
+      "page_name": "Room 1665",
+      "description": "Seemingly bottomless, the down-reaching doors of this huge, infernal contraption open only when fed the blood of monsters. Summoned by the baneful behavior of a long forgotten clan, the unfathomable depths of these haunted halls whisper with a putrid power that yearns for innocent souls to play with.",
+      "id": "DEVILROOM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Room 1665",
+      "gold_multiplier": 1.5,
+      "stage_type": "??? (Special)",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Call of the Bloodmoon"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Room 1665",
+      "description": "Seemingly bottomless, the down-reaching doors of this huge, infernal contraption open only when fed the blood of monsters. Summoned by the baneful behavior of a long forgotten clan, the unfathomable depths of these haunted halls whisper with a putrid power that yearns for innocent souls to play with.",
+      "id": "DEVILROOM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Room 1665",
+      "gold_multiplier": 1.5,
+      "stage_type": "??? (Special)",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Call of the Bloodmoon"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Room 1665",
+      "description": "Seemingly bottomless, the down-reaching doors of this huge, infernal contraption open only when fed the blood of monsters. Summoned by the baneful behavior of a long forgotten clan, the unfathomable depths of these haunted halls whisper with a putrid power that yearns for innocent souls to play with.",
+      "id": "DEVILROOM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Room 1665",
+      "gold_multiplier": 1.5,
+      "stage_type": "??? (Special)",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Call of the Bloodmoon"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Ode to Castlevania (stage)",
+      "description": "As myriad humans from all over the world joined their vespers in unison, the forces of chaos resonated and granted them their dark wish. The King of Terror raises yet again, and with him his demon castle: Castlevania.",
+      "id": "TP_CASTLE",
+      "dlc": "Ode to Castlevania",
+      "time_limit": 1800,
+      "name": "Ode to Castlevania",
+      "gold_multiplier": 1.4,
+      "stage_type": "Special",
+      "theme": [
+        "Vampire Killer - Vampire Survivors"
+      ]
+    },
+    {
+      "page_name": "Ode to Castlevania (stage)",
+      "description": "As myriad humans from all over the world joined their vespers in unison, the forces of chaos resonated and granted them their dark wish. The King of Terror raises yet again, and with him his demon castle: Castlevania.",
+      "id": "TP_CASTLE",
+      "dlc": "Ode to Castlevania",
+      "time_limit": 1800,
+      "name": "Ode to Castlevania",
+      "gold_multiplier": 1.9,
+      "stage_type": "Special",
+      "theme": [
+        "Vampire Killer - Vampire Survivors"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Ode to Castlevania (stage)",
+      "description": "As myriad humans from all over the world joined their vespers in unison, the forces of chaos resonated and granted them their dark wish. The King of Terror raises yet again, and with him his demon castle: Castlevania.",
+      "id": "TP_CASTLE",
+      "dlc": "Ode to Castlevania",
+      "time_limit": 1800,
+      "name": "Ode to Castlevania",
+      "gold_multiplier": 1.4,
+      "stage_type": "Special",
+      "theme": [
+        "Vampire Killer - Vampire Survivors"
+      ]
+    },
+    {
+      "page_name": "Rotten Orchard",
+      "description": "The path to the Garlic Paradise leads Poe into an orchard of arboreal nightmares. Cut down these pernicious plants to find the verdant fields of dreams.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Rotten Orchard",
+      "stage_type": "Chapter",
+      "theme": [
+        "Barely Staying Alive"
+      ],
+      "xp_bonus": 2
+    },
+    {
+      "page_name": "Rotten Orchard",
+      "description": "The path to the Garlic Paradise leads Poe into an orchard of arboreal nightmares. Cut down these pernicious plants to find the verdant fields of dreams.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "xp_bonus": 2,
+      "name": "Rotten Orchard",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Barely Staying Alive"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Rotten Orchard",
+      "description": "The path to the Garlic Paradise leads Poe into an orchard of arboreal nightmares. Cut down these pernicious plants to find the verdant fields of dreams.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "name": "Rotten Orchard",
+      "stage_type": "Chapter",
+      "theme": [
+        "Barely Staying Alive"
+      ],
+      "xp_bonus": 2
+    },
+    {
+      "page_name": "Hectic Highway",
+      "description": "Contra Force, rev your jetbikes – its time to drive fast, and fire faster. Red falcon traitors are invading the C-1 Highway for some treasonable reason, and we need you to defend our crucial infrastructure.",
+      "id": "FB_HIGHWAY",
+      "luck_bonus": 1,
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Hectic Highway",
+      "gold_multiplier": 1,
+      "stage_type": "Special",
+      "theme": [
+        "Yoru no Nikusyokujyu - VS version"
+      ],
+      "effects": "\n* Can't stop moving"
+    },
+    {
+      "page_name": "Hectic Highway",
+      "description": "Contra Force, rev your jetbikes – its time to drive fast, and fire faster. Red falcon traitors are invading the C-1 Highway for some treasonable reason, and we need you to defend our crucial infrastructure.",
+      "id": "FB_HIGHWAY",
+      "luck_bonus": 1,
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Hectic Highway",
+      "gold_multiplier": 1.25,
+      "stage_type": "Special",
+      "theme": [
+        "Yoru no Nikusyokujyu - VS version"
+      ],
+      "effects": "\n* Can't stop moving"
+    },
+    {
+      "page_name": "Hectic Highway",
+      "description": "Contra Force, rev your jetbikes – its time to drive fast, and fire faster. Red falcon traitors are invading the C-1 Highway for some treasonable reason, and we need you to defend our crucial infrastructure.",
+      "id": "FB_HIGHWAY",
+      "luck_bonus": 1,
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Hectic Highway",
+      "gold_multiplier": 1,
+      "stage_type": "Special",
+      "theme": [
+        "Yoru no Nikusyokujyu - VS version"
+      ],
+      "effects": "\n* Can't stop moving"
+    },
+    {
+      "page_name": "Old Mad Forest",
+      "description": "Poe recalls a simpler time, when surviving the madness of the forest and hoarding masses of garlic was all that mattered.",
+      "name": "Old Mad Forest",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "The Beginning"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Old Mad Forest",
+      "description": "Poe recalls a simpler time, when surviving the madness of the forest and hoarding masses of garlic was all that mattered.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Old Mad Forest",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "The Beginning"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Old Mad Forest",
+      "description": "Poe recalls a simpler time, when surviving the madness of the forest and hoarding masses of garlic was all that mattered.",
+      "name": "Old Mad Forest",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "The Beginning"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Rough Awakening",
+      "description": "A wave of monsters awakens Poe, reminding him that modern life still stink! Perhaps a loyal [[O'Sole|four-legged friend]] can shown him the way...",
+      "name": "Rough Awakening",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Forest Night Fever"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Rough Awakening",
+      "description": "A wave of monsters awakens Poe, reminding him that modern life still stink! Perhaps a loyal [[O'Sole|four-legged friend]] can shown him the way...",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Rough Awakening",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Forest Night Fever"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Rough Awakening",
+      "description": "A wave of monsters awakens Poe, reminding him that modern life still stink! Perhaps a loyal [[O'Sole|four-legged friend]] can shown him the way...",
+      "name": "Rough Awakening",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Forest Night Fever"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Risky Woods",
+      "description": "O'Sole leads Poe deep into the forest to rescue a holy man with a retirement plan. Perhaps this priest will reward their stinky savior with guidance to the promised land?",
+      "name": "Risky Woods",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Risky Woods",
+      "description": "O'Sole leads Poe deep into the forest to rescue a holy man with a retirement plan. Perhaps this priest will reward their stinky savior with guidance to the promised land?",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Risky Woods",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Risky Woods",
+      "description": "O'Sole leads Poe deep into the forest to rescue a holy man with a retirement plan. Perhaps this priest will reward their stinky savior with guidance to the promised land?",
+      "name": "Risky Woods",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Needs More Fighting"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Garlic Paradise",
+      "description": "With the terrifying tree righteously slain, Poe can finally achieve his goal: with the power of the Garlic Paradise, he can amass enough riches to retire!",
+      "name": "Garlic Paradise",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Song Of Mana"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Garlic Paradise",
+      "description": "With the terrifying tree righteously slain, Poe can finally achieve his goal: with the power of the Garlic Paradise, he can amass enough riches to retire!",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Garlic Paradise",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "enemy_health_bonus": 1.6,
+      "theme": [
+        "Song Of Mana"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Garlic Paradise",
+      "description": "With the terrifying tree righteously slain, Poe can finally achieve his goal: with the power of the Garlic Paradise, he can amass enough riches to retire!",
+      "name": "Garlic Paradise",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Song Of Mana"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Retirement",
+      "description": "At last, Poe can retire, and simply stand still forever as he has always dreamed. But will a perfectly sedentary lifestyle be enough for our malodorous hero?",
+      "adventure_only": "",
+      "id": "ADV_POE_6_Molise",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "xp_bonus": 1,
+      "name": "Retirement",
+      "gold_multiplier": 1,
+      "stage_type": "Chapter",
+      "enemy_health_bonus": 1,
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Retirement",
+      "description": "At last, Poe can retire, and simply stand still forever as he has always dreamed. But will a perfectly sedentary lifestyle be enough for our malodorous hero?",
+      "adventure_only": "",
+      "id": "ADV_POE_6_Molise",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "xp_bonus": 1,
+      "name": "Retirement",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "enemy_health_bonus": 1.6,
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Retirement",
+      "description": "At last, Poe can retire, and simply stand still forever as he has always dreamed. But will a perfectly sedentary lifestyle be enough for our malodorous hero?",
+      "adventure_only": "",
+      "id": "ADV_POE_6_Molise",
+      "dlc": "Vampire Survivors",
+      "time_limit": 900,
+      "xp_bonus": 1,
+      "name": "Retirement",
+      "gold_multiplier": 3,
+      "stage_type": "Chapter",
+      "enemy_health_bonus": 3,
+      "theme": [
+        "Vempair Survaivors"
+      ],
+      "luck_bonus": 1.2
+    },
+    {
+      "page_name": "Deep Lore",
+      "description": "Imelda has sought a new life in the church - until one night the peace is shattered by a monstrous attack. Backed into a corner, Imelda must call upon her family's power to survive!",
+      "name": "Deep Lore",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Before Concession"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Deep Lore",
+      "description": "Imelda has sought a new life in the church - until one night the peace is shattered by a monstrous attack. Backed into a corner, Imelda must call upon her family's power to survive!",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Deep Lore",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Before Concession"
+      ]
+    },
+    {
+      "page_name": "Deep Lore",
+      "description": "Imelda has sought a new life in the church - until one night the peace is shattered by a monstrous attack. Backed into a corner, Imelda must call upon her family's power to survive!",
+      "name": "Deep Lore",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Before Concession"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Planar Bazaar",
+      "description": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
+      "name": "Planar Bazaar",
+      "adventure_only": "",
+      "stage_type": "Shop",
+      "time_limit": 1800,
+      "theme": [
+        "Dust Elementals"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Planar Bazaar",
+      "description": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Planar Bazaar",
+      "stage_type": "Shop",
+      "theme": [
+        "Dust Elementals"
+      ],
+      "xp_bonus": 1.25
+    },
+    {
+      "page_name": "Planar Bazaar",
+      "description": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
+      "name": "Planar Bazaar",
+      "adventure_only": "",
+      "stage_type": "Shop",
+      "time_limit": 1800,
+      "theme": [
+        "Dust Elementals"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Castle Grounds",
+      "description": "Decisive Battle Begin!<br>Miang vs Orochimario!<br>Can our Shounen heroine muster the mettle to battle the diabolical dragon for more than a minute?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 300,
+      "name": "Castle Grounds",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Castle Grounds",
+      "description": "Decisive Battle Begin!<br>Miang vs Orochimario!<br>Can our Shounen heroine muster the mettle to battle the diabolical dragon for more than a minute?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 300,
+      "name": "Castle Grounds",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Castle Grounds",
+      "description": "Decisive Battle Begin!<br>Miang vs Orochimario!<br>Can our Shounen heroine muster the mettle to battle the diabolical dragon for more than a minute?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 300,
+      "name": "Castle Grounds",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Shrine Valley",
+      "description": "Miang barely survives after Orochimario conquers the castle. The trail of vengeance begins with a single step. Miang seeks the guidance of the elder Menya Moonspell in the eastern fields.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Shrine Valley",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Festive Breeze"
+      ]
+    },
+    {
+      "page_name": "Shrine Valley",
+      "description": "Miang barely survives after Orochimario conquers the castle. The trail of vengeance begins with a single step. Miang seeks the guidance of the elder Menya Moonspell in the eastern fields.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Shrine Valley",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Festive Breeze"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Shrine Valley",
+      "description": "Miang barely survives after Orochimario conquers the castle. The trail of vengeance begins with a single step. Miang seeks the guidance of the elder Menya Moonspell in the eastern fields.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Shrine Valley",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Festive Breeze"
+      ]
+    },
+    {
+      "page_name": "Forbidden Peaks",
+      "description": "To fight such formidable odds, Miang must search for her flea-bitten twin brother. Follow your nose through the twisting tunnels of the Forbidden Peaks to find the stinky wolfman, Syuuto!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Forbidden Peaks",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Haze of Night"
+      ]
+    },
+    {
+      "page_name": "Forbidden Peaks",
+      "description": "To fight such formidable odds, Miang must search for her flea-bitten twin brother. Follow your nose through the twisting tunnels of the Forbidden Peaks to find the stinky wolfman, Syuuto!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Forbidden Peaks",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Haze of Night"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Forbidden Peaks",
+      "description": "To fight such formidable odds, Miang must search for her flea-bitten twin brother. Follow your nose through the twisting tunnels of the Forbidden Peaks to find the stinky wolfman, Syuuto!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Forbidden Peaks",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Haze of Night"
+      ]
+    },
+    {
+      "page_name": "Hidden Cave",
+      "description": "Catastrophe strikes- the cave floor crumbles and Syuuto is overcome by the slight inconvenience, metamorphosing into his Oni form! Trapped in this hidden chamber, you must tame [[Megalo Syuuto]]'s unleashed power to survive.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Hidden Cave",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Hell Night"
+      ]
+    },
+    {
+      "page_name": "Hidden Cave",
+      "description": "Catastrophe strikes- the cave floor crumbles and Syuuto is overcome by the slight inconvenience, metamorphosing into his Oni form! Trapped in this hidden chamber, you must tame [[Megalo Syuuto]]'s unleashed power to survive.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Hidden Cave",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Hell Night"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Hidden Cave",
+      "description": "Catastrophe strikes- the cave floor crumbles and Syuuto is overcome by the slight inconvenience, metamorphosing into his Oni form! Trapped in this hidden chamber, you must tame [[Megalo Syuuto]]'s unleashed power to survive.",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Hidden Cave",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Hell Night"
+      ]
+    },
+    {
+      "page_name": "Frozen Lake",
+      "description": "Forging a path across a frozen lake, the reunited Moonspell Clan are assailed by Oni-summoned clones! Can the Moonspell Clan defeat the Frozen Three-thousand, and free Babi-Onna from her chilly prison?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Frozen Lake",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Crystal Allure"
+      ]
+    },
+    {
+      "page_name": "Frozen Lake",
+      "description": "Forging a path across a frozen lake, the reunited Moonspell Clan are assailed by Oni-summoned clones! Can the Moonspell Clan defeat the Frozen Three-thousand, and free Babi-Onna from her chilly prison?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Frozen Lake",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Crystal Allure"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Frozen Lake",
+      "description": "Forging a path across a frozen lake, the reunited Moonspell Clan are assailed by Oni-summoned clones! Can the Moonspell Clan defeat the Frozen Three-thousand, and free Babi-Onna from her chilly prison?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Frozen Lake",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Crystal Allure"
+      ]
+    },
+    {
+      "page_name": "Tanuki Forest",
+      "description": "Babi-Onna is freed from the freeze, and joins the Moonspell Clan as they journey to retake their homeland. Their path takes them through the forest, where a team of tricksy Tanuki assail them with a testing trail - is that a tail, or are you just pleased to see me?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Tanuki Forest",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Rumble Kachara"
+      ]
+    },
+    {
+      "page_name": "Tanuki Forest",
+      "description": "Babi-Onna is freed from the freeze, and joins the Moonspell Clan as they journey to retake their homeland. Their path takes them through the forest, where a team of tricksy Tanuki assail them with a testing trail - is that a tail, or are you just pleased to see me?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Tanuki Forest",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Rumble Kachara"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Tanuki Forest",
+      "description": "Babi-Onna is freed from the freeze, and joins the Moonspell Clan as they journey to retake their homeland. Their path takes them through the forest, where a team of tricksy Tanuki assail them with a testing trail - is that a tail, or are you just pleased to see me?",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 600,
+      "name": "Tanuki Forest",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Rumble Kachara"
+      ]
+    },
+    {
+      "page_name": "Mt. Moonspell",
+      "description": "Ancestral Rematch Begin!<br>At last, the Moonspell Clan strike back to reclaim their home, now overrun by Yokai and Oni. Survive against these otherworldly foes, and strike down the eightfold menace, Orochimario!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt. Moonspell",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Mt. Moonspell",
+      "description": "Ancestral Rematch Begin!<br>At last, the Moonspell Clan strike back to reclaim their home, now overrun by Yokai and Oni. Survive against these otherworldly foes, and strike down the eightfold menace, Orochimario!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt. Moonspell",
+      "gold_multiplier": 2,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Mt. Moonspell",
+      "description": "Ancestral Rematch Begin!<br>At last, the Moonspell Clan strike back to reclaim their home, now overrun by Yokai and Oni. Survive against these otherworldly foes, and strike down the eightfold menace, Orochimario!",
+      "adventure_only": "",
+      "dlc": "Legacy of the Moonspell",
+      "time_limit": 1800,
+      "name": "Mt. Moonspell",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Legacy of the Moonspell (track)"
+      ]
+    },
+    {
+      "page_name": "Meeting Called",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Meeting Called",
+      "stage_type": "Chapter",
+      "theme": [
+        "Hide and Survive"
+      ],
+      "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on?<br>Why have the doors locked? And were there always so many bins in the meeting room?<br>Someone needs to report this mess!"
+    },
+    {
+      "page_name": "Meeting Called",
+      "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on?<br>Why have the doors locked? And were there always so many bins in the meeting room?<br>Someone needs to report this mess!",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Meeting Called",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Hide and Survive"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Meeting Called",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Meeting Called",
+      "stage_type": "Chapter",
+      "theme": [
+        "Hide and Survive"
+      ],
+      "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on?<br>Why have the doors locked? And were there always so many bins in the meeting room?<br>Someone needs to report this mess!"
+    },
+    {
+      "page_name": "Suspect Security",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Suspect Security",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ducks Among Us"
+      ],
+      "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside. Maybe if we can find the Engineer we could sneak back in through the vents."
+    },
+    {
+      "page_name": "Suspect Security",
+      "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside. Maybe if we can find the Engineer we could sneak back in through the vents.",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Suspect Security",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ducks Among Us"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Suspect Security",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Suspect Security",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ducks Among Us"
+      ],
+      "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside. Maybe if we can find the Engineer we could sneak back in through the vents."
+    },
+    {
+      "page_name": "Ejected",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Ejected",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Vampires Among Us"
+      ],
+      "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures."
+    },
+    {
+      "page_name": "Ejected",
+      "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures.",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Ejected",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "No Vampires Among Us"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Ejected",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Ejected",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Vampires Among Us"
+      ],
+      "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures."
+    },
+    {
+      "page_name": "Don't Get Ghosted",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Don't Get Ghosted",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ghosts Among Us"
+      ],
+      "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.<br>I wonder if this creepy cavern is where all the other Crewmates ended up..."
+    },
+    {
+      "page_name": "Don't Get Ghosted",
+      "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.<br>I wonder if this creepy cavern is where all the other Crewmates ended up...",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Don't Get Ghosted",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ghosts Among Us"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Don't Get Ghosted",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Don't Get Ghosted",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Ghosts Among Us"
+      ],
+      "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.<br>I wonder if this creepy cavern is where all the other Crewmates ended up..."
+    },
+    {
+      "page_name": "Space Rocks",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Space Rocks",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Pirates Among Us"
+      ],
+      "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Crewmates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!"
+    },
+    {
+      "page_name": "Space Rocks",
+      "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Crewmates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Space Rocks",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "No Pirates Among Us"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Space Rocks",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Space Rocks",
+      "stage_type": "Chapter",
+      "theme": [
+        "No Pirates Among Us"
+      ],
+      "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Crewmates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!"
+    },
+    {
+      "page_name": "Emergency Meating",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Emergency Meating",
+      "stage_type": "Chapter",
+      "theme": [
+        "Emergency Meeting (track)"
+      ],
+      "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!"
+    },
+    {
+      "page_name": "Emergency Meating",
+      "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!",
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Emergency Meating",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "theme": [
+        "Emergency Meeting (track)"
+      ],
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Emergency Meating",
+      "luck_bonus": 2,
+      "adventure_only": "",
+      "dlc": "Emergency Meeting",
+      "time_limit": 1800,
+      "name": "Emergency Meating",
+      "stage_type": "Chapter",
+      "theme": [
+        "Emergency Meeting (track)"
+      ],
+      "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!"
+    },
+    {
+      "page_name": "Attack Aggressively",
+      "time_limit": 1200,
+      "name": "Attack Aggressively",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Contra Unit, your new orders are in. The president's son has been kidnapped by mercenaries, and they're demanding advanced military technology from Corpo Inc. as ransom - but we don't negotiate with terrorists. You're the only team though enough to take them on. Airdrop into Galuga Jungle, find their base, and blow it the heck up!",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Attack Aggressively",
+      "description": "Contra Unit, your new orders are in. The president's son has been kidnapped by mercenaries, and they're demanding advanced military technology from Corpo Inc. as ransom - but we don't negotiate with terrorists. You're the only team though enough to take them on. Airdrop into Galuga Jungle, find their base, and blow it the heck up!",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Attack Aggressively",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Attack Aggressively",
+      "time_limit": 1200,
+      "name": "Attack Aggressively",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Contra Unit, your new orders are in. The president's son has been kidnapped by mercenaries, and they're demanding advanced military technology from Corpo Inc. as ransom - but we don't negotiate with terrorists. You're the only team though enough to take them on. Airdrop into Galuga Jungle, find their base, and blow it the heck up!",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Bullet Biters",
+      "time_limit": 1800,
+      "name": "Bullet Biters",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Rats! These are no mere mercenaries, they're Red Falcon fighters, traitors of the Alien Wars. We thought that group was destroyed, but it seems like they're back from the dead to kidnap the president's nephew - and they've got you surrounded. Survive until we can send a rescue chopper!",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Bullet Biters",
+      "description": "Rats! These are no mere mercenaries, they're Red Falcon fighters, traitors of the Alien Wars. We thought that group was destroyed, but it seems like they're back from the dead to kidnap the president's nephew - and they've got you surrounded. Survive until we can send a rescue chopper!",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Bullet Biters",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Bullet Biters",
+      "time_limit": 1800,
+      "name": "Bullet Biters",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Rats! These are no mere mercenaries, they're Red Falcon fighters, traitors of the Alien Wars. We thought that group was destroyed, but it seems like they're back from the dead to kidnap the president's nephew - and they've got you surrounded. Survive until we can send a rescue chopper!",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Neo City Chaos",
+      "time_limit": 1200,
+      "name": "Neo City Chaos",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Red Falcon's betrayer bots are trashing Neo City and breaching the defenses of Corpo Inc.'s head office. We don't know what they're after, but it looks like kidnapping the president's cousin's nephew was just a distraction. Crash into downtown and start blasting, Contra Unit.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Neo City Chaos",
+      "description": "Red Falcon's betrayer bots are trashing Neo City and breaching the defenses of Corpo Inc.'s head office. We don't know what they're after, but it looks like kidnapping the president's cousin's nephew was just a distraction. Crash into downtown and start blasting, Contra Unit.",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Neo City Chaos",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Neo City Chaos",
+      "time_limit": 1200,
+      "name": "Neo City Chaos",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Red Falcon's betrayer bots are trashing Neo City and breaching the defenses of Corpo Inc.'s head office. We don't know what they're after, but it looks like kidnapping the president's cousin's nephew was just a distraction. Crash into downtown and start blasting, Contra Unit.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Operation: Gun City",
+      "time_limit": 1200,
+      "name": "Operation: Gun City",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Multiple asteroid impacts have been detected in Neo City and are interfering with our comms. Red Falcon have combined Alien Cells with advanced Corpo Inc. beacon technology and have summoned an invasion force! Civilians have been evacuated, so destroy anything that moves, and see if you can find the president's cousin's nephew's dog.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Operation: Gun City",
+      "description": "Multiple asteroid impacts have been detected in Neo City and are interfering with our comms. Red Falcon have combined Alien Cells with advanced Corpo Inc. beacon technology and have summoned an invasion force! Civilians have been evacuated, so destroy anything that moves, and see if you can find the president's cousin's nephew's dog.",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1200,
+      "name": "Operation: Gun City",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Operation: Gun City",
+      "time_limit": 1200,
+      "name": "Operation: Gun City",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Multiple asteroid impacts have been detected in Neo City and are interfering with our comms. Red Falcon have combined Alien Cells with advanced Corpo Inc. beacon technology and have summoned an invasion force! Civilians have been evacuated, so destroy anything that moves, and see if you can find the president's cousin's nephew's dog.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Run & Gun",
+      "time_limit": 1800,
+      "name": "Run & Gun",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Come in, Contra Unit, this is Headquarters. We can't get a read on your position and we aren't exactly sure what's going on without accurate reconnaissance - just keep gunning down aliens and running to the right until we say otherwise.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Run & Gun",
+      "description": "Come in, Contra Unit, this is Headquarters. We can't get a read on your position and we aren't exactly sure what's going on without accurate reconnaissance - just keep gunning down aliens and running to the right until we say otherwise.",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Run & Gun",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Run & Gun",
+      "time_limit": 1800,
+      "name": "Run & Gun",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Come in, Contra Unit, this is Headquarters. We can't get a read on your position and we aren't exactly sure what's going on without accurate reconnaissance - just keep gunning down aliens and running to the right until we say otherwise.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Alien Revengeance",
+      "time_limit": 1800,
+      "name": "Alien Revengeance",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Great work Contra Unit, you've found the source of the alien invasion. You're our only hope, the only squad strong enough to survive in these stinking egg-spawning grounds - shoot those evil space creatures and win the war for humanity.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "Alien Revengeance",
+      "description": "Great work Contra Unit, you've found the source of the alien invasion. You're our only hope, the only squad strong enough to survive in these stinking egg-spawning grounds - shoot those evil space creatures and win the war for humanity.",
+      "adventure_only": "",
+      "dlc": "Operation Guns",
+      "time_limit": 1800,
+      "name": "Alien Revengeance",
+      "gold_multiplier": 1.5,
+      "stage_type": "Chapter",
+      "luck_bonus": 2.2
+    },
+    {
+      "page_name": "Alien Revengeance",
+      "time_limit": 1800,
+      "name": "Alien Revengeance",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "description": "Great work Contra Unit, you've found the source of the alien invasion. You're our only hope, the only squad strong enough to survive in these stinking egg-spawning grounds - shoot those evil space creatures and win the war for humanity.",
+      "luck_bonus": 2,
+      "dlc": "Operation Guns"
+    },
+    {
+      "page_name": "The Coop",
+      "description": "A farm for fear itself, the beasts reared here have turned from tasty morsels to terrifying monsters after realising the deadly power of cooperation.",
+      "id": "COOP",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "The Coop",
+      "stage_type": "Bonus",
+      "theme": [
+        "Martes de poncle"
+      ],
+      "xp_bonus": 0.35
+    },
+    {
+      "page_name": "The Coop",
+      "description": "A farm for fear itself, the beasts reared here have turned from tasty morsels to terrifying monsters after realising the deadly power of cooperation.",
+      "id": "COOP",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "xp_bonus": 0.35,
+      "name": "The Coop",
+      "gold_multiplier": 1.25,
+      "stage_type": "Bonus",
+      "enemy_health_bonus": 2,
+      "theme": [
+        "Martes de poncle"
+      ]
+    },
+    {
+      "page_name": "The Coop",
+      "description": "A farm for fear itself, the beasts reared here have turned from tasty morsels to terrifying monsters after realising the deadly power of cooperation.",
+      "id": "COOP",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "The Coop",
+      "stage_type": "Bonus",
+      "theme": [
+        "Martes de poncle"
+      ],
+      "xp_bonus": 0.35
+    },
+    {
+      "page_name": "Emerald Diorama (stage)",
+      "description": "A miniature replica of a system of interconnected worlds. Emerald Waves guide travellers to their destined paths.",
+      "id": "EMERALD",
+      "dlc": "Emerald Diorama",
+      "time_limit": 1800,
+      "name": "Emerald Diorama",
+      "gold_multiplier": 1.25,
+      "stage_type": "Special",
+      "theme": [
+        "A Quick Warm-Up - VS version"
+      ]
+    },
+    {
+      "page_name": "Emerald Diorama (stage)",
+      "description": "A miniature replica of a system of interconnected worlds. Emerald Waves guide travellers to their destined paths.",
+      "id": "EMERALD",
+      "dlc": "Emerald Diorama",
+      "time_limit": 1800,
+      "name": "Emerald Diorama",
+      "gold_multiplier": 1.75,
+      "stage_type": "Special",
+      "theme": [
+        "A Quick Warm-Up - VS version"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "Emerald Diorama (stage)",
+      "description": "A miniature replica of a system of interconnected worlds. Emerald Waves guide travellers to their destined paths.",
+      "id": "EMERALD",
+      "dlc": "Emerald Diorama",
+      "time_limit": 1800,
+      "name": "Emerald Diorama",
+      "gold_multiplier": 1.25,
+      "stage_type": "Special",
+      "theme": [
+        "A Quick Warm-Up - VS version"
+      ]
+    },
+    {
+      "page_name": "Ice Age",
+      "description": "Amidst a frigid era where all is encased in eternal ice, an unlikely hero decides to rekindle the flame of life and revive the cold bones of this frozen world.",
+      "name": "Ice Age",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Remedy in the Snow"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Ice Age",
+      "description": "Amidst a frigid era where all is encased in eternal ice, an unlikely hero decides to rekindle the flame of life and revive the cold bones of this frozen world.",
+      "adventure_only": "",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1800,
+      "name": "Ice Age",
+      "gold_multiplier": 1.25,
+      "stage_type": "Chapter",
+      "theme": [
+        "Remedy in the Snow"
+      ]
+    },
+    {
+      "page_name": "Ice Age",
+      "description": "Amidst a frigid era where all is encased in eternal ice, an unlikely hero decides to rekindle the flame of life and revive the cold bones of this frozen world.",
+      "name": "Ice Age",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Remedy in the Snow"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Ice Cream",
+      "description": "Mortaccio's rattling bones make funny noises as he walks with immortal determination, leading She-Moon towards the ruins of a forsaken factory. Is this skeleton moved by the flame of a long lost love?",
+      "name": "Ice Cream",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Ice Cream",
+      "description": "Mortaccio's rattling bones make funny noises as he walks with immortal determination, leading She-Moon towards the ruins of a forsaken factory. Is this skeleton moved by the flame of a long lost love?",
+      "name": "Ice Cream",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Ice Cream",
+      "description": "Mortaccio's rattling bones make funny noises as he walks with immortal determination, leading She-Moon towards the ruins of a forsaken factory. Is this skeleton moved by the flame of a long lost love?",
+      "name": "Ice Cream",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "The World Eater",
+      "description": "Once upon a time, in the mists of memory an ambitious witch of unstoppable will sought a monstrous power. The only witnesses to this rite were her mouldering minions, who held back all interlopers.",
+      "name": "The World Eater",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Ashes of the Banished"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The World Eater",
+      "description": "Once upon a time, in the mists of memory an ambitious witch of unstoppable will sought a monstrous power. The only witnesses to this rite were her mouldering minions, who held back all interlopers.",
+      "name": "The World Eater",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Ashes of the Banished"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The World Eater",
+      "description": "Once upon a time, in the mists of memory an ambitious witch of unstoppable will sought a monstrous power. The only witnesses to this rite were her mouldering minions, who held back all interlopers.",
+      "name": "The World Eater",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Ashes of the Banished"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "A Fiery Apparition",
+      "description": "No. Ramba spits fiery insults at Mortaccio, her broken heart still burning with rage - but the skeleton ignores her, too busy crying (figuratively) over spilt (and now frozen) milk. But something catches She-Moon's ear in Ramba's scatching rant: the legend of the firebird.",
+      "name": "A Fiery Apparition",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "I'm Every Reaper"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "A Fiery Apparition",
+      "description": "No. Ramba spits fiery insults at Mortaccio, her broken heart still burning with rage - but the skeleton ignores her, too busy crying (figuratively) over spilt (and now frozen) milk. But something catches She-Moon's ear in Ramba's scatching rant: the legend of the firebird.",
+      "name": "A Fiery Apparition",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "I'm Every Reaper"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "A Fiery Apparition",
+      "description": "No. Ramba spits fiery insults at Mortaccio, her broken heart still burning with rage - but the skeleton ignores her, too busy crying (figuratively) over spilt (and now frozen) milk. But something catches She-Moon's ear in Ramba's scatching rant: the legend of the firebird.",
+      "name": "A Fiery Apparition",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "I'm Every Reaper"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "The Guardian of the Lake",
+      "description": "Once upon a time, sensing a imminent danger, the noble witch Luminaire rushed to seal the tide of evil poised to roll over the world like an apocalyptic flood. Make haste, good witch, or we perish.",
+      "name": "The Guardian of the Lake",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "The Heart of the World"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Guardian of the Lake",
+      "description": "Once upon a time, sensing a imminent danger, the noble witch Luminaire rushed to seal the tide of evil poised to roll over the world like an apocalyptic flood. Make haste, good witch, or we perish.",
+      "name": "The Guardian of the Lake",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "The Heart of the World"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Guardian of the Lake",
+      "description": "Once upon a time, sensing a imminent danger, the noble witch Luminaire rushed to seal the tide of evil poised to roll over the world like an apocalyptic flood. Make haste, good witch, or we perish.",
+      "name": "The Guardian of the Lake",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "The Heart of the World"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Sly Swashbuckler",
+      "description": "Once upon a time, Keitha was dossing off. While her schoolmates dressed to the nines and accepted their diplomas, she rejected pomp and circumstance to musk about with the frivolous imps and sprites of Lake.",
+      "name": "The Sly Swashbuckler",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Hide and Steal"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Sly Swashbuckler",
+      "description": "Once upon a time, Keitha was dossing off. While her schoolmates dressed to the nines and accepted their diplomas, she rejected pomp and circumstance to musk about with the frivolous imps and sprites of Lake.",
+      "name": "The Sly Swashbuckler",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Hide and Steal"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Sly Swashbuckler",
+      "description": "Once upon a time, Keitha was dossing off. While her schoolmates dressed to the nines and accepted their diplomas, she rejected pomp and circumstance to musk about with the frivolous imps and sprites of Lake.",
+      "name": "The Sly Swashbuckler",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Hide and Steal"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Undefeated Champion",
+      "description": "Once upon a time, a doughty warrior faced his daily training routine just before his graduation from the Academy. The trees around Lake always need pruning anyway. All in a day's work for the Red Swordsman, the fabled Champion of Horticulture.",
+      "name": "The Undefeated Champion",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Slaying Dragons"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Undefeated Champion",
+      "description": "Once upon a time, a doughty warrior faced his daily training routine just before his graduation from the Academy. The trees around Lake always need pruning anyway. All in a day's work for the Red Swordsman, the fabled Champion of Horticulture.",
+      "name": "The Undefeated Champion",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Slaying Dragons"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Undefeated Champion",
+      "description": "Once upon a time, a doughty warrior faced his daily training routine just before his graduation from the Academy. The trees around Lake always need pruning anyway. All in a day's work for the Red Swordsman, the fabled Champion of Horticulture.",
+      "name": "The Undefeated Champion",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Slaying Dragons"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Star Pupil",
+      "description": "Once upon a time, on a normal summer morning, a bright young mage graduated from Foscari Academy with flying colours. With an official diploma tucked under her arm, she ventures into Lake to play magic tricks with the gnome and fairies.",
+      "name": "The Star Pupil",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "An Introduction to Sorcery"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Star Pupil",
+      "description": "Once upon a time, on a normal summer morning, a bright young mage graduated from Foscari Academy with flying colours. With an official diploma tucked under her arm, she ventures into Lake to play magic tricks with the gnome and fairies.",
+      "name": "The Star Pupil",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "An Introduction to Sorcery"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The Star Pupil",
+      "description": "Once upon a time, on a normal summer morning, a bright young mage graduated from Foscari Academy with flying colours. With an official diploma tucked under her arm, she ventures into Lake to play magic tricks with the gnome and fairies.",
+      "name": "The Star Pupil",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "An Introduction to Sorcery"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "A Pure Heart",
+      "description": "The firebird, Cosmo Pavone, is currently ignoring our heroes and eating toasted seeds. Clearly none of them have truly good intentions, as Cosmo will only aid those of pure heart. She-Moon searches for a real hero, a guardian who will fight for love and justice.",
+      "name": "A Pure Heart",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Before Concession"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "A Pure Heart",
+      "description": "The firebird, Cosmo Pavone, is currently ignoring our heroes and eating toasted seeds. Clearly none of them have truly good intentions, as Cosmo will only aid those of pure heart. She-Moon searches for a real hero, a guardian who will fight for love and justice.",
+      "name": "A Pure Heart",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Before Concession"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "A Pure Heart",
+      "description": "The firebird, Cosmo Pavone, is currently ignoring our heroes and eating toasted seeds. Clearly none of them have truly good intentions, as Cosmo will only aid those of pure heart. She-Moon searches for a real hero, a guardian who will fight for love and justice.",
+      "name": "A Pure Heart",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Before Concession"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "The Rebirth, The Return",
+      "description": "After obtaining the power of the fire, She-Moon can finally make her dreams of Promethean heroism come true: bring Roast Chicken back to the table. Let there be cooked food.",
+      "name": "The Rebirth, The Return",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Martes de poncle"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "The Rebirth, The Return",
+      "description": "After obtaining the power of the fire, She-Moon can finally make her dreams of Promethean heroism come true: bring Roast Chicken back to the table. Let there be cooked food.",
+      "name": "The Rebirth, The Return",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Martes de poncle"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "The Rebirth, The Return",
+      "description": "After obtaining the power of the fire, She-Moon can finally make her dreams of Promethean heroism come true: bring Roast Chicken back to the table. Let there be cooked food.",
+      "name": "The Rebirth, The Return",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Martes de poncle"
+      ],
+      "dlc": "Vampire Survivors"
+    },
+    {
+      "page_name": "Tides of the Foscari (stage)",
+      "description": "Once upon a time, three students, one from each of the houses of Foscari, brave a journey into a forest (called Lake) stuffed with mythological creatures, all to have a jolly adventure, with absolutely nothing interrupting the whimsy.",
+      "name": "Tides of the Foscari",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Tides of the Foscari (track)"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "Tides of the Foscari (stage)",
+      "description": "Once upon a time, three students, one from each of the houses of Foscari, brave a journey into a forest (called Lake) stuffed with mythological creatures, all to have a jolly adventure, with absolutely nothing interrupting the whimsy.",
+      "name": "Tides of the Foscari",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Tides of the Foscari (track)"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "Tides of the Foscari (stage)",
+      "description": "Once upon a time, three students, one from each of the houses of Foscari, brave a journey into a forest (called Lake) stuffed with mythological creatures, all to have a jolly adventure, with absolutely nothing interrupting the whimsy.",
+      "name": "Tides of the Foscari",
+      "adventure_only": "",
+      "stage_type": "Chapter",
+      "time_limit": 1800,
+      "theme": [
+        "Tides of the Foscari (track)"
+      ],
+      "dlc": "Tides of the Foscari"
+    },
+    {
+      "page_name": "The True Horror",
+      "description": "And they all lived. Happily. Ever. After.",
+      "adventure_only": "",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "The True Horror",
+      "gold_multiplier": 1.5,
+      "stage_type": "???",
+      "theme": [
+        "The World Eater (track)"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "The True Horror",
+      "description": "And they all lived. Happily. Ever. After.",
+      "adventure_only": "",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "The True Horror",
+      "gold_multiplier": 2,
+      "stage_type": "???",
+      "theme": [
+        "The World Eater (track)"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "The True Horror",
+      "description": "And they all lived. Happily. Ever. After.",
+      "adventure_only": "",
+      "dlc": "Tides of the Foscari",
+      "time_limit": 1800,
+      "name": "The True Horror",
+      "gold_multiplier": 1.5,
+      "stage_type": "???",
+      "theme": [
+        "The World Eater (track)"
+      ],
+      "luck_bonus": 1
+    },
+    {
+      "page_name": "Westwoods",
+      "description": "Greed's gone green. Arcane avarice is transforming these once serene woods into a ghoulish gambling den. Welcome to the Cursino, where you need not be a vampire to fear the stakes.",
+      "id": "EX_WESTWOODS",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Westwoods",
+      "gold_multiplier": 1.2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Killer Squiller"
+      ]
+    },
+    {
+      "page_name": "Westwoods",
+      "description": "Greed's gone green. Arcane avarice is transforming these once serene woods into a ghoulish gambling den. Welcome to the Cursino, where you need not be a vampire to fear the stakes.",
+      "id": "EX_WESTWOODS",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Westwoods",
+      "gold_multiplier": 1.2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Killer Squiller"
+      ]
+    },
+    {
+      "page_name": "Westwoods",
+      "description": "Greed's gone green. Arcane avarice is transforming these once serene woods into a ghoulish gambling den. Welcome to the Cursino, where you need not be a vampire to fear the stakes.",
+      "id": "EX_WESTWOODS",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Westwoods",
+      "gold_multiplier": 1.2,
+      "stage_type": "Challenge",
+      "theme": [
+        "Killer Squiller"
+      ]
+    },
+    {
+      "page_name": "Mazerella",
+      "description": "A lactose labyrinth lies buried in the buttery basement of the Dairy Plant. Home to minotaurs and governed by Trickle-down milkonomics. Grabbing the bull by the horns and cheesing it through this mad maze is the only winning formula.",
+      "id": "EX_MAZERELLA",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Mazerella",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Dancing Widow"
+      ]
+    },
+    {
+      "page_name": "Mazerella",
+      "description": "A lactose labyrinth lies buried in the buttery basement of the Dairy Plant. Home to minotaurs and governed by Trickle-down milkonomics. Grabbing the bull by the horns and cheesing it through this mad maze is the only winning formula.",
+      "id": "EX_MAZERELLA",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Mazerella",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Dancing Widow"
+      ]
+    },
+    {
+      "page_name": "Mazerella",
+      "description": "A lactose labyrinth lies buried in the buttery basement of the Dairy Plant. Home to minotaurs and governed by Trickle-down milkonomics. Grabbing the bull by the horns and cheesing it through this mad maze is the only winning formula.",
+      "id": "EX_MAZERELLA",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "Mazerella",
+      "gold_multiplier": 1.3,
+      "stage_type": "Challenge",
+      "theme": [
+        "Dancing Widow"
+      ]
+    },
+    {
+      "page_name": "Ante Chamber (stage)",
+      "description": "Fearsome fools flock to this extradimensional card carnival, where survival is a high-stakes game. The beastly buffoons that prowl this floating funhouse aren’t bluffing, so play your cards right or the joke will be on you.",
+      "id": "LEM_CHAMBER",
+      "dlc": "Ante Chamber",
+      "time_limit": 1800,
+      "name": "Ante Chamber",
+      "stage_type": "Special",
+      "theme": [
+        "Ante Chamber - Balatro Main Theme"
+      ],
+      "effects": "Start with Outer Saboteur"
+    },
+    {
+      "page_name": "Ante Chamber (stage)",
+      "description": "Fearsome fools flock to this extradimensional card carnival, where survival is a high-stakes game. The beastly buffoons that prowl this floating funhouse aren’t bluffing, so play your cards right or the joke will be on you.",
+      "id": "LEM_CHAMBER",
+      "dlc": "Ante Chamber",
+      "time_limit": 1800,
+      "name": "Ante Chamber",
+      "gold_multiplier": 1.5,
+      "stage_type": "Special",
+      "theme": [
+        "Ante Chamber - Balatro Main Theme"
+      ],
+      "effects": "Start with Outer Saboteur"
+    },
+    {
+      "page_name": "Ante Chamber (stage)",
+      "description": "Fearsome fools flock to this extradimensional card carnival, where survival is a high-stakes game. The beastly buffoons that prowl this floating funhouse aren’t bluffing, so play your cards right or the joke will be on you.",
+      "id": "LEM_CHAMBER",
+      "luck_bonus": 1.2,
+      "dlc": "Ante Chamber",
+      "time_limit": 1800,
+      "enemy_health_bonus": 3,
+      "name": "Ante Chamber",
+      "gold_multiplier": 3,
+      "stage_type": "Special",
+      "theme": [
+        "Ante Chamber - Balatro Main Theme"
+      ],
+      "effects": "Start with Outer Saboteur"
+    },
+    {
+      "page_name": "Clock Tower (stage)",
+      "description": "Monsters cavort madly amid a towering edifice of clockwork, rising ever upwards to meet an unchanging moon. The heart of the castle holds the key to Dracula's hollow soul, the vile machinations a reflection of his boundless contempt.",
+      "name": "Clock Tower",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Clock Tower (stage)",
+      "description": "Monsters cavort madly amid a towering edifice of clockwork, rising ever upwards to meet an unchanging moon. The heart of the castle holds the key to Dracula's hollow soul, the vile machinations a reflection of his boundless contempt.",
+      "name": "Clock Tower",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Clock Tower (stage)",
+      "description": "Monsters cavort madly amid a towering edifice of clockwork, rising ever upwards to meet an unchanging moon. The heart of the castle holds the key to Dracula's hollow soul, the vile machinations a reflection of his boundless contempt.",
+      "name": "Clock Tower",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Devious Woods",
+      "description": "Dracula’s castle has risen after a century in ruins, casting a malign shadow over the land, poisoning the hearts of mortals with a thirst for chaos. Brave descendants of the Belmont clan take up their whips and strife through the forest to face their eternal foe.",
+      "name": "Devious Woods",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Devious Woods",
+      "description": "Dracula’s castle has risen after a century in ruins, casting a malign shadow over the land, poisoning the hearts of mortals with a thirst for chaos. Brave descendants of the Belmont clan take up their whips and strife through the forest to face their eternal foe.",
+      "name": "Devious Woods",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Devious Woods",
+      "description": "Dracula’s castle has risen after a century in ruins, casting a malign shadow over the land, poisoning the hearts of mortals with a thirst for chaos. Brave descendants of the Belmont clan take up their whips and strife through the forest to face their eternal foe.",
+      "name": "Devious Woods",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Entrance Corridor",
+      "description": "A seemingly endless entryway to the home of evil. Take caution traversing this luxurious passage - foulers things than roast chicken lurk between this walls.",
+      "name": "Entrance Corridor",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Entrance Corridor",
+      "description": "A seemingly endless entryway to the home of evil. Take caution traversing this luxurious passage - foulers things than roast chicken lurk between this walls.",
+      "name": "Entrance Corridor",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Entrance Corridor",
+      "description": "A seemingly endless entryway to the home of evil. Take caution traversing this luxurious passage - foulers things than roast chicken lurk between this walls.",
+      "name": "Entrance Corridor",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Long Library",
+      "description": "Dracula von Tepes' collection of twisted tomes stretches throughout his accursed manse. His literature is kept in excellent condition by fiendish bookworms.",
+      "name": "Long Library",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Long Library",
+      "description": "Dracula von Tepes' collection of twisted tomes stretches throughout his accursed manse. His literature is kept in excellent condition by fiendish bookworms.",
+      "name": "Long Library",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Long Library",
+      "description": "Dracula von Tepes' collection of twisted tomes stretches throughout his accursed manse. His literature is kept in excellent condition by fiendish bookworms.",
+      "name": "Long Library",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Throne Room",
+      "description": "The Vampire hides, invisible in a hall of mirrors festooned with his most frightful followers. Solve his maddening riddle to reveal the awful truth.",
+      "name": "Throne Room",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Throne Room",
+      "description": "The Vampire hides, invisible in a hall of mirrors festooned with his most frightful followers. Solve his maddening riddle to reveal the awful truth.",
+      "name": "Throne Room",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Throne Room",
+      "description": "The Vampire hides, invisible in a hall of mirrors festooned with his most frightful followers. Solve his maddening riddle to reveal the awful truth.",
+      "name": "Throne Room",
+      "adventure_only": "",
+      "stage_type": "Stage",
+      "time_limit": 1800,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Sunken City",
+      "description": "Built on the bones of a thousand archaic ruins, the foundations of Dracula's Castle are particularly composed of a legendary aquatic city replete with forgotten arcane relics.",
+      "name": "Sunken City",
+      "adventure_only": "",
+      "stage_type": "Bonus",
+      "time_limit": 900,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Sunken City",
+      "description": "Built on the bones of a thousand archaic ruins, the foundations of Dracula's Castle are particularly composed of a legendary aquatic city replete with forgotten arcane relics.",
+      "name": "Sunken City",
+      "adventure_only": "",
+      "stage_type": "Bonus",
+      "time_limit": 900,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Sunken City",
+      "description": "Built on the bones of a thousand archaic ruins, the foundations of Dracula's Castle are particularly composed of a legendary aquatic city replete with forgotten arcane relics.",
+      "name": "Sunken City",
+      "adventure_only": "",
+      "stage_type": "Bonus",
+      "time_limit": 900,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Ecclesia",
+      "description": "Once home to an avenging order, now infested by the minions of that which they sought to destroy. What temptuous<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup> sorceries corrupted the scholars here to bring about this fall from grace? What secrets remain, piled up and undiscovered?",
+      "name": "Ecclesia",
+      "adventure_only": "",
+      "stage_type": "Challenge",
+      "time_limit": 1200,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Ecclesia",
+      "description": "Once home to an avenging order, now infested by the minions of that which they sought to destroy. What temptuous<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup> sorceries corrupted the scholars here to bring about this fall from grace? What secrets remain, piled up and undiscovered?",
+      "name": "Ecclesia",
+      "adventure_only": "",
+      "stage_type": "Challenge",
+      "time_limit": 1200,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "Ecclesia",
+      "description": "Once home to an avenging order, now infested by the minions of that which they sought to destroy. What temptuous<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup> sorceries corrupted the scholars here to bring about this fall from grace? What secrets remain, piled up and undiscovered?",
+      "name": "Ecclesia",
+      "adventure_only": "",
+      "stage_type": "Challenge",
+      "time_limit": 1200,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "True Infinite Corridor",
+      "description": "Time immortal, death immemorial - who's playing who?",
+      "name": "True Infinite Corridor",
+      "adventure_only": "",
+      "stage_type": "N/A",
+      "time_limit": 120,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "True Infinite Corridor",
+      "description": "Time immortal, death immemorial - who's playing who?",
+      "name": "True Infinite Corridor",
+      "adventure_only": "",
+      "stage_type": "N/A",
+      "time_limit": 120,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "True Infinite Corridor",
+      "description": "Time immortal, death immemorial - who's playing who?",
+      "name": "True Infinite Corridor",
+      "adventure_only": "",
+      "stage_type": "N/A",
+      "time_limit": 120,
+      "dlc": "Ode to Castlevania"
+    },
+    {
+      "page_name": "The Lycaeum",
+      "description": "Myths are murmured of a school submerged beneath a sunlit lake. In silent depths strange fish survive, while at its peak vile evil thrives.",
+      "id": "EX_LYCAEUM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "The Lycaeum",
+      "gold_multiplier": 1.2,
+      "stage_type": "Bonus",
+      "theme": [
+        "Murder on the Seafloor"
+      ]
+    },
+    {
+      "page_name": "The Lycaeum",
+      "description": "Myths are murmured of a school submerged beneath a sunlit lake. In silent depths strange fish survive, while at its peak vile evil thrives.",
+      "id": "EX_LYCAEUM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "The Lycaeum",
+      "gold_multiplier": 1.7,
+      "stage_type": "Bonus",
+      "theme": [
+        "Murder on the Seafloor"
+      ],
+      "luck_bonus": 1.1
+    },
+    {
+      "page_name": "The Lycaeum",
+      "description": "Myths are murmured of a school submerged beneath a sunlit lake. In silent depths strange fish survive, while at its peak vile evil thrives.",
+      "id": "EX_LYCAEUM",
+      "dlc": "Vampire Survivors",
+      "time_limit": 1200,
+      "name": "The Lycaeum",
+      "gold_multiplier": 3.2,
+      "stage_type": "Bonus",
+      "enemy_health_bonus": 3,
+      "theme": [
+        "Murder on the Seafloor"
+      ],
+      "luck_bonus": 1.2
+    }
+  ]
+}
