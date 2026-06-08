@@ -1,5 +1,6 @@
 /** Loads a captured fixture table and normalizes it, for real-data domain tests. */
 import { normalizeRow } from "../../src/data/bucket/normalize.ts";
+import { Repository } from "../../src/data/repository.ts";
 import { DATASET_VERSION, TABLES, TABLE_NAMES } from "../../src/data/schema.ts";
 import type { Dataset, TableName } from "../../src/data/schema.ts";
 import type { NormalizedEvolutionRow, NormalizedWeaponRow } from "../../src/data/raw-types.ts";
@@ -30,4 +31,9 @@ export async function loadFixtureDataset(): Promise<Dataset> {
     meta: { version: DATASET_VERSION, fetchedAt: "2026-06-01T00:00:00.000Z", appVersion: "0.1.0", wikiId: "en_vswiki", counts: {} },
     tables,
   };
+}
+
+/** A Repository backed by the captured fixtures (no network). */
+export async function loadFixtureRepo(): Promise<Repository> {
+  return Repository.fromDataset(await loadFixtureDataset());
 }
