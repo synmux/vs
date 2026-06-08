@@ -1,10 +1,12 @@
-import { afterEach, beforeEach, describe, expect, test } from "bun:test";
+import { afterEach, beforeAll, beforeEach, describe, expect, test } from "bun:test";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { writeDataset } from "../../src/data/cache.ts";
 import { NoCacheOfflineError, Repository } from "../../src/data/repository.ts";
+import { search } from "../../src/domain/search-index.ts";
 import { makeTestDataset } from "../helpers/dataset.ts";
+import { loadFixtureDataset } from "../helpers/fixtures.ts";
 
 let dir: string;
 let env: Record<string, string>;
@@ -57,5 +59,30 @@ describe("Repository.load", () => {
     // The cache is now populated, so a later offline load succeeds.
     const reopened = await Repository.load({ env, allowNetwork: false });
     expect(reopened.weapons()[0]?.name).toBe("Whip");
+  });
+});
+
+describe("Repository domain accessors (real fixtures)", () => {
+  let repo: Repository;
+
+  beforeAll(async () => {
+    repo = Repository.fromDataset(await loadFixtureDataset());
+  });
+
+  test("weapons() returns mapped domain entities", () => {
+    const whip = repo.weapons().find((weapon) => weapon.pageName === "Whip");
+    expect(whip?.isEvolution).toBe(false);
+    const bloodyTear = repo.weapons().find((weapon) => weapon.pageName === "Bloody Tear");
+    expect(bloodyTear?.isEvolution).toBe(true);
+  });
+
+  test("evolutionGraph() exposes the recipes and is memoized", () => {
+    const graph = repo.evolutionGraph();
+    expect(graph.byResult.get("Bloody Tear")).toBeDefined();
+    expect(repo.evolutionGraph()).toBe(graph); // same reference on repeat calls
+  });
+
+  test("searchIndex() powers fuzzy search across entities", () => {
+    expect(search(repo.searchIndex(), "bloody")[0]?.label).toBe("Bloody Tear");
   });
 });
