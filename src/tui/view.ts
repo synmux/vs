@@ -3,25 +3,26 @@
  * ListDetailView base that most sections share: a selectable list on the left,
  * a scrollable detail panel on the right, kept in sync on selection change.
  *
- * Views are constructed with the renderer (their drawing context) and add their
- * renderables to the container passed to mount(); unmount tears them down so the
- * router can destroy+recreate views cleanly on section change.
+ * Cross-linking: a view's detail can declare {@link LinkTarget}s (related
+ * entities). The base renders them as a numbered "Jump:" list and turns digit
+ * keys 1–9 into navigation, so e.g. an evolution can jump to its base weapon or
+ * required passive. This is the "navigate data in useful ways" core.
  */
 import { BoxRenderable, ScrollBoxRenderable, SelectRenderable, SelectRenderableEvents, TextRenderable } from "@opentui/core";
 import type { CliRenderer, KeyEvent } from "@opentui/core";
 import type { Focusable } from "./focus.ts";
 import { theme } from "./theme.ts";
 
+/** Navigate to another section, optionally revealing a specific entity. */
+export type Navigate = (section: string, entityKey: string) => void;
+
 export interface View {
   readonly id: string;
   readonly title: string;
   mount(container: BoxRenderable): void;
   unmount(): void;
-  /** Widgets this view contributes to the focus ring, in order. */
   focusTargets(): Focusable[];
-  /** Handle a key the global handler didn't consume; return true if handled. */
   handleKey(key: KeyEvent): boolean;
-  /** Select and reveal a specific entity (cross-link / palette target). */
   showEntity(key: string): void;
 }
 
@@ -29,6 +30,18 @@ export interface ListItem {
   key: string;
   name: string;
   description: string;
+}
+
+/** A jumpable related entity shown in a detail panel. */
+export interface LinkTarget {
+  section: string;
+  key: string;
+  label: string;
+}
+
+export interface DetailContent {
+  text: string;
+  links?: LinkTarget[];
 }
 
 export abstract class ListDetailView implements View {
@@ -41,13 +54,17 @@ export abstract class ListDetailView implements View {
   private root?: BoxRenderable;
   private container?: BoxRenderable;
   private itemKeys: string[] = [];
+  private currentLinks: LinkTarget[] = [];
 
-  constructor(protected readonly ctx: CliRenderer) {}
+  constructor(
+    protected readonly ctx: CliRenderer,
+    protected readonly navigate?: Navigate,
+  ) {}
 
   /** Subclass: the rows to list (key is the entity page name). */
   protected abstract buildItems(): ListItem[];
-  /** Subclass: detail text for the selected entity key. */
-  protected abstract renderDetail(key: string): string;
+  /** Subclass: detail content (text + optional cross-links) for an entity key. */
+  protected abstract renderDetail(key: string): DetailContent;
 
   mount(container: BoxRenderable): void {
     this.container = container;
@@ -91,7 +108,7 @@ export abstract class ListDetailView implements View {
     });
     this.root.add(detailBox);
 
-    this.detailScroll = new ScrollBoxRenderable(this.ctx, { id: `${this.id}-detailscroll`, flexGrow: 1 });
+    this.detailScroll = new ScrollBoxRenderable(this.ctx, { id: `${this.id}-detailscroll`, flexGrow: 1, paddingLeft: 1, paddingRight: 1 });
     detailBox.add(this.detailScroll);
     this.detailText = new TextRenderable(this.ctx, { id: `${this.id}-detailtext`, content: "", fg: theme.text });
     this.detailScroll.add(this.detailText);
@@ -102,7 +119,19 @@ export abstract class ListDetailView implements View {
 
   private updateDetail(index: number): void {
     const key = this.itemKeys[index];
-    this.detailText.content = key ? this.renderDetail(key) : "";
+    if (!key) {
+      this.detailText.content = "";
+      this.currentLinks = [];
+      return;
+    }
+    const { text, links = [] } = this.renderDetail(key);
+    this.currentLinks = links.slice(0, 9);
+
+    let content = text;
+    if (this.currentLinks.length > 0 && this.navigate) {
+      content += "\n\nJump:\n" + this.currentLinks.map((link, position) => `  [${position + 1}] ${link.label}`).join("\n");
+    }
+    this.detailText.content = content;
   }
 
   unmount(): void {
@@ -116,7 +145,14 @@ export abstract class ListDetailView implements View {
     return [this.list, this.detailScroll];
   }
 
-  handleKey(): boolean {
+  handleKey(key: KeyEvent): boolean {
+    if (this.navigate && key.name && /^[1-9]$/.test(key.name)) {
+      const link = this.currentLinks[Number(key.name) - 1];
+      if (link) {
+        this.navigate(link.section, link.key);
+        return true;
+      }
+    }
     return false;
   }
 

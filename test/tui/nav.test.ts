@@ -28,4 +28,13 @@ describe("NavStack", () => {
     expect(nav.currentTarget()).toEqual({ section: "home" });
     expect(nav.back()).toBe(false);
   });
+
+  test("replace navigates without growing history", () => {
+    const visited: NavTarget[] = [];
+    const nav = new NavStack((target) => visited.push(target), { section: "home" });
+    nav.replace({ section: "weapons" });
+    expect(nav.currentTarget()).toEqual({ section: "weapons" });
+    expect(visited).toEqual([{ section: "weapons" }]);
+    expect(nav.back()).toBe(false); // replace did not push history
+  });
 });

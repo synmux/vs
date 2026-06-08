@@ -1,12 +1,13 @@
 /**
- * Wires the shell, router, and focus ring into a running app. `createApp` builds
- * everything against a renderer and returns a controller (testable headlessly
- * with createTestRenderer); `runTui` adds a real terminal renderer and blocks
- * until quit.
+ * Wires the shell, router, focus ring, nav history, and command palette into a
+ * running app. `createApp` builds everything against a renderer and returns a
+ * controller (testable headlessly via createTestRenderer); `runTui` adds a real
+ * terminal renderer and blocks until quit.
  *
- * Global keys are handled on renderer.keyInput: Tab/Shift-Tab move the focus
- * ring, q/Ctrl-C quit. Arrow keys are left to whichever widget is focused (the
- * sidebar Select or a view's list), which OpenTUI routes automatically.
+ * Key routing (renderer.keyInput): while the palette is open it owns all keys;
+ * otherwise `/` opens the palette, Tab/Shift-Tab move focus, q/Ctrl-C quit, Esc
+ * goes back (nav history) and finally returns focus to the sidebar. Arrow keys
+ * fall through to whichever widget is focused (OpenTUI routes them).
  */
 import { SelectRenderableEvents } from "@opentui/core";
 import type { CliRenderer, KeyEvent } from "@opentui/core";
@@ -14,20 +15,36 @@ import { cacheStaleness } from "../data/cache.ts";
 import type { Repository } from "../data/repository.ts";
 import { FocusRing } from "./focus.ts";
 import type { Focusable } from "./focus.ts";
+import { NavStack } from "./nav.ts";
+import type { NavTarget } from "./nav.ts";
+import { Palette } from "./palette.ts";
 import { Router } from "./router.ts";
 import { buildSections } from "./sections.ts";
 import { buildShell } from "./shell.ts";
+import type { Navigate } from "./view.ts";
 
 export interface AppController {
-  goToSection(sectionId: string, entityKey?: string, focusContent?: boolean): void;
+  goToSection(sectionId: string, entityKey?: string): void;
+  openPalette(): void;
+  isPaletteOpen(): boolean;
   destroy(): void;
 }
 
-export function createApp(renderer: CliRenderer, repo: Repository, options: { onQuit?: () => void } = {}): AppController {
-  const sections = buildSections(renderer, repo);
+export interface CreateAppOptions {
+  onQuit?: () => void;
+  startSection?: string;
+}
+
+export function createApp(renderer: CliRenderer, repo: Repository, options: CreateAppOptions = {}): AppController {
+  // Forward reference: views cross-link via `navigate`, which is only invoked
+  // after the nav stack exists (on mount, after createApp returns).
+  let nav: NavStack;
+  const navigate: Navigate = (section, entityKey) => nav.go({ section, entityKey });
+
+  const sections = buildSections(renderer, repo, navigate);
   const sectionIndex = new Map(sections.map((section, index) => [section.id, index]));
   const stale = cacheStaleness(repo.meta().fetchedAt);
-  const statusText = `  ↑↓ move · Tab focus · / search · q quit        data ${stale.label}`;
+  const statusText = `  ↑↓ move · Tab focus · 1-9 jump · / search · Esc back · q quit     data ${stale.label}`;
 
   const shell = buildShell(renderer, sections.map((section) => ({ id: section.id, label: section.label })), statusText);
   renderer.root.add(shell.app);
@@ -42,25 +59,41 @@ export function createApp(renderer: CliRenderer, repo: Repository, options: { on
     focus.focusIndex(focusContent && targets.length > 1 ? 1 : 0);
   }
 
-  function goToSection(sectionId: string, entityKey?: string, focusContent = false): void {
-    const index = sectionIndex.get(sectionId);
+  function applyTarget(target: NavTarget, focusContent: boolean): void {
+    const index = sectionIndex.get(target.section);
     if (index === undefined) return;
     suppressSidebarEvent = true;
     shell.sidebar.setSelectedIndex(index);
     suppressSidebarEvent = false;
-    router.show(sectionId, entityKey);
+    router.show(target.section, target.entityKey);
     updateFocus(focusContent);
   }
+
+  // Revealing a specific entity focuses the content; plain section switches focus the sidebar.
+  nav = new NavStack((target) => applyTarget(target, Boolean(target.entityKey)), { section: options.startSection ?? "home" });
+
+  const palette = new Palette(
+    renderer,
+    repo,
+    (section, entityKey) => nav.go({ section, entityKey }),
+    () => focus.focusIndex(focus.currentIndex()),
+  );
 
   shell.sidebar.on(SelectRenderableEvents.SELECTION_CHANGED, (index: number) => {
     if (suppressSidebarEvent) return;
     const section = sections[index];
-    if (!section) return;
-    router.show(section.id);
-    updateFocus(false);
+    if (section) nav.replace({ section: section.id });
   });
 
   renderer.keyInput.on("keypress", (key: KeyEvent) => {
+    if (palette.isOpen()) {
+      palette.handleKey(key);
+      return;
+    }
+    if (key.name === "/") {
+      palette.open();
+      return;
+    }
     if (key.name === "tab") {
       if (key.shift) focus.previous();
       else focus.next();
@@ -70,28 +103,36 @@ export function createApp(renderer: CliRenderer, repo: Repository, options: { on
       options.onQuit?.();
       return;
     }
+    if (key.name === "escape") {
+      if (!nav.back()) focus.focusIndex(0);
+      return;
+    }
     router.active()?.handleKey(key);
   });
 
-  router.show(sections[0]!.id);
-  updateFocus(false);
+  nav.replace({ section: options.startSection ?? "home" });
 
   return {
-    goToSection,
-    destroy() {
-      renderer.destroy();
+    goToSection(sectionId: string, entityKey?: string) {
+      if (entityKey) nav.go({ section: sectionId, entityKey });
+      else nav.replace({ section: sectionId });
     },
+    openPalette: () => palette.open(),
+    isPaletteOpen: () => palette.isOpen(),
+    destroy: () => renderer.destroy(),
   };
 }
 
 export async function runTui(repo: Repository, startSection = "home", startEntity?: string): Promise<void> {
   const { createCliRenderer } = await import("@opentui/core");
   const renderer = await createCliRenderer({ exitOnCtrlC: true, targetFps: 30 });
-  createApp(renderer, repo, {
+  const app = createApp(renderer, repo, {
+    startSection,
     onQuit: () => {
       renderer.destroy();
       process.exit(0);
     },
-  }).goToSection(startSection, startEntity, Boolean(startEntity));
+  });
+  if (startEntity) app.goToSection(startSection, startEntity);
   await new Promise<never>(() => {}); // keep the process alive; quit via onQuit
 }

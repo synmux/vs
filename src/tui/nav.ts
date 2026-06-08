@@ -26,6 +26,12 @@ export class NavStack {
     this.navigate(target);
   }
 
+  /** Navigate without recording history (used for plain sidebar browsing). */
+  replace(target: NavTarget): void {
+    this.current = target;
+    this.navigate(target);
+  }
+
   back(): boolean {
     const previous = this.history.pop();
     if (previous === undefined) return false;
