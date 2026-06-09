@@ -12,6 +12,7 @@ import { APP_VERSION } from "../version.ts";
 import { buildCommand } from "./commands/build.ts";
 import { characterCommand } from "./commands/character.ts";
 import { evolveCommand } from "./commands/evolve.ts";
+import { randomCommand } from "./commands/random.ts";
 import { refreshCommand } from "./commands/refresh.ts";
 import { searchCommand } from "./commands/search.ts";
 import { weaponCommand } from "./commands/weapon.ts";
@@ -105,6 +106,13 @@ export async function main(argv: string[]): Promise<void> {
     .action(async (commandOptions: { have: string }, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
       await withRepo(options, (repo) => print(buildCommand(repo, commandOptions.have, outputOptions(options))));
+    });
+
+  shared(program.command("random"))
+    .description("Suggest a random character and its starting weapon's evolution path")
+    .action(async (_options, command: Command) => {
+      const options = command.optsWithGlobals() as GlobalOptions;
+      await withRepo(options, (repo) => print(randomCommand(repo, outputOptions(options))));
     });
 
   program
