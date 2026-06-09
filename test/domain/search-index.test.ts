@@ -17,21 +17,35 @@ import {
   toStage,
   toWeapon,
 } from "../../src/domain/entities.ts";
-import { buildSearchIndex, search } from "../../src/domain/search-index.ts";
 import type { SearchEntry } from "../../src/domain/search-index.ts";
+import { buildSearchIndex, search } from "../../src/domain/search-index.ts";
 import { loadFixtureRows } from "../helpers/fixtures.ts";
 
 let index: SearchEntry[];
 
 beforeAll(async () => {
   index = buildSearchIndex({
-    weapons: (await loadFixtureRows<NormalizedWeaponRow>("infobox_weapon")).map(toWeapon),
-    passives: (await loadFixtureRows<NormalizedPassiveRow>("infobox_passive_item")).map(toPassive),
-    characters: (await loadFixtureRows<NormalizedCharacterRow>("infobox_character")).map(toCharacter),
-    stages: (await loadFixtureRows<NormalizedStageRow>("infobox_stage")).map(toStage),
-    arcanas: (await loadFixtureRows<NormalizedArcanaRow>("infobox_arcana")).map(toArcana),
-    bestiary: (await loadFixtureRows<NormalizedBestiaryRow>("infobox_bestiary")).map(toBestiaryEntry),
-    recipes: (await loadFixtureRows<NormalizedEvolutionRow>("passive_evolutions")).map(toRecipe),
+    weapons: (await loadFixtureRows<NormalizedWeaponRow>("infobox_weapon")).map(
+      toWeapon
+    ),
+    passives: (
+      await loadFixtureRows<NormalizedPassiveRow>("infobox_passive_item")
+    ).map(toPassive),
+    characters: (
+      await loadFixtureRows<NormalizedCharacterRow>("infobox_character")
+    ).map(toCharacter),
+    stages: (await loadFixtureRows<NormalizedStageRow>("infobox_stage")).map(
+      toStage
+    ),
+    arcanas: (await loadFixtureRows<NormalizedArcanaRow>("infobox_arcana")).map(
+      toArcana
+    ),
+    bestiary: (
+      await loadFixtureRows<NormalizedBestiaryRow>("infobox_bestiary")
+    ).map(toBestiaryEntry),
+    recipes: (
+      await loadFixtureRows<NormalizedEvolutionRow>("passive_evolutions")
+    ).map(toRecipe),
   });
 });
 
@@ -41,7 +55,11 @@ describe("search (real fixture data)", () => {
   });
 
   test("returns typed hits including the weapon kind", () => {
-    expect(search(index, "whip").some((hit) => hit.kind === "weapon" && hit.label === "Whip")).toBe(true);
+    expect(
+      search(index, "whip").some(
+        (hit) => hit.kind === "weapon" && hit.label === "Whip"
+      )
+    ).toBe(true);
   });
 
   test("an empty or whitespace query returns nothing", () => {
@@ -53,7 +71,9 @@ describe("search (real fixture data)", () => {
   });
 
   test("includes evolution recipes with a how-to-make subtitle", () => {
-    const evolutionHit = search(index, "bloody").find((hit) => hit.kind === "evolution");
+    const evolutionHit = search(index, "bloody").find(
+      (hit) => hit.kind === "evolution"
+    );
     expect(evolutionHit?.subtitle).toContain("Whip");
   });
 });

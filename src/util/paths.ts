@@ -12,8 +12,12 @@ import { join } from "node:path";
 type Env = Record<string, string | undefined>;
 
 export function dataDir(env: Env = process.env): string {
-  if (env.VS_DATA_DIR) return env.VS_DATA_DIR;
-  if (env.XDG_DATA_HOME) return join(env.XDG_DATA_HOME, "vs-tui");
+  if (env.VS_DATA_DIR) {
+    return env.VS_DATA_DIR;
+  }
+  if (env.XDG_DATA_HOME) {
+    return join(env.XDG_DATA_HOME, "vs-tui");
+  }
   return join(env.HOME ?? homedir(), ".local", "share", "vs-tui");
 }
 

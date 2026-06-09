@@ -1,8 +1,11 @@
 import { describe, expect, test } from "bun:test";
-import { FocusRing } from "../../src/tui/focus.ts";
 import type { Focusable } from "../../src/tui/focus.ts";
+import { FocusRing } from "../../src/tui/focus.ts";
 
-function fakeFocusable(): Focusable & { focusCount: number; blurCount: number } {
+function fakeFocusable(): Focusable & {
+  focusCount: number;
+  blurCount: number;
+} {
   return {
     focusCount: 0,
     blurCount: 0,

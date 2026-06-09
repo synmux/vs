@@ -8,9 +8,9 @@ import type { BoxRenderable } from "@opentui/core";
 import type { View } from "./view.ts";
 
 export interface SectionDef {
+  create: () => View;
   id: string;
   label: string;
-  create: () => View;
 }
 
 export class Router {
@@ -18,15 +18,19 @@ export class Router {
 
   constructor(
     private readonly content: BoxRenderable,
-    private readonly sections: Map<string, SectionDef>,
+    private readonly sections: Map<string, SectionDef>
   ) {}
 
   show(sectionId: string, entityKey?: string): View | undefined {
     const def = this.sections.get(sectionId);
-    if (!def) return this.currentView;
+    if (!def) {
+      return this.currentView;
+    }
 
     if (this.currentView?.id === sectionId) {
-      if (entityKey) this.currentView.showEntity(entityKey);
+      if (entityKey) {
+        this.currentView.showEntity(entityKey);
+      }
       return this.currentView;
     }
 
@@ -34,7 +38,9 @@ export class Router {
     const view = def.create();
     view.mount(this.content);
     this.currentView = view;
-    if (entityKey) view.showEntity(entityKey);
+    if (entityKey) {
+      view.showEntity(entityKey);
+    }
     return view;
   }
 

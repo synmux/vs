@@ -10,99 +10,99 @@
  */
 
 export interface NormalizedWeaponRow {
-  page_name: string;
-  name: string;
-  type: string;
   description: string;
-  id: string[];
   dlc: string;
+  id: string[];
   is_default: boolean;
+  name: string;
   order: number;
+  page_name: string;
+  type: string;
 }
 
 export interface NormalizedPassiveRow {
-  page_name: string;
-  name: string;
   description: string;
-  id: string[];
   dlc: string;
+  id: string[];
   is_default: boolean;
+  name: string;
   order: number;
+  page_name: string;
 }
 
 export interface NormalizedEvolutionRow {
-  page_name: string;
-  evolution: string;
   base_weapon: string[];
-  secondary_passive: string;
-  passive_max: boolean;
-  glimmer: string;
+  evolution: string;
   gift: boolean;
+  glimmer: string;
+  page_name: string;
+  passive_max: boolean;
+  secondary_passive: string;
 }
 
 export interface NormalizedCharacterRow {
-  page_name: string;
-  name: string;
-  dlc: string;
-  description: string;
-  starting_weapon: string[];
-  unlocked_by: string;
-  cost: number;
-  secret_character: boolean;
-  max_health: number;
-  recovery: number;
-  armor: number;
   amount: number;
-  move_speed: number;
-  might: number;
-  speed: number;
-  duration: number;
   area: number;
+  armor: number;
   cooldown: number;
-  magnet: number;
-  luck: number;
-  growth: number;
-  greed: number;
+  cost: number;
   curse: number;
+  description: string;
+  dlc: string;
+  duration: number;
+  greed: number;
+  growth: number;
+  luck: number;
+  magnet: number;
+  max_health: number;
+  might: number;
+  move_speed: number;
+  name: string;
+  page_name: string;
+  recovery: number;
+  secret_character: boolean;
+  speed: number;
+  starting_weapon: string[];
   stats_json: string;
+  unlocked_by: string;
 }
 
 export interface NormalizedStageRow {
-  page_name: string;
-  name: string;
-  dlc: string;
-  description: string;
-  id: string[];
-  effects: string;
-  stage_type: string;
-  time_limit: number;
-  gold_multiplier: number;
-  luck_bonus: number;
-  xp_bonus: number;
-  enemy_health_bonus: number;
-  theme: string[];
   adventure_only: boolean;
+  description: string;
+  dlc: string;
+  effects: string;
+  enemy_health_bonus: number;
+  gold_multiplier: number;
+  id: string[];
+  luck_bonus: number;
+  name: string;
+  page_name: string;
+  stage_type: string;
+  theme: string[];
+  time_limit: number;
+  xp_bonus: number;
 }
 
 export interface NormalizedArcanaRow {
-  page_name: string;
-  name: string;
-  dlc: string;
-  description: string;
-  arcana_name: string;
-  order: number;
-  arcana_type: string;
   affects: string[];
+  arcana_name: string;
+  arcana_type: string;
+  description: string;
+  dlc: string;
+  name: string;
   notes: string;
+  order: number;
+  page_name: string;
   unlocked_by: string;
 }
 
 export interface NormalizedBestiaryRow {
-  page_name: string;
-  name: string;
-  dlc: string;
-  description: string;
-  type: string;
   bestiary_number: number;
+  description: string;
+  dlc: string;
+  name: string;
+  page_name: string;
   theme: string[];
+  type: string;
 }

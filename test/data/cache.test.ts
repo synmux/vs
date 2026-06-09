@@ -2,12 +2,19 @@ import { afterEach, beforeEach, describe, expect, test } from "bun:test";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { cacheStaleness, readDataset, writeDataset } from "../../src/data/cache.ts";
+import {
+  cacheStaleness,
+  readDataset,
+  writeDataset,
+} from "../../src/data/cache.ts";
 import type { Dataset } from "../../src/data/schema.ts";
 import { makeTestDataset } from "../helpers/dataset.ts";
 
 function makeDataset(fetchedAt: string): Dataset {
-  return makeTestDataset({ fetchedAt, tables: { infobox_weapon: [{ page_name: "Whip", name: "Whip" }] } });
+  return makeTestDataset({
+    fetchedAt,
+    tables: { infobox_weapon: [{ page_name: "Whip", name: "Whip" }] },
+  });
 }
 
 let dir: string;
@@ -55,13 +62,19 @@ describe("readDataset / writeDataset", () => {
 
 describe("cacheStaleness", () => {
   test("reports a fresh cache below the threshold", () => {
-    const result = cacheStaleness("2026-06-08T00:00:00.000Z", new Date("2026-06-09T00:00:00.000Z"));
+    const result = cacheStaleness(
+      "2026-06-08T00:00:00.000Z",
+      new Date("2026-06-09T00:00:00.000Z")
+    );
     expect(result.days).toBe(1);
     expect(result.stale).toBe(false);
   });
 
   test("reports a stale cache beyond the threshold", () => {
-    const result = cacheStaleness("2026-06-01T00:00:00.000Z", new Date("2026-06-30T00:00:00.000Z"));
+    const result = cacheStaleness(
+      "2026-06-01T00:00:00.000Z",
+      new Date("2026-06-30T00:00:00.000Z")
+    );
     expect(result.stale).toBe(true);
   });
 });

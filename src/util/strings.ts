@@ -21,15 +21,25 @@ export function cleanWikiText(input: string): string {
   return input
     .replace(/<br\s*\/?>/gi, " ") // line breaks → space
     .replace(/<[^>]+>/g, "") // any other HTML tag → removed
-    .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_match, target: string, label?: string) => label ?? target)
-    .replace(/&[a-z#0-9]+;/gi, (entity) => HTML_ENTITIES[entity.toLowerCase()] ?? entity)
+    .replace(
+      /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,
+      (_match, target: string, label?: string) => label ?? target
+    )
+    .replace(
+      /&[a-z#0-9]+;/gi,
+      (entity) => HTML_ENTITIES[entity.toLowerCase()] ?? entity
+    )
     .replace(/\s+/g, " ")
     .trim();
 }
 
 /** Truncate to `max` display characters, using a trailing ellipsis when shortened. */
 export function truncate(input: string, max: number): string {
-  if (input.length <= max) return input;
-  if (max <= 1) return "…";
-  return input.slice(0, max - 1) + "…";
+  if (input.length <= max) {
+    return input;
+  }
+  if (max <= 1) {
+    return "…";
+  }
+  return `${input.slice(0, max - 1)}…`;
 }

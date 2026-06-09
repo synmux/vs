@@ -14,7 +14,15 @@ import type {
   NormalizedWeaponRow,
 } from "../data/raw-types.ts";
 import { cleanWikiText } from "../util/strings.ts";
-import type { Arcana, BestiaryEntry, Character, Passive, Recipe, Stage, Weapon } from "./types.ts";
+import type {
+  Arcana,
+  BestiaryEntry,
+  Character,
+  Passive,
+  Recipe,
+  Stage,
+  Weapon,
+} from "./types.ts";
 
 export function toWeapon(row: NormalizedWeaponRow): Weapon {
   const type = cleanWikiText(row.type);
@@ -39,7 +47,10 @@ export function toPassive(row: NormalizedPassiveRow): Passive {
 }
 
 export function toRecipe(row: NormalizedEvolutionRow): Recipe {
-  const requiredPassives = [row.page_name, ...(row.secondary_passive ? [row.secondary_passive] : [])];
+  const requiredPassives = [
+    row.page_name,
+    ...(row.secondary_passive ? [row.secondary_passive] : []),
+  ];
   return {
     result: row.evolution,
     bases: row.base_weapon,

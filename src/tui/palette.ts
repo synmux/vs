@@ -4,6 +4,8 @@
  * input is focused while open; the app routes keys here first so typing filters,
  * up/down move the result, Enter jumps to the entity, and Esc closes.
  */
+
+import type { CliRenderer, KeyEvent } from "@opentui/core";
 import {
   BoxRenderable,
   InputRenderable,
@@ -11,10 +13,9 @@ import {
   SelectRenderable,
   SelectRenderableEvents,
 } from "@opentui/core";
-import type { CliRenderer, KeyEvent } from "@opentui/core";
 import type { Repository } from "../data/repository.ts";
-import { search } from "../domain/search-index.ts";
 import type { SearchHit } from "../domain/search-index.ts";
+import { search } from "../domain/search-index.ts";
 import type { EntityKind } from "../domain/types.ts";
 import { theme } from "./theme.ts";
 
@@ -39,7 +40,7 @@ export class Palette {
     private readonly ctx: CliRenderer,
     private readonly repo: Repository,
     private readonly onSelect: (section: string, entityKey: string) => void,
-    private readonly onClose: () => void,
+    private readonly onClose: () => void
   ) {}
 
   isOpen(): boolean {
@@ -47,7 +48,9 @@ export class Palette {
   }
 
   open(): void {
-    if (this.opened) return;
+    if (this.opened) {
+      return;
+    }
     this.opened = true;
 
     this.overlay = new BoxRenderable(this.ctx, {
@@ -87,15 +90,21 @@ export class Palette {
     });
     this.overlay.add(this.results);
 
-    this.input.on(InputRenderableEvents.INPUT, () => this.refilter(this.input?.value ?? ""));
-    this.results.on(SelectRenderableEvents.ITEM_SELECTED, (index: number) => this.choose(index));
+    this.input.on(InputRenderableEvents.INPUT, () =>
+      this.refilter(this.input?.value ?? "")
+    );
+    this.results.on(SelectRenderableEvents.ITEM_SELECTED, (index: number) =>
+      this.choose(index)
+    );
 
     this.refilter("");
     this.input.focus();
   }
 
   close(): void {
-    if (!this.opened) return;
+    if (!this.opened) {
+      return;
+    }
     this.opened = false;
     if (this.overlay) {
       this.ctx.root.remove("palette");
@@ -110,7 +119,9 @@ export class Palette {
 
   /** Returns true if the key was consumed by the palette. */
   handleKey(key: KeyEvent): boolean {
-    if (!this.opened) return false;
+    if (!this.opened) {
+      return false;
+    }
     if (key.name === "escape") {
       this.close();
       return true;
@@ -131,21 +142,31 @@ export class Palette {
   }
 
   private move(delta: number): void {
-    if (!this.results || this.hits.length === 0) return;
-    const next = Math.max(0, Math.min(this.hits.length - 1, this.results.getSelectedIndex() + delta));
+    if (!this.results || this.hits.length === 0) {
+      return;
+    }
+    const next = Math.max(
+      0,
+      Math.min(this.hits.length - 1, this.results.getSelectedIndex() + delta)
+    );
     this.results.setSelectedIndex(next);
   }
 
   private refilter(query: string): void {
     this.hits = search(this.repo.searchIndex(), query, 50);
     if (this.results) {
-      this.results.options = this.hits.map((hit) => ({ name: hit.label, description: `${hit.kind} · ${hit.subtitle}` }));
+      this.results.options = this.hits.map((hit) => ({
+        name: hit.label,
+        description: `${hit.kind} · ${hit.subtitle}`,
+      }));
     }
   }
 
   private choose(index: number): void {
     const hit = this.hits[index];
-    if (!hit) return;
+    if (!hit) {
+      return;
+    }
     const section = KIND_TO_SECTION[hit.kind];
     this.close();
     this.onSelect(section, hit.key);

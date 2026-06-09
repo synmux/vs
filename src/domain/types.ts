@@ -4,25 +4,32 @@
  * decoupling the rest of the app from the wiki's Bucket field names.
  */
 
-export type EntityKind = "weapon" | "passive" | "evolution" | "character" | "stage" | "arcana" | "bestiary";
+export type EntityKind =
+  | "weapon"
+  | "passive"
+  | "evolution"
+  | "character"
+  | "stage"
+  | "arcana"
+  | "bestiary";
 
 export interface Weapon {
-  pageName: string;
-  name: string;
-  /** Cleaned type label: Normal | Evolution | Union | Special | Gift | … */
-  type: string;
   description: string;
-  ids: string[];
   dlc: string;
+  ids: string[];
   /** True when this weapon is itself an evolved/union form. */
   isEvolution: boolean;
+  name: string;
+  pageName: string;
+  /** Cleaned type label: Normal | Evolution | Union | Special | Gift | … */
+  type: string;
 }
 
 export interface Passive {
-  pageName: string;
-  name: string;
   description: string;
   dlc: string;
+  name: string;
+  pageName: string;
 }
 
 /**
@@ -31,74 +38,74 @@ export interface Passive {
  * are alternative paths.
  */
 export interface Recipe {
-  result: string;
   bases: string[];
-  requiredPassives: string[];
-  passiveMax: boolean;
-  glimmer: string;
   gift: boolean;
+  glimmer: string;
+  passiveMax: boolean;
+  requiredPassives: string[];
+  result: string;
 }
 
 export interface CharacterStats {
-  maxHealth: number;
-  recovery: number;
-  armor: number;
   amount: number;
-  moveSpeed: number;
-  might: number;
-  speed: number;
-  duration: number;
   area: number;
+  armor: number;
   cooldown: number;
-  magnet: number;
-  luck: number;
-  growth: number;
-  greed: number;
   curse: number;
+  duration: number;
+  greed: number;
+  growth: number;
+  luck: number;
+  magnet: number;
+  maxHealth: number;
+  might: number;
+  moveSpeed: number;
+  recovery: number;
+  speed: number;
 }
 
 export interface Character {
-  pageName: string;
-  name: string;
-  dlc: string;
-  description: string;
-  startingWeapons: string[];
-  unlockedBy: string;
   cost: number;
+  description: string;
+  dlc: string;
+  name: string;
+  pageName: string;
   secret: boolean;
+  startingWeapons: string[];
   stats: CharacterStats;
+  unlockedBy: string;
 }
 
 export interface Stage {
-  pageName: string;
-  name: string;
-  dlc: string;
   description: string;
+  dlc: string;
   effects: string;
-  stageType: string;
-  timeLimit: number;
+  enemyHealthBonus: number;
   goldMultiplier: number;
   luckBonus: number;
+  name: string;
+  pageName: string;
+  stageType: string;
+  timeLimit: number;
   xpBonus: number;
-  enemyHealthBonus: number;
 }
 
 export interface Arcana {
-  pageName: string;
-  name: string;
-  arcanaName: string;
-  dlc: string;
-  description: string;
-  arcanaType: string;
   affects: string[];
+  arcanaName: string;
+  arcanaType: string;
+  description: string;
+  dlc: string;
+  name: string;
   order: number;
+  pageName: string;
 }
 
 export interface BestiaryEntry {
-  pageName: string;
-  name: string;
-  dlc: string;
   description: string;
-  type: string;
+  dlc: string;
+  name: string;
   number: number;
+  pageName: string;
+  type: string;
 }

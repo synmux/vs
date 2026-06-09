@@ -169,9 +169,7 @@
       "order": 4,
       "dlc": "Vampire Survivors",
       "name": "Awake (IV)",
-      "affects": [
-        "Revival"
-      ],
+      "affects": ["Revival"],
       "unlocked_by": "Reach level 50 with [[Krochi Freetto|Krochi]].",
       "arcana_name": "Awake"
     },
@@ -182,9 +180,7 @@
       "order": 17,
       "dlc": "Vampire Survivors",
       "name": "Lost & Found Painting (XVII)",
-      "affects": [
-        "Duration"
-      ],
+      "affects": ["Duration"],
       "unlocked_by": "Reach level 50 with [[Poppea Pecorina|Poppea]].",
       "arcana_name": "Lost & Found Painting",
       "notes": "Stacks multiplicatively with other sources of [[Duration]]."
@@ -196,9 +192,7 @@
       "order": 5,
       "dlc": "Vampire Survivors",
       "name": "Chaos in the Dark Night (V)",
-      "affects": [
-        "Speed"
-      ],
+      "affects": ["Speed"],
       "unlocked_by": "Reach level 50 with [[Giovanna Grana|Giovanna]].",
       "arcana_name": "Chaos in the Dark Night",
       "notes": "Stacks multiplicatively with other sources of Projectile Speed."
@@ -273,9 +267,7 @@
       "order": 18,
       "dlc": "Vampire Survivors",
       "name": "Boogaloo of Illusions (XVIII)",
-      "affects": [
-        "Area"
-      ],
+      "affects": ["Area"],
       "unlocked_by": "Reach level 50 with [[Concetta Caciotta|Concetta]].",
       "arcana_name": "Boogaloo of Illusions",
       "notes": "Stacks multiplicatively with other sources of [[Area]]."
@@ -394,9 +386,7 @@
       "order": 8,
       "dlc": "Vampire Survivors",
       "name": "Mad Groove (VIII)",
-      "affects": [
-        "Passive item"
-      ],
+      "affects": ["Passive item"],
       "unlocked_by": "Reach minute 31 in the [[Mad Forest]].",
       "arcana_name": "Mad Groove"
     },
@@ -440,11 +430,7 @@
       "order": 20,
       "dlc": "Vampire Survivors",
       "name": "Silent Old Sanctuary (XX)",
-      "affects": [
-        "Reroll",
-        "Skip",
-        "Banish"
-      ],
+      "affects": ["Reroll", "Skip", "Banish"],
       "unlocked_by": "Reach minute 31 in the [[Dairy Plant]].",
       "arcana_name": "Silent Old Sanctuary"
     },
@@ -455,10 +441,7 @@
       "order": 0,
       "dlc": "Vampire Survivors",
       "name": "Game Killer (0)",
-      "affects": [
-        "Experience Gem",
-        "Treasure Chest"
-      ],
+      "affects": ["Experience Gem", "Treasure Chest"],
       "unlocked_by": "Defeat the [[The Ender|final enemy]] in the [[Cappella Magna]].",
       "arcana_name": "Game Killer"
     },
@@ -570,12 +553,7 @@
       "order": 13,
       "dlc": "Vampire Survivors",
       "name": "Wicked Season (XIII)",
-      "affects": [
-        "Growth",
-        "Luck",
-        "Greed",
-        "Curse"
-      ],
+      "affects": ["Growth", "Luck", "Greed", "Curse"],
       "unlocked_by": "Reach Level 50 with [[Christine Davain|Christine]].",
       "arcana_name": "Wicked Season",
       "notes": "Stacks multiplicatively with other sources of [[Growth]], [[Luck]], [[Greed]], and [[Curse]]"
@@ -759,12 +737,7 @@
       "order": 18,
       "dlc": "Vampire Survivors",
       "name": "Victorian Horror (XVIII)",
-      "affects": [
-        "Magnet",
-        "Greed",
-        "Curse",
-        "Little Heart"
-      ],
+      "affects": ["Magnet", "Greed", "Curse", "Little Heart"],
       "unlocked_by": "Survive 30 minutes with no weapons in Inverse [[Green Acres]].",
       "arcana_name": "Victorian Horror"
     },
@@ -848,12 +821,7 @@
       "order": 8,
       "dlc": "Vampire Survivors",
       "name": "Edge of the Earth (VIII)",
-      "affects": [
-        "Wings",
-        "Vacuum",
-        "Light source",
-        "Treasure Chest"
-      ],
+      "affects": ["Wings", "Vacuum", "Light source", "Treasure Chest"],
       "unlocked_by": "Trigger a [[Lavatrix Machina]] with [[Para Kooleo]].",
       "arcana_name": "Edge of the Earth"
     },
@@ -915,10 +883,7 @@
       "order": 0,
       "dlc": "Vampire Survivors",
       "name": "Stake to Your Heart (0)",
-      "affects": [
-        "Gold Coin (currency)",
-        "Experience Gem"
-      ],
+      "affects": ["Gold Coin (currency)", "Experience Gem"],
       "unlocked_by": "Defeat a [[Bat Dragon]] with [[Big Troubler]] while using the [[Game Killer]] Arcana.",
       "arcana_name": "Stake to Your Heart"
     }

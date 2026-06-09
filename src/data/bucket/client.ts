@@ -25,7 +25,10 @@ export class BucketError extends Error {
 }
 
 /** Validate and extract the rows from a raw Bucket API response body. */
-export function parseBucketResponse(json: unknown, query?: string): BucketRow[] {
+export function parseBucketResponse(
+  json: unknown,
+  query?: string
+): BucketRow[] {
   if (typeof json !== "object" || json === null) {
     throw new BucketError("Bucket response was not a JSON object", query);
   }
@@ -33,9 +36,14 @@ export function parseBucketResponse(json: unknown, query?: string): BucketRow[] 
   if (typeof body.error === "string" && body.error.length > 0) {
     throw new BucketError(body.error, query);
   }
-  if (body.bucket === undefined) return [];
+  if (body.bucket === undefined) {
+    return [];
+  }
   if (!Array.isArray(body.bucket)) {
-    throw new BucketError("Bucket response 'bucket' field was not an array", query);
+    throw new BucketError(
+      "Bucket response 'bucket' field was not an array",
+      query
+    );
   }
   return body.bucket as BucketRow[];
 }
@@ -46,7 +54,10 @@ export interface FetchBucketOptions {
   timeoutMs?: number;
 }
 
-export async function fetchBucket(query: BucketQuery, options: FetchBucketOptions = {}): Promise<BucketRow[]> {
+export async function fetchBucket(
+  query: BucketQuery,
+  options: FetchBucketOptions = {}
+): Promise<BucketRow[]> {
   const { fetchImpl = fetch, signal, timeoutMs = DEFAULT_TIMEOUT_MS } = options;
   const lua = query.toLua();
   const url = `${API_BASE}?action=bucket&format=json&query=${encodeURIComponent(lua)}`;

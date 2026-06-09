@@ -12,9 +12,7 @@
       "gold_multiplier": 1,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Forest Night Fever"
-      ],
+      "theme": ["Forest Night Fever"],
       "luck_bonus": 0
     },
     {
@@ -28,9 +26,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Forest Night Fever"
-      ],
+      "theme": ["Forest Night Fever"],
       "luck_bonus": 0
     },
     {
@@ -44,9 +40,7 @@
       "gold_multiplier": 3,
       "stage_type": "Stage",
       "enemy_health_bonus": 3,
-      "theme": [
-        "The Beginning"
-      ],
+      "theme": ["The Beginning"],
       "luck_bonus": 0.2
     },
     {
@@ -60,9 +54,7 @@
       "gold_multiplier": 1,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Reincarnated Echoes"
-      ],
+      "theme": ["Reincarnated Echoes"],
       "luck_bonus": 1
     },
     {
@@ -76,9 +68,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Reincarnated Echoes"
-      ],
+      "theme": ["Reincarnated Echoes"],
       "luck_bonus": 1.1
     },
     {
@@ -92,9 +82,7 @@
       "gold_multiplier": 2,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Reincarnated Echoes"
-      ],
+      "theme": ["Reincarnated Echoes"],
       "luck_bonus": 1.2
     },
     {
@@ -106,9 +94,7 @@
       "enemy_health_bonus": 1.5,
       "name": "Green Acres",
       "stage_type": "Challenge",
-      "theme": [
-        "No Mortals Allowed"
-      ],
+      "theme": ["No Mortals Allowed"],
       "effects": "\n* Random enemy waves from normal stages."
     },
     {
@@ -122,9 +108,7 @@
       "name": "Green Acres",
       "gold_multiplier": 1.5,
       "stage_type": "Challenge",
-      "theme": [
-        "No Mortals Allowed"
-      ],
+      "theme": ["No Mortals Allowed"],
       "effects": "\n* Random enemy waves from normal stages."
     },
     {
@@ -136,9 +120,7 @@
       "enemy_health_bonus": 1.5,
       "name": "Green Acres",
       "stage_type": "Challenge",
-      "theme": [
-        "No Mortals Allowed"
-      ],
+      "theme": ["No Mortals Allowed"],
       "effects": "\n* Random enemy waves from normal stages."
     },
     {
@@ -152,9 +134,7 @@
       "gold_multiplier": 1.2,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Iron Green Intent"
-      ],
+      "theme": ["Iron Green Intent"],
       "luck_bonus": 1
     },
     {
@@ -168,9 +148,7 @@
       "gold_multiplier": 1.7,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Iron Green Intent"
-      ],
+      "theme": ["Iron Green Intent"],
       "luck_bonus": 1.1
     },
     {
@@ -184,9 +162,7 @@
       "gold_multiplier": 2.2,
       "stage_type": "Stage",
       "enemy_health_bonus": 3,
-      "theme": [
-        "Iron Green Intent"
-      ],
+      "theme": ["Iron Green Intent"],
       "luck_bonus": 1.2
     },
     {
@@ -197,9 +173,7 @@
       "time_limit": 900,
       "name": "Il Molise",
       "stage_type": "Bonus",
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "effects": "\n* Enemies don't move."
     },
     {
@@ -213,9 +187,7 @@
       "name": "Il Molise",
       "gold_multiplier": 1.5,
       "stage_type": "Bonus",
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "effects": "\n* Enemies don't move."
     },
     {
@@ -226,9 +198,7 @@
       "time_limit": 900,
       "name": "Il Molise",
       "stage_type": "Bonus",
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "effects": "\n* Enemies don't move."
     },
     {
@@ -240,9 +210,7 @@
       "name": "Gallo Tower",
       "gold_multiplier": 1.3,
       "stage_type": "Stage",
-      "theme": [
-        "Gaze up at the Stars"
-      ]
+      "theme": ["Gaze up at the Stars"]
     },
     {
       "page_name": "Gallo Tower",
@@ -253,9 +221,7 @@
       "name": "Gallo Tower",
       "gold_multiplier": 1.8,
       "stage_type": "Stage",
-      "theme": [
-        "Gaze up at the Stars"
-      ],
+      "theme": ["Gaze up at the Stars"],
       "luck_bonus": 1.1
     },
     {
@@ -267,9 +233,7 @@
       "name": "Gallo Tower",
       "gold_multiplier": 1.3,
       "stage_type": "Stage",
-      "theme": [
-        "Gaze up at the Stars"
-      ]
+      "theme": ["Gaze up at the Stars"]
     },
     {
       "page_name": "The Bone Zone",
@@ -282,9 +246,7 @@
       "name": "The Bone Zone",
       "gold_multiplier": 1.5,
       "stage_type": "Challenge",
-      "theme": [
-        "Unholy Invocation"
-      ],
+      "theme": ["Unholy Invocation"],
       "effects": "\n* No item drops.\n* Enemies grow stronger over time."
     },
     {
@@ -298,9 +260,7 @@
       "name": "The Bone Zone",
       "gold_multiplier": 2,
       "stage_type": "Challenge",
-      "theme": [
-        "Unholy Invocation"
-      ],
+      "theme": ["Unholy Invocation"],
       "effects": "\n* No item drops.\n* Enemies grow stronger over time."
     },
     {
@@ -314,9 +274,7 @@
       "name": "The Bone Zone",
       "gold_multiplier": 1.5,
       "stage_type": "Challenge",
-      "theme": [
-        "Unholy Invocation"
-      ],
+      "theme": ["Unholy Invocation"],
       "effects": "\n* No item drops.\n* Enemies grow stronger over time."
     },
     {
@@ -329,9 +287,7 @@
       "name": "Moongolow",
       "gold_multiplier": 1,
       "stage_type": "Bonus",
-      "theme": [
-        "When the Clouds Drown"
-      ],
+      "theme": ["When the Clouds Drown"],
       "effects": "\n* Extra stage items."
     },
     {
@@ -345,9 +301,7 @@
       "name": "Moongolow",
       "gold_multiplier": 1.5,
       "stage_type": "Bonus",
-      "theme": [
-        "When the Clouds Drown"
-      ],
+      "theme": ["When the Clouds Drown"],
       "effects": "\n* Extra stage items."
     },
     {
@@ -360,9 +314,7 @@
       "name": "Moongolow",
       "gold_multiplier": 1,
       "stage_type": "Bonus",
-      "theme": [
-        "When the Clouds Drown"
-      ],
+      "theme": ["When the Clouds Drown"],
       "effects": "\n* Extra stage items."
     },
     {
@@ -375,9 +327,7 @@
       "gold_multiplier": 1,
       "stage_type": "Hidden Ground",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession X"
-      ],
+      "theme": ["Before Concession X"],
       "luck_bonus": 1
     },
     {
@@ -390,9 +340,7 @@
       "gold_multiplier": 1,
       "stage_type": "Hidden Ground",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession X"
-      ],
+      "theme": ["Before Concession X"],
       "luck_bonus": 1
     },
     {
@@ -405,9 +353,7 @@
       "gold_multiplier": 1,
       "stage_type": "Hidden Ground",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession X"
-      ],
+      "theme": ["Before Concession X"],
       "luck_bonus": 1
     },
     {
@@ -420,9 +366,7 @@
       "gold_multiplier": 1.4,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession"
-      ]
+      "theme": ["Before Concession"]
     },
     {
       "page_name": "Cappella Magna",
@@ -434,9 +378,7 @@
       "gold_multiplier": 1.9,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "luck_bonus": 1.1
     },
     {
@@ -449,9 +391,7 @@
       "gold_multiplier": 1.4,
       "stage_type": "Stage",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Before Concession"
-      ]
+      "theme": ["Before Concession"]
     },
     {
       "page_name": "Boss Rash",
@@ -462,9 +402,7 @@
       "enemy_health_bonus": 1.5,
       "name": "Boss Rash",
       "stage_type": "Challenge",
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "effects": "\n* Waves include a lot of bosses from all stages."
     },
     {
@@ -477,9 +415,7 @@
       "name": "Boss Rash",
       "gold_multiplier": 1.5,
       "stage_type": "Challenge",
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "effects": "\n* Waves include a lot of bosses from all stages."
     },
     {
@@ -491,9 +427,7 @@
       "enemy_health_bonus": 1.5,
       "name": "Boss Rash",
       "stage_type": "Challenge",
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "effects": "\n* Waves include a lot of bosses from all stages."
     },
     {
@@ -504,9 +438,7 @@
       "time_limit": 5940,
       "name": "Eudaimonia Machine",
       "stage_type": "???",
-      "theme": [
-        "The Eudaimonia Machine"
-      ]
+      "theme": ["The Eudaimonia Machine"]
     },
     {
       "page_name": "Eudaimonia Machine",
@@ -516,9 +448,7 @@
       "time_limit": 5940,
       "name": "Eudaimonia Machine",
       "stage_type": "???",
-      "theme": [
-        "The Eudaimonia Machine"
-      ]
+      "theme": ["The Eudaimonia Machine"]
     },
     {
       "page_name": "Eudaimonia Machine",
@@ -528,9 +458,7 @@
       "time_limit": 5940,
       "name": "Eudaimonia Machine",
       "stage_type": "???",
-      "theme": [
-        "The Eudaimonia Machine"
-      ]
+      "theme": ["The Eudaimonia Machine"]
     },
     {
       "page_name": "Tiny Bridge",
@@ -542,9 +470,7 @@
       "name": "Tiny Bridge",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Roaring Thunder"
-      ],
+      "theme": ["Roaring Thunder"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -558,9 +484,7 @@
       "name": "Tiny Bridge",
       "gold_multiplier": 1.8,
       "stage_type": "Challenge",
-      "theme": [
-        "Roaring Thunder"
-      ],
+      "theme": ["Roaring Thunder"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -573,9 +497,7 @@
       "name": "Tiny Bridge",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Roaring Thunder"
-      ],
+      "theme": ["Roaring Thunder"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -587,9 +509,7 @@
       "name": "Mt.Moonspell",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Mt.Moonspell",
@@ -600,9 +520,7 @@
       "name": "Mt.Moonspell",
       "gold_multiplier": 2,
       "stage_type": "Special",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ],
+      "theme": ["Legacy of the Moonspell (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -614,9 +532,7 @@
       "name": "Mt.Moonspell",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Bat Country",
@@ -628,9 +544,7 @@
       "name": "Bat Country",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Mighty Illusion"
-      ],
+      "theme": ["Mighty Illusion"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -644,9 +558,7 @@
       "name": "Bat Country",
       "gold_multiplier": 1.8,
       "stage_type": "Challenge",
-      "theme": [
-        "Mighty Illusion"
-      ],
+      "theme": ["Mighty Illusion"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -659,9 +571,7 @@
       "name": "Bat Country",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Mighty Illusion"
-      ],
+      "theme": ["Mighty Illusion"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -673,9 +583,7 @@
       "name": "Abyss Foscari",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Ashes of the Banished"
-      ]
+      "theme": ["Ashes of the Banished"]
     },
     {
       "page_name": "Abyss Foscari",
@@ -686,9 +594,7 @@
       "name": "Abyss Foscari",
       "gold_multiplier": 2,
       "stage_type": "Special",
-      "theme": [
-        "Ashes of the Banished"
-      ],
+      "theme": ["Ashes of the Banished"],
       "luck_bonus": 1.1
     },
     {
@@ -700,9 +606,7 @@
       "name": "Abyss Foscari",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Ashes of the Banished"
-      ]
+      "theme": ["Ashes of the Banished"]
     },
     {
       "page_name": "Lake Foscari",
@@ -713,9 +617,7 @@
       "name": "Lake Foscari",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Tides of the Foscari (track)"
-      ]
+      "theme": ["Tides of the Foscari (track)"]
     },
     {
       "page_name": "Lake Foscari",
@@ -726,9 +628,7 @@
       "name": "Lake Foscari",
       "gold_multiplier": 2,
       "stage_type": "Special",
-      "theme": [
-        "Tides of the Foscari (track)"
-      ],
+      "theme": ["Tides of the Foscari (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -740,9 +640,7 @@
       "name": "Lake Foscari",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Tides of the Foscari (track)"
-      ]
+      "theme": ["Tides of the Foscari (track)"]
     },
     {
       "page_name": "Astral Stair",
@@ -754,9 +652,7 @@
       "name": "Astral Stair",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "You only happen once"
-      ],
+      "theme": ["You only happen once"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -770,9 +666,7 @@
       "name": "Astral Stair",
       "gold_multiplier": 1.8,
       "stage_type": "Challenge",
-      "theme": [
-        "You only happen once"
-      ],
+      "theme": ["You only happen once"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -785,9 +679,7 @@
       "name": "Astral Stair",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "You only happen once"
-      ],
+      "theme": ["You only happen once"],
       "effects": "Enemies grow stronger over time."
     },
     {
@@ -798,9 +690,7 @@
       "time_limit": 1200,
       "name": "Whiteout",
       "stage_type": "Bonus",
-      "theme": [
-        "Remedy in the Snow"
-      ]
+      "theme": ["Remedy in the Snow"]
     },
     {
       "page_name": "Whiteout",
@@ -811,9 +701,7 @@
       "name": "Whiteout",
       "gold_multiplier": 1.25,
       "stage_type": "Bonus",
-      "theme": [
-        "Remedy in the Snow"
-      ]
+      "theme": ["Remedy in the Snow"]
     },
     {
       "page_name": "Whiteout",
@@ -823,9 +711,7 @@
       "time_limit": 1200,
       "name": "Whiteout",
       "stage_type": "Bonus",
-      "theme": [
-        "Remedy in the Snow"
-      ]
+      "theme": ["Remedy in the Snow"]
     },
     {
       "page_name": "Polus Replica",
@@ -836,9 +722,7 @@
       "name": "Polus Replica",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Emergency Meeting (track)"
-      ]
+      "theme": ["Emergency Meeting (track)"]
     },
     {
       "page_name": "Polus Replica",
@@ -849,9 +733,7 @@
       "name": "Polus Replica",
       "gold_multiplier": 2,
       "stage_type": "Special",
-      "theme": [
-        "Emergency Meeting (track)"
-      ],
+      "theme": ["Emergency Meeting (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -863,9 +745,7 @@
       "name": "Polus Replica",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Emergency Meeting (track)"
-      ]
+      "theme": ["Emergency Meeting (track)"]
     },
     {
       "page_name": "Space 54",
@@ -875,9 +755,7 @@
       "time_limit": 1200,
       "name": "Space 54",
       "stage_type": "Bonus",
-      "theme": [
-        "Moving the sun and the other stars"
-      ]
+      "theme": ["Moving the sun and the other stars"]
     },
     {
       "page_name": "Space 54",
@@ -888,9 +766,7 @@
       "name": "Space 54",
       "gold_multiplier": 1.8,
       "stage_type": "Bonus",
-      "theme": [
-        "Moving the sun and the other stars"
-      ],
+      "theme": ["Moving the sun and the other stars"],
       "luck_bonus": 1.1
     },
     {
@@ -901,9 +777,7 @@
       "time_limit": 1200,
       "name": "Space 54",
       "stage_type": "Bonus",
-      "theme": [
-        "Moving the sun and the other stars"
-      ]
+      "theme": ["Moving the sun and the other stars"]
     },
     {
       "page_name": "Neo Galuga",
@@ -914,9 +788,7 @@
       "name": "Neo Galuga",
       "gold_multiplier": 1,
       "stage_type": "Special",
-      "theme": [
-        "Battle in the Jungle - VS version"
-      ]
+      "theme": ["Battle in the Jungle - VS version"]
     },
     {
       "page_name": "Neo Galuga",
@@ -927,9 +799,7 @@
       "name": "Neo Galuga",
       "gold_multiplier": 1.25,
       "stage_type": "Special",
-      "theme": [
-        "Battle in the Jungle - VS version"
-      ]
+      "theme": ["Battle in the Jungle - VS version"]
     },
     {
       "page_name": "Neo Galuga",
@@ -940,9 +810,7 @@
       "name": "Neo Galuga",
       "gold_multiplier": 1,
       "stage_type": "Special",
-      "theme": [
-        "Battle in the Jungle - VS version"
-      ]
+      "theme": ["Battle in the Jungle - VS version"]
     },
     {
       "page_name": "Laborratory",
@@ -954,9 +822,7 @@
       "name": "Laborratory",
       "gold_multiplier": 1.2,
       "stage_type": "Challenge",
-      "theme": [
-        "Awe of the Unknown"
-      ],
+      "theme": ["Awe of the Unknown"],
       "effects": "\n*Pull levers for bonuses."
     },
     {
@@ -969,9 +835,7 @@
       "name": "Laborratory",
       "gold_multiplier": 1.7,
       "stage_type": "Challenge",
-      "theme": [
-        "Awe of the Unknown"
-      ],
+      "theme": ["Awe of the Unknown"],
       "effects": "\n*Pull levers for bonuses."
     },
     {
@@ -984,9 +848,7 @@
       "name": "Laborratory",
       "gold_multiplier": 1.2,
       "stage_type": "Challenge",
-      "theme": [
-        "Awe of the Unknown"
-      ],
+      "theme": ["Awe of the Unknown"],
       "effects": "\n*Pull levers for bonuses."
     },
     {
@@ -999,9 +861,7 @@
       "name": "Carlo Cart",
       "gold_multiplier": 1.2,
       "stage_type": "Bonus",
-      "theme": [
-        "Catch you at Carlo's"
-      ],
+      "theme": ["Catch you at Carlo's"],
       "effects": "Can't stop moving"
     },
     {
@@ -1014,9 +874,7 @@
       "name": "Carlo Cart",
       "gold_multiplier": 1.7,
       "stage_type": "Bonus",
-      "theme": [
-        "Catch you at Carlo's"
-      ],
+      "theme": ["Catch you at Carlo's"],
       "effects": "Can't stop moving"
     },
     {
@@ -1029,9 +887,7 @@
       "name": "Carlo Cart",
       "gold_multiplier": 1.2,
       "stage_type": "Bonus",
-      "theme": [
-        "Catch you at Carlo's"
-      ],
+      "theme": ["Catch you at Carlo's"],
       "effects": "Can't stop moving"
     },
     {
@@ -1044,9 +900,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "??? (Special)",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Call of the Bloodmoon"
-      ],
+      "theme": ["Call of the Bloodmoon"],
       "luck_bonus": 1
     },
     {
@@ -1059,9 +913,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "??? (Special)",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Call of the Bloodmoon"
-      ],
+      "theme": ["Call of the Bloodmoon"],
       "luck_bonus": 1
     },
     {
@@ -1074,9 +926,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "??? (Special)",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Call of the Bloodmoon"
-      ],
+      "theme": ["Call of the Bloodmoon"],
       "luck_bonus": 1
     },
     {
@@ -1088,9 +938,7 @@
       "name": "Ode to Castlevania",
       "gold_multiplier": 1.4,
       "stage_type": "Special",
-      "theme": [
-        "Vampire Killer - Vampire Survivors"
-      ]
+      "theme": ["Vampire Killer - Vampire Survivors"]
     },
     {
       "page_name": "Ode to Castlevania (stage)",
@@ -1101,9 +949,7 @@
       "name": "Ode to Castlevania",
       "gold_multiplier": 1.9,
       "stage_type": "Special",
-      "theme": [
-        "Vampire Killer - Vampire Survivors"
-      ],
+      "theme": ["Vampire Killer - Vampire Survivors"],
       "luck_bonus": 1.1
     },
     {
@@ -1115,9 +961,7 @@
       "name": "Ode to Castlevania",
       "gold_multiplier": 1.4,
       "stage_type": "Special",
-      "theme": [
-        "Vampire Killer - Vampire Survivors"
-      ]
+      "theme": ["Vampire Killer - Vampire Survivors"]
     },
     {
       "page_name": "Rotten Orchard",
@@ -1127,9 +971,7 @@
       "time_limit": 900,
       "name": "Rotten Orchard",
       "stage_type": "Chapter",
-      "theme": [
-        "Barely Staying Alive"
-      ],
+      "theme": ["Barely Staying Alive"],
       "xp_bonus": 2
     },
     {
@@ -1142,9 +984,7 @@
       "name": "Rotten Orchard",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Barely Staying Alive"
-      ],
+      "theme": ["Barely Staying Alive"],
       "luck_bonus": 1.2
     },
     {
@@ -1155,9 +995,7 @@
       "time_limit": 900,
       "name": "Rotten Orchard",
       "stage_type": "Chapter",
-      "theme": [
-        "Barely Staying Alive"
-      ],
+      "theme": ["Barely Staying Alive"],
       "xp_bonus": 2
     },
     {
@@ -1170,9 +1008,7 @@
       "name": "Hectic Highway",
       "gold_multiplier": 1,
       "stage_type": "Special",
-      "theme": [
-        "Yoru no Nikusyokujyu - VS version"
-      ],
+      "theme": ["Yoru no Nikusyokujyu - VS version"],
       "effects": "\n* Can't stop moving"
     },
     {
@@ -1185,9 +1021,7 @@
       "name": "Hectic Highway",
       "gold_multiplier": 1.25,
       "stage_type": "Special",
-      "theme": [
-        "Yoru no Nikusyokujyu - VS version"
-      ],
+      "theme": ["Yoru no Nikusyokujyu - VS version"],
       "effects": "\n* Can't stop moving"
     },
     {
@@ -1200,9 +1034,7 @@
       "name": "Hectic Highway",
       "gold_multiplier": 1,
       "stage_type": "Special",
-      "theme": [
-        "Yoru no Nikusyokujyu - VS version"
-      ],
+      "theme": ["Yoru no Nikusyokujyu - VS version"],
       "effects": "\n* Can't stop moving"
     },
     {
@@ -1212,9 +1044,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "The Beginning"
-      ],
+      "theme": ["The Beginning"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1226,9 +1056,7 @@
       "name": "Old Mad Forest",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "The Beginning"
-      ],
+      "theme": ["The Beginning"],
       "luck_bonus": 1.1
     },
     {
@@ -1238,9 +1066,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "The Beginning"
-      ],
+      "theme": ["The Beginning"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1250,9 +1076,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Forest Night Fever"
-      ],
+      "theme": ["Forest Night Fever"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1264,9 +1088,7 @@
       "name": "Rough Awakening",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Forest Night Fever"
-      ],
+      "theme": ["Forest Night Fever"],
       "luck_bonus": 1.1
     },
     {
@@ -1276,9 +1098,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Forest Night Fever"
-      ],
+      "theme": ["Forest Night Fever"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1288,9 +1108,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1302,9 +1120,7 @@
       "name": "Risky Woods",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "luck_bonus": 1.1
     },
     {
@@ -1314,9 +1130,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Needs More Fighting"
-      ],
+      "theme": ["Needs More Fighting"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1326,9 +1140,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Song Of Mana"
-      ],
+      "theme": ["Song Of Mana"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1341,9 +1153,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
       "enemy_health_bonus": 1.6,
-      "theme": [
-        "Song Of Mana"
-      ],
+      "theme": ["Song Of Mana"],
       "luck_bonus": 1.2
     },
     {
@@ -1353,9 +1163,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Song Of Mana"
-      ],
+      "theme": ["Song Of Mana"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1370,9 +1178,7 @@
       "gold_multiplier": 1,
       "stage_type": "Chapter",
       "enemy_health_bonus": 1,
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "luck_bonus": 1
     },
     {
@@ -1387,9 +1193,7 @@
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
       "enemy_health_bonus": 1.6,
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "luck_bonus": 1.2
     },
     {
@@ -1404,9 +1208,7 @@
       "gold_multiplier": 3,
       "stage_type": "Chapter",
       "enemy_health_bonus": 3,
-      "theme": [
-        "Vempair Survaivors"
-      ],
+      "theme": ["Vempair Survaivors"],
       "luck_bonus": 1.2
     },
     {
@@ -1416,9 +1218,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1430,9 +1230,7 @@
       "name": "Deep Lore",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Before Concession"
-      ]
+      "theme": ["Before Concession"]
     },
     {
       "page_name": "Deep Lore",
@@ -1441,9 +1239,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1453,9 +1249,7 @@
       "adventure_only": "",
       "stage_type": "Shop",
       "time_limit": 1800,
-      "theme": [
-        "Dust Elementals"
-      ],
+      "theme": ["Dust Elementals"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1466,9 +1260,7 @@
       "time_limit": 1800,
       "name": "Planar Bazaar",
       "stage_type": "Shop",
-      "theme": [
-        "Dust Elementals"
-      ],
+      "theme": ["Dust Elementals"],
       "xp_bonus": 1.25
     },
     {
@@ -1478,9 +1270,7 @@
       "adventure_only": "",
       "stage_type": "Shop",
       "time_limit": 1800,
-      "theme": [
-        "Dust Elementals"
-      ],
+      "theme": ["Dust Elementals"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -1492,9 +1282,7 @@
       "name": "Castle Grounds",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Castle Grounds",
@@ -1505,9 +1293,7 @@
       "name": "Castle Grounds",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ],
+      "theme": ["Legacy of the Moonspell (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -1519,9 +1305,7 @@
       "name": "Castle Grounds",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Shrine Valley",
@@ -1532,9 +1316,7 @@
       "name": "Shrine Valley",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Festive Breeze"
-      ]
+      "theme": ["Festive Breeze"]
     },
     {
       "page_name": "Shrine Valley",
@@ -1545,9 +1327,7 @@
       "name": "Shrine Valley",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Festive Breeze"
-      ],
+      "theme": ["Festive Breeze"],
       "luck_bonus": 1.1
     },
     {
@@ -1559,9 +1339,7 @@
       "name": "Shrine Valley",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Festive Breeze"
-      ]
+      "theme": ["Festive Breeze"]
     },
     {
       "page_name": "Forbidden Peaks",
@@ -1572,9 +1350,7 @@
       "name": "Forbidden Peaks",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Haze of Night"
-      ]
+      "theme": ["Haze of Night"]
     },
     {
       "page_name": "Forbidden Peaks",
@@ -1585,9 +1361,7 @@
       "name": "Forbidden Peaks",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Haze of Night"
-      ],
+      "theme": ["Haze of Night"],
       "luck_bonus": 1.1
     },
     {
@@ -1599,9 +1373,7 @@
       "name": "Forbidden Peaks",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Haze of Night"
-      ]
+      "theme": ["Haze of Night"]
     },
     {
       "page_name": "Hidden Cave",
@@ -1612,9 +1384,7 @@
       "name": "Hidden Cave",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Hell Night"
-      ]
+      "theme": ["Hell Night"]
     },
     {
       "page_name": "Hidden Cave",
@@ -1625,9 +1395,7 @@
       "name": "Hidden Cave",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Hell Night"
-      ],
+      "theme": ["Hell Night"],
       "luck_bonus": 1.1
     },
     {
@@ -1639,9 +1407,7 @@
       "name": "Hidden Cave",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Hell Night"
-      ]
+      "theme": ["Hell Night"]
     },
     {
       "page_name": "Frozen Lake",
@@ -1652,9 +1418,7 @@
       "name": "Frozen Lake",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Crystal Allure"
-      ]
+      "theme": ["Crystal Allure"]
     },
     {
       "page_name": "Frozen Lake",
@@ -1665,9 +1429,7 @@
       "name": "Frozen Lake",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Crystal Allure"
-      ],
+      "theme": ["Crystal Allure"],
       "luck_bonus": 1.1
     },
     {
@@ -1679,9 +1441,7 @@
       "name": "Frozen Lake",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Crystal Allure"
-      ]
+      "theme": ["Crystal Allure"]
     },
     {
       "page_name": "Tanuki Forest",
@@ -1692,9 +1452,7 @@
       "name": "Tanuki Forest",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Rumble Kachara"
-      ]
+      "theme": ["Rumble Kachara"]
     },
     {
       "page_name": "Tanuki Forest",
@@ -1705,9 +1463,7 @@
       "name": "Tanuki Forest",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Rumble Kachara"
-      ],
+      "theme": ["Rumble Kachara"],
       "luck_bonus": 1.1
     },
     {
@@ -1719,9 +1475,7 @@
       "name": "Tanuki Forest",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Rumble Kachara"
-      ]
+      "theme": ["Rumble Kachara"]
     },
     {
       "page_name": "Mt. Moonspell",
@@ -1732,9 +1486,7 @@
       "name": "Mt. Moonspell",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Mt. Moonspell",
@@ -1745,9 +1497,7 @@
       "name": "Mt. Moonspell",
       "gold_multiplier": 2,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ],
+      "theme": ["Legacy of the Moonspell (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -1759,9 +1509,7 @@
       "name": "Mt. Moonspell",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Legacy of the Moonspell (track)"
-      ]
+      "theme": ["Legacy of the Moonspell (track)"]
     },
     {
       "page_name": "Meeting Called",
@@ -1771,9 +1519,7 @@
       "time_limit": 1800,
       "name": "Meeting Called",
       "stage_type": "Chapter",
-      "theme": [
-        "Hide and Survive"
-      ],
+      "theme": ["Hide and Survive"],
       "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on?<br>Why have the doors locked? And were there always so many bins in the meeting room?<br>Someone needs to report this mess!"
     },
     {
@@ -1785,9 +1531,7 @@
       "name": "Meeting Called",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Hide and Survive"
-      ],
+      "theme": ["Hide and Survive"],
       "luck_bonus": 2.2
     },
     {
@@ -1798,9 +1542,7 @@
       "time_limit": 1800,
       "name": "Meeting Called",
       "stage_type": "Chapter",
-      "theme": [
-        "Hide and Survive"
-      ],
+      "theme": ["Hide and Survive"],
       "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on?<br>Why have the doors locked? And were there always so many bins in the meeting room?<br>Someone needs to report this mess!"
     },
     {
@@ -1811,9 +1553,7 @@
       "time_limit": 1800,
       "name": "Suspect Security",
       "stage_type": "Chapter",
-      "theme": [
-        "No Ducks Among Us"
-      ],
+      "theme": ["No Ducks Among Us"],
       "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside. Maybe if we can find the Engineer we could sneak back in through the vents."
     },
     {
@@ -1825,9 +1565,7 @@
       "name": "Suspect Security",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "No Ducks Among Us"
-      ],
+      "theme": ["No Ducks Among Us"],
       "luck_bonus": 2.2
     },
     {
@@ -1838,9 +1576,7 @@
       "time_limit": 1800,
       "name": "Suspect Security",
       "stage_type": "Chapter",
-      "theme": [
-        "No Ducks Among Us"
-      ],
+      "theme": ["No Ducks Among Us"],
       "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside. Maybe if we can find the Engineer we could sneak back in through the vents."
     },
     {
@@ -1851,9 +1587,7 @@
       "time_limit": 1800,
       "name": "Ejected",
       "stage_type": "Chapter",
-      "theme": [
-        "No Vampires Among Us"
-      ],
+      "theme": ["No Vampires Among Us"],
       "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures."
     },
     {
@@ -1865,9 +1599,7 @@
       "name": "Ejected",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "No Vampires Among Us"
-      ],
+      "theme": ["No Vampires Among Us"],
       "luck_bonus": 2.2
     },
     {
@@ -1878,9 +1610,7 @@
       "time_limit": 1800,
       "name": "Ejected",
       "stage_type": "Chapter",
-      "theme": [
-        "No Vampires Among Us"
-      ],
+      "theme": ["No Vampires Among Us"],
       "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures."
     },
     {
@@ -1891,9 +1621,7 @@
       "time_limit": 1800,
       "name": "Don't Get Ghosted",
       "stage_type": "Chapter",
-      "theme": [
-        "No Ghosts Among Us"
-      ],
+      "theme": ["No Ghosts Among Us"],
       "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.<br>I wonder if this creepy cavern is where all the other Crewmates ended up..."
     },
     {
@@ -1905,9 +1633,7 @@
       "name": "Don't Get Ghosted",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "No Ghosts Among Us"
-      ],
+      "theme": ["No Ghosts Among Us"],
       "luck_bonus": 2.2
     },
     {
@@ -1918,9 +1644,7 @@
       "time_limit": 1800,
       "name": "Don't Get Ghosted",
       "stage_type": "Chapter",
-      "theme": [
-        "No Ghosts Among Us"
-      ],
+      "theme": ["No Ghosts Among Us"],
       "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.<br>I wonder if this creepy cavern is where all the other Crewmates ended up..."
     },
     {
@@ -1931,9 +1655,7 @@
       "time_limit": 1800,
       "name": "Space Rocks",
       "stage_type": "Chapter",
-      "theme": [
-        "No Pirates Among Us"
-      ],
+      "theme": ["No Pirates Among Us"],
       "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Crewmates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!"
     },
     {
@@ -1945,9 +1667,7 @@
       "name": "Space Rocks",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "No Pirates Among Us"
-      ],
+      "theme": ["No Pirates Among Us"],
       "luck_bonus": 2.2
     },
     {
@@ -1958,9 +1678,7 @@
       "time_limit": 1800,
       "name": "Space Rocks",
       "stage_type": "Chapter",
-      "theme": [
-        "No Pirates Among Us"
-      ],
+      "theme": ["No Pirates Among Us"],
       "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Crewmates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!"
     },
     {
@@ -1971,9 +1689,7 @@
       "time_limit": 1800,
       "name": "Emergency Meating",
       "stage_type": "Chapter",
-      "theme": [
-        "Emergency Meeting (track)"
-      ],
+      "theme": ["Emergency Meeting (track)"],
       "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!"
     },
     {
@@ -1985,9 +1701,7 @@
       "name": "Emergency Meating",
       "gold_multiplier": 1.5,
       "stage_type": "Chapter",
-      "theme": [
-        "Emergency Meeting (track)"
-      ],
+      "theme": ["Emergency Meeting (track)"],
       "luck_bonus": 2.2
     },
     {
@@ -1998,9 +1712,7 @@
       "time_limit": 1800,
       "name": "Emergency Meating",
       "stage_type": "Chapter",
-      "theme": [
-        "Emergency Meeting (track)"
-      ],
+      "theme": ["Emergency Meeting (track)"],
       "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!"
     },
     {
@@ -2197,9 +1909,7 @@
       "time_limit": 1200,
       "name": "The Coop",
       "stage_type": "Bonus",
-      "theme": [
-        "Martes de poncle"
-      ],
+      "theme": ["Martes de poncle"],
       "xp_bonus": 0.35
     },
     {
@@ -2213,9 +1923,7 @@
       "gold_multiplier": 1.25,
       "stage_type": "Bonus",
       "enemy_health_bonus": 2,
-      "theme": [
-        "Martes de poncle"
-      ]
+      "theme": ["Martes de poncle"]
     },
     {
       "page_name": "The Coop",
@@ -2225,9 +1933,7 @@
       "time_limit": 1200,
       "name": "The Coop",
       "stage_type": "Bonus",
-      "theme": [
-        "Martes de poncle"
-      ],
+      "theme": ["Martes de poncle"],
       "xp_bonus": 0.35
     },
     {
@@ -2239,9 +1945,7 @@
       "name": "Emerald Diorama",
       "gold_multiplier": 1.25,
       "stage_type": "Special",
-      "theme": [
-        "A Quick Warm-Up - VS version"
-      ]
+      "theme": ["A Quick Warm-Up - VS version"]
     },
     {
       "page_name": "Emerald Diorama (stage)",
@@ -2252,9 +1956,7 @@
       "name": "Emerald Diorama",
       "gold_multiplier": 1.75,
       "stage_type": "Special",
-      "theme": [
-        "A Quick Warm-Up - VS version"
-      ],
+      "theme": ["A Quick Warm-Up - VS version"],
       "luck_bonus": 1.1
     },
     {
@@ -2266,9 +1968,7 @@
       "name": "Emerald Diorama",
       "gold_multiplier": 1.25,
       "stage_type": "Special",
-      "theme": [
-        "A Quick Warm-Up - VS version"
-      ]
+      "theme": ["A Quick Warm-Up - VS version"]
     },
     {
       "page_name": "Ice Age",
@@ -2277,9 +1977,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Remedy in the Snow"
-      ],
+      "theme": ["Remedy in the Snow"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2291,9 +1989,7 @@
       "name": "Ice Age",
       "gold_multiplier": 1.25,
       "stage_type": "Chapter",
-      "theme": [
-        "Remedy in the Snow"
-      ]
+      "theme": ["Remedy in the Snow"]
     },
     {
       "page_name": "Ice Age",
@@ -2302,9 +1998,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Remedy in the Snow"
-      ],
+      "theme": ["Remedy in the Snow"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2341,9 +2035,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Ashes of the Banished"
-      ],
+      "theme": ["Ashes of the Banished"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2353,9 +2045,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Ashes of the Banished"
-      ],
+      "theme": ["Ashes of the Banished"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2365,9 +2055,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Ashes of the Banished"
-      ],
+      "theme": ["Ashes of the Banished"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2377,9 +2065,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "I'm Every Reaper"
-      ],
+      "theme": ["I'm Every Reaper"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2389,9 +2075,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "I'm Every Reaper"
-      ],
+      "theme": ["I'm Every Reaper"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2401,9 +2085,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "I'm Every Reaper"
-      ],
+      "theme": ["I'm Every Reaper"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2413,9 +2095,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "The Heart of the World"
-      ],
+      "theme": ["The Heart of the World"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2425,9 +2105,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "The Heart of the World"
-      ],
+      "theme": ["The Heart of the World"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2437,9 +2115,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "The Heart of the World"
-      ],
+      "theme": ["The Heart of the World"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2449,9 +2125,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Hide and Steal"
-      ],
+      "theme": ["Hide and Steal"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2461,9 +2135,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Hide and Steal"
-      ],
+      "theme": ["Hide and Steal"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2473,9 +2145,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Hide and Steal"
-      ],
+      "theme": ["Hide and Steal"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2485,9 +2155,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Slaying Dragons"
-      ],
+      "theme": ["Slaying Dragons"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2497,9 +2165,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Slaying Dragons"
-      ],
+      "theme": ["Slaying Dragons"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2509,9 +2175,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Slaying Dragons"
-      ],
+      "theme": ["Slaying Dragons"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2521,9 +2185,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "An Introduction to Sorcery"
-      ],
+      "theme": ["An Introduction to Sorcery"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2533,9 +2195,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "An Introduction to Sorcery"
-      ],
+      "theme": ["An Introduction to Sorcery"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2545,9 +2205,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "An Introduction to Sorcery"
-      ],
+      "theme": ["An Introduction to Sorcery"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2557,9 +2215,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2569,9 +2225,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2581,9 +2235,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Before Concession"
-      ],
+      "theme": ["Before Concession"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2593,9 +2245,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Martes de poncle"
-      ],
+      "theme": ["Martes de poncle"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2605,9 +2255,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Martes de poncle"
-      ],
+      "theme": ["Martes de poncle"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2617,9 +2265,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Martes de poncle"
-      ],
+      "theme": ["Martes de poncle"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -2629,9 +2275,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Tides of the Foscari (track)"
-      ],
+      "theme": ["Tides of the Foscari (track)"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2641,9 +2285,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Tides of the Foscari (track)"
-      ],
+      "theme": ["Tides of the Foscari (track)"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2653,9 +2295,7 @@
       "adventure_only": "",
       "stage_type": "Chapter",
       "time_limit": 1800,
-      "theme": [
-        "Tides of the Foscari (track)"
-      ],
+      "theme": ["Tides of the Foscari (track)"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -2667,9 +2307,7 @@
       "name": "The True Horror",
       "gold_multiplier": 1.5,
       "stage_type": "???",
-      "theme": [
-        "The World Eater (track)"
-      ],
+      "theme": ["The World Eater (track)"],
       "luck_bonus": 1
     },
     {
@@ -2681,9 +2319,7 @@
       "name": "The True Horror",
       "gold_multiplier": 2,
       "stage_type": "???",
-      "theme": [
-        "The World Eater (track)"
-      ],
+      "theme": ["The World Eater (track)"],
       "luck_bonus": 1.1
     },
     {
@@ -2695,9 +2331,7 @@
       "name": "The True Horror",
       "gold_multiplier": 1.5,
       "stage_type": "???",
-      "theme": [
-        "The World Eater (track)"
-      ],
+      "theme": ["The World Eater (track)"],
       "luck_bonus": 1
     },
     {
@@ -2709,9 +2343,7 @@
       "name": "Westwoods",
       "gold_multiplier": 1.2,
       "stage_type": "Challenge",
-      "theme": [
-        "Killer Squiller"
-      ]
+      "theme": ["Killer Squiller"]
     },
     {
       "page_name": "Westwoods",
@@ -2722,9 +2354,7 @@
       "name": "Westwoods",
       "gold_multiplier": 1.2,
       "stage_type": "Challenge",
-      "theme": [
-        "Killer Squiller"
-      ]
+      "theme": ["Killer Squiller"]
     },
     {
       "page_name": "Westwoods",
@@ -2735,9 +2365,7 @@
       "name": "Westwoods",
       "gold_multiplier": 1.2,
       "stage_type": "Challenge",
-      "theme": [
-        "Killer Squiller"
-      ]
+      "theme": ["Killer Squiller"]
     },
     {
       "page_name": "Mazerella",
@@ -2748,9 +2376,7 @@
       "name": "Mazerella",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Dancing Widow"
-      ]
+      "theme": ["Dancing Widow"]
     },
     {
       "page_name": "Mazerella",
@@ -2761,9 +2387,7 @@
       "name": "Mazerella",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Dancing Widow"
-      ]
+      "theme": ["Dancing Widow"]
     },
     {
       "page_name": "Mazerella",
@@ -2774,9 +2398,7 @@
       "name": "Mazerella",
       "gold_multiplier": 1.3,
       "stage_type": "Challenge",
-      "theme": [
-        "Dancing Widow"
-      ]
+      "theme": ["Dancing Widow"]
     },
     {
       "page_name": "Ante Chamber (stage)",
@@ -2786,9 +2408,7 @@
       "time_limit": 1800,
       "name": "Ante Chamber",
       "stage_type": "Special",
-      "theme": [
-        "Ante Chamber - Balatro Main Theme"
-      ],
+      "theme": ["Ante Chamber - Balatro Main Theme"],
       "effects": "Start with Outer Saboteur"
     },
     {
@@ -2800,9 +2420,7 @@
       "name": "Ante Chamber",
       "gold_multiplier": 1.5,
       "stage_type": "Special",
-      "theme": [
-        "Ante Chamber - Balatro Main Theme"
-      ],
+      "theme": ["Ante Chamber - Balatro Main Theme"],
       "effects": "Start with Outer Saboteur"
     },
     {
@@ -2816,9 +2434,7 @@
       "name": "Ante Chamber",
       "gold_multiplier": 3,
       "stage_type": "Special",
-      "theme": [
-        "Ante Chamber - Balatro Main Theme"
-      ],
+      "theme": ["Ante Chamber - Balatro Main Theme"],
       "effects": "Start with Outer Saboteur"
     },
     {
@@ -3046,9 +2662,7 @@
       "name": "The Lycaeum",
       "gold_multiplier": 1.2,
       "stage_type": "Bonus",
-      "theme": [
-        "Murder on the Seafloor"
-      ]
+      "theme": ["Murder on the Seafloor"]
     },
     {
       "page_name": "The Lycaeum",
@@ -3059,9 +2673,7 @@
       "name": "The Lycaeum",
       "gold_multiplier": 1.7,
       "stage_type": "Bonus",
-      "theme": [
-        "Murder on the Seafloor"
-      ],
+      "theme": ["Murder on the Seafloor"],
       "luck_bonus": 1.1
     },
     {
@@ -3074,9 +2686,7 @@
       "gold_multiplier": 3.2,
       "stage_type": "Bonus",
       "enemy_health_bonus": 3,
-      "theme": [
-        "Murder on the Seafloor"
-      ],
+      "theme": ["Murder on the Seafloor"],
       "luck_bonus": 1.2
     }
   ]

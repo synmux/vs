@@ -1,27 +1,38 @@
 {
+  "dependencies": {
+    "@opentui/core": "0.3.4",
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.16",
+    "@types/bun": "latest",
+    "lefthook": "^2.1.9",
+    "ultracite": "7.8.2"
+  },
   "name": "vs",
-  "version": "0.1.0",
-  "description": "Vampire Survivors companion TUI — browse weapon evolutions and game data from the wiki",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "bin": {
-    "vs": "index.ts"
+  "peerDependencies": {
+    "typescript": "^5"
   },
   "scripts": {
     "start": "bun run index.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
-    "build:bin": "bun build index.ts --compile --outfile dist/vs"
+    "build:bin": "bun build index.ts --compile --outfile dist/vs",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
+  "type": "module",
+  "version": "0.1.0",
+  "author": {
+    "name": "syn",
+    "email": "syn@syn.as",
+    "url": "https://syn.horse"
   },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@opentui/core": "0.3.4",
-    "commander": "^15.0.0"
+  "description": "Vampire Survivors companion TUI — browse weapon evolutions and game data from the wiki",
+  "module": "index.ts",
+  "private": true,
+  "bin": {
+    "vs": "index.ts"
   }
 }

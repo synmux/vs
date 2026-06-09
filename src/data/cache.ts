@@ -10,27 +10,36 @@
 import { mkdir, rename } from "node:fs/promises";
 import { dirname } from "node:path";
 import { datasetPath } from "../util/paths.ts";
-import { DATASET_VERSION } from "./schema.ts";
 import type { Dataset } from "./schema.ts";
+import { DATASET_VERSION } from "./schema.ts";
 
 type Env = Record<string, string | undefined>;
 
 const STALE_AFTER_DAYS = 14;
 const MS_PER_DAY = 86_400_000;
 
-export async function readDataset(env: Env = process.env): Promise<Dataset | null> {
+export async function readDataset(
+  env: Env = process.env
+): Promise<Dataset | null> {
   const file = Bun.file(datasetPath(env));
-  if (!(await file.exists())) return null;
+  if (!(await file.exists())) {
+    return null;
+  }
   try {
     const data = (await file.json()) as Dataset;
-    if (data?.meta?.version !== DATASET_VERSION) return null;
+    if (data?.meta?.version !== DATASET_VERSION) {
+      return null;
+    }
     return data;
   } catch {
     return null; // corrupt JSON → treat as no cache
   }
 }
 
-export async function writeDataset(dataset: Dataset, env: Env = process.env): Promise<void> {
+export async function writeDataset(
+  dataset: Dataset,
+  env: Env = process.env
+): Promise<void> {
   const path = datasetPath(env);
   await mkdir(dirname(path), { recursive: true });
   const tempPath = `${path}.tmp`;
@@ -45,9 +54,15 @@ export interface CacheStaleness {
 }
 
 /** Describe how old a cache is, for the status bar and refresh hints. */
-export function cacheStaleness(fetchedAt: string, now: Date = new Date()): CacheStaleness {
-  const days = Math.floor((now.getTime() - new Date(fetchedAt).getTime()) / MS_PER_DAY);
+export function cacheStaleness(
+  fetchedAt: string,
+  now: Date = new Date()
+): CacheStaleness {
+  const days = Math.floor(
+    (now.getTime() - new Date(fetchedAt).getTime()) / MS_PER_DAY
+  );
   const stale = days > STALE_AFTER_DAYS;
-  const label = days <= 0 ? "fetched today" : days === 1 ? "1 day old" : `${days} days old`;
+  const label =
+    days <= 0 ? "fetched today" : days === 1 ? "1 day old" : `${days} days old`;
   return { days, label, stale };
 }

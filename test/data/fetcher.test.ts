@@ -7,22 +7,34 @@ function fakeFetch(): typeof fetch {
   return (async (url: string | URL) => {
     const target = String(url);
     if (target.includes(encodeURIComponent("bucket('passive_evolutions')"))) {
-      return new Response(
-        JSON.stringify({
-          bucket: [{ page_name: "Hollow Heart", base_weapon: ["Whip"], evolution: "Bloody Tear", passive_max: "" }],
-        }),
-      );
+      return Response.json({
+        bucket: [
+          {
+            page_name: "Hollow Heart",
+            base_weapon: ["Whip"],
+            evolution: "Bloody Tear",
+            passive_max: "",
+          },
+        ],
+      });
     }
     if (target.includes(encodeURIComponent("bucket('infobox_weapon')"))) {
-      return new Response(JSON.stringify({ bucket: [{ page_name: "Whip", name: "Whip", type: "Normal", id: ["WHIP"] }] }));
+      return Response.json({
+        bucket: [
+          { page_name: "Whip", name: "Whip", type: "Normal", id: ["WHIP"] },
+        ],
+      });
     }
-    return new Response(JSON.stringify({ bucket: [] }));
+    return Response.json({ bucket: [] });
   }) as unknown as typeof fetch;
 }
 
 describe("fetchAllTables", () => {
   test("fetches and normalizes every table into a dataset", async () => {
-    const dataset = await fetchAllTables({ fetchImpl: fakeFetch(), now: new Date("2026-06-09T00:00:00.000Z") });
+    const dataset = await fetchAllTables({
+      fetchImpl: fakeFetch(),
+      now: new Date("2026-06-09T00:00:00.000Z"),
+    });
 
     for (const table of TABLE_NAMES) {
       expect(dataset.tables[table]).toBeDefined();
@@ -56,7 +68,10 @@ describe("fetchAllTables", () => {
   });
 
   test("records meta with version, timestamp, and per-table counts", async () => {
-    const dataset = await fetchAllTables({ fetchImpl: fakeFetch(), now: new Date("2026-06-09T00:00:00.000Z") });
+    const dataset = await fetchAllTables({
+      fetchImpl: fakeFetch(),
+      now: new Date("2026-06-09T00:00:00.000Z"),
+    });
     expect(dataset.meta.version).toBe(1);
     expect(dataset.meta.fetchedAt).toBe("2026-06-09T00:00:00.000Z");
     expect(dataset.meta.counts.infobox_weapon).toBe(1);

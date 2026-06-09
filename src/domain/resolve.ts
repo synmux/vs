@@ -5,12 +5,20 @@
  */
 import { fuzzyScore } from "../util/fuzzy.ts";
 
-export function resolveByName<T>(items: T[], query: string, nameOf: (item: T) => string): T | undefined {
+export function resolveByName<T>(
+  items: T[],
+  query: string,
+  nameOf: (item: T) => string
+): T | undefined {
   const normalized = query.trim().toLowerCase();
-  if (normalized.length === 0) return undefined;
+  if (normalized.length === 0) {
+    return;
+  }
 
   for (const item of items) {
-    if (nameOf(item).toLowerCase() === normalized) return item;
+    if (nameOf(item).toLowerCase() === normalized) {
+      return item;
+    }
   }
 
   let best: T | undefined;

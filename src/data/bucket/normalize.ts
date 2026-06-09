@@ -19,7 +19,7 @@ export type FieldSpec = Record<string, FieldType>;
 
 export function normalizeRow<T = Record<string, unknown>>(
   raw: Record<string, unknown>,
-  spec: FieldSpec,
+  spec: FieldSpec
 ): T {
   const out: Record<string, unknown> = {};
 
@@ -32,11 +32,12 @@ export function normalizeRow<T = Record<string, unknown>>(
         out[field] = present && value != null ? String(value) : "";
         break;
       case "string[]":
-        out[field] = !present || value == null
-          ? []
-          : Array.isArray(value)
-            ? value.map((item) => String(item))
-            : [String(value)];
+        out[field] =
+          !present || value == null
+            ? []
+            : Array.isArray(value)
+              ? value.map((item) => String(item))
+              : [String(value)];
         break;
       case "bool":
         out[field] = present;

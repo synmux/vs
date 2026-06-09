@@ -3,914 +3,677 @@
   "bucket": [
     {
       "page_name": "Hollow Heart",
-      "base_weapon": [
-        "Whip"
-      ],
+      "base_weapon": ["Whip"],
       "evolution": "Bloody Tear"
     },
     {
       "page_name": "Hollow Heart",
-      "base_weapon": [
-        "Pako Battiliar"
-      ],
+      "base_weapon": ["Pako Battiliar"],
       "evolution": "Mazo Familiar",
       "passive_max": ""
     },
     {
       "page_name": "Hollow Heart",
-      "base_weapon": [
-        "Metal Claw"
-      ],
+      "base_weapon": ["Metal Claw"],
       "evolution": "Big Fuzzy Fist",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Hollow Heart",
-      "base_weapon": [
-        "Vanitas Whip"
-      ],
+      "base_weapon": ["Vanitas Whip"],
       "evolution": "Aurablaster Tip"
     },
     {
       "page_name": "Hollow Heart",
-      "base_weapon": [
-        "Mace"
-      ],
+      "base_weapon": ["Mace"],
       "evolution": "Stamazza",
       "passive_max": ""
     },
     {
       "page_name": "Empty Tome",
-      "base_weapon": [
-        "Magic Wand"
-      ],
+      "base_weapon": ["Magic Wand"],
       "evolution": "Holy Wand"
     },
     {
       "page_name": "Empty Tome",
-      "base_weapon": [
-        "Phas3r"
-      ],
+      "base_weapon": ["Phas3r"],
       "evolution": "Photonstorm",
       "passive_max": ""
     },
     {
       "page_name": "Empty Tome",
-      "base_weapon": [
-        "Spread Shot"
-      ],
+      "base_weapon": ["Spread Shot"],
       "evolution": "Prototype C",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Empty Tome",
-      "base_weapon": [
-        "Shuriken"
-      ],
+      "base_weapon": ["Shuriken"],
       "evolution": "Yagyu Shuriken"
     },
     {
       "page_name": "Empty Tome",
-      "base_weapon": [
-        "Globus"
-      ],
+      "base_weapon": ["Globus"],
       "evolution": "Nitesco",
       "passive_max": ""
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Knife"
-      ],
+      "base_weapon": ["Knife"],
       "evolution": "Thousand Edge"
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Flash Arrow"
-      ],
+      "base_weapon": ["Flash Arrow"],
       "evolution": "Millionaire",
       "passive_max": ""
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Short Gun"
-      ],
+      "base_weapon": ["Short Gun"],
       "evolution": "Prototype B",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Curved Knife"
-      ],
+      "base_weapon": ["Curved Knife"],
       "evolution": "Bwaka Knife"
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Gale Force"
-      ],
+      "base_weapon": ["Gale Force"],
       "evolution": "Pneuma Tempestas",
       "passive_max": ""
     },
     {
       "page_name": "Bracer",
-      "base_weapon": [
-        "Ammo Appalate"
-      ],
+      "base_weapon": ["Ammo Appalate"],
       "evolution": "Gunastrophe",
       "passive_max": ""
     },
     {
       "page_name": "Candelabrador",
-      "base_weapon": [
-        "Axe"
-      ],
+      "base_weapon": ["Axe"],
       "evolution": "Death Spiral"
     },
     {
       "page_name": "Candelabrador",
-      "base_weapon": [
-        "Four Seasons"
-      ],
+      "base_weapon": ["Four Seasons"],
       "evolution": "Godai Shuffle",
       "passive_max": ""
     },
     {
       "page_name": "Candelabrador",
-      "base_weapon": [
-        "Firearm"
-      ],
+      "base_weapon": ["Firearm"],
       "evolution": "Fire-L3GS",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Candelabrador",
-      "base_weapon": [
-        "Vibhuti Whip"
-      ],
+      "base_weapon": ["Vibhuti Whip"],
       "evolution": "Daybreaker Tip"
     },
     {
       "page_name": "Candelabrador",
-      "base_weapon": [
-        "Hand Grenade"
-      ],
+      "base_weapon": ["Hand Grenade"],
       "evolution": "The RPG",
       "passive_max": ""
     },
     {
       "page_name": "Clover",
-      "base_weapon": [
-        "Cross"
-      ],
+      "base_weapon": ["Cross"],
       "evolution": "Heaven Sword"
     },
     {
       "page_name": "Clover",
-      "base_weapon": [
-        "Santa Javelin"
-      ],
+      "base_weapon": ["Santa Javelin"],
       "evolution": "Seraphic Cry",
       "passive_max": ""
     },
     {
       "page_name": "Clover",
-      "base_weapon": [
-        "Blade Crossbow"
-      ],
+      "base_weapon": ["Blade Crossbow"],
       "evolution": "BFC2000-AD",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Clover",
-      "base_weapon": [
-        "Platinum Whip"
-      ],
+      "base_weapon": ["Platinum Whip"],
       "evolution": "Cross Crasher Tip"
     },
     {
       "page_name": "Clover",
-      "base_weapon": [
-        "Refectio"
-      ],
+      "base_weapon": ["Refectio"],
       "evolution": "Sanctuary",
       "passive_max": ""
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "King Bible"
-      ],
+      "base_weapon": ["King Bible"],
       "evolution": "Unholy Vespers"
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "Chaos Rune"
-      ],
+      "base_weapon": ["Chaos Rune"],
       "evolution": "Wicked Ruler",
       "passive_max": ""
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "Mille Bolle Blu"
-      ],
+      "base_weapon": ["Mille Bolle Blu"],
       "evolution": "Boo Roo Boolle",
       "passive_max": ""
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "Javelin"
-      ],
+      "base_weapon": ["Javelin"],
       "evolution": "Long Inus"
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "Ice Fang"
-      ],
+      "base_weapon": ["Ice Fang"],
       "evolution": "Cocytus",
       "passive_max": ""
     },
     {
       "page_name": "Spellbinder",
-      "base_weapon": [
-        "Splashers"
-      ],
+      "base_weapon": ["Splashers"],
       "evolution": "Pursuant Blades",
       "glimmer": "Dual Whirlwind"
     },
     {
       "page_name": "Spinach",
-      "base_weapon": [
-        "Fire Wand"
-      ],
+      "base_weapon": ["Fire Wand"],
       "evolution": "Hellfire"
     },
     {
       "page_name": "Spinach",
-      "base_weapon": [
-        "Raging Fire"
-      ],
+      "base_weapon": ["Raging Fire"],
       "evolution": "Salamender",
       "passive_max": ""
     },
     {
       "page_name": "Spinach",
-      "base_weapon": [
-        "Tyrfing"
-      ],
+      "base_weapon": ["Tyrfing"],
       "evolution": "Rune Sword"
     },
     {
       "page_name": "Spinach",
-      "base_weapon": [
-        "Eagle Gun"
-      ],
+      "base_weapon": ["Eagle Gun"],
       "evolution": "Pendragon",
       "glimmer": "Falconfire"
     },
     {
       "page_name": "Pummarola",
-      "base_weapon": [
-        "Garlic"
-      ],
+      "base_weapon": ["Garlic"],
       "evolution": "Soul Eater"
     },
     {
       "page_name": "Pummarola",
-      "base_weapon": [
-        "Silver Wind"
-      ],
+      "base_weapon": ["Silver Wind"],
       "evolution": "Festive Winds",
       "passive_max": ""
     },
     {
       "page_name": "Pummarola",
-      "base_weapon": [
-        "Star Flail"
-      ],
+      "base_weapon": ["Star Flail"],
       "evolution": "Moon Rod",
       "passive_max": ""
     },
     {
       "page_name": "Pummarola",
-      "base_weapon": [
-        "Guardian's Targe"
-      ],
+      "base_weapon": ["Guardian's Targe"],
       "evolution": "Sacred Beasts Tower Shield"
     },
     {
       "page_name": "Pummarola",
-      "base_weapon": [
-        "Kick"
-      ],
+      "base_weapon": ["Kick"],
       "evolution": "Triangle Kick",
       "glimmer": "Thunder Kick"
     },
     {
       "page_name": "Duplicator",
-      "base_weapon": [
-        "Lightning Ring"
-      ],
+      "base_weapon": ["Lightning Ring"],
       "evolution": "Thunder Loop"
     },
     {
       "page_name": "Duplicator",
-      "base_weapon": [
-        "Summon Night"
-      ],
+      "base_weapon": ["Summon Night"],
       "evolution": "Echo Night",
       "passive_max": ""
     },
     {
       "page_name": "Duplicator",
-      "base_weapon": [
-        "Homing Miss"
-      ],
+      "base_weapon": ["Homing Miss"],
       "evolution": "Multistage Missiles",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Duplicator",
-      "base_weapon": [
-        "Fulgur"
-      ],
+      "base_weapon": ["Fulgur"],
       "evolution": "Tenebris Tonitrus",
       "passive_max": ""
     },
     {
       "page_name": "Duplicator",
-      "base_weapon": [
-        "Trident"
-      ],
+      "base_weapon": ["Trident"],
       "evolution": "Gungnir-Souris",
       "passive_max": ""
     },
     {
       "page_name": "Wings",
-      "base_weapon": [
-        "Shadow Pinion"
-      ],
+      "base_weapon": ["Shadow Pinion"],
       "evolution": "Valkyrie Turner"
     },
     {
       "page_name": "Wings",
-      "base_weapon": [
-        "Glass Fandango"
-      ],
+      "base_weapon": ["Glass Fandango"],
       "evolution": "Celestial Voulge",
       "passive_max": ""
     },
     {
       "page_name": "Wings",
-      "base_weapon": [
-        "Prism Lass"
-      ],
+      "base_weapon": ["Prism Lass"],
       "evolution": "Time Warp",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Wings",
-      "base_weapon": [
-        "Alucard Spear"
-      ],
+      "base_weapon": ["Alucard Spear"],
       "evolution": "Thunderbolt Spear"
     },
     {
       "page_name": "Wings",
-      "base_weapon": [
-        "Sonic Dash"
-      ],
+      "base_weapon": ["Sonic Dash"],
       "evolution": "Rapidus Fio",
       "passive_max": ""
     },
     {
       "page_name": "Attractorb",
-      "base_weapon": [
-        "Santa Water"
-      ],
+      "base_weapon": ["Santa Water"],
       "evolution": "La Borra"
     },
     {
       "page_name": "Attractorb",
-      "base_weapon": [
-        "Mirage Robe"
-      ],
+      "base_weapon": ["Mirage Robe"],
       "evolution": "J'Odore",
       "passive_max": ""
     },
     {
       "page_name": "Attractorb",
-      "base_weapon": [
-        "Diver Mines"
-      ],
+      "base_weapon": ["Diver Mines"],
       "evolution": "Atmo-Torpedo",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Attractorb",
-      "base_weapon": [
-        "Dragon Water Whip"
-      ],
+      "base_weapon": ["Dragon Water Whip"],
       "evolution": "Hydrostormer Tip"
     },
     {
       "page_name": "Attractorb",
-      "base_weapon": [
-        "Umbra"
-      ],
+      "base_weapon": ["Umbra"],
       "evolution": "Vol Umbra",
       "passive_max": ""
     },
     {
       "page_name": "Crown",
-      "base_weapon": [
-        "Pentagram"
-      ],
+      "base_weapon": ["Pentagram"],
       "evolution": "Gorgeous Moon"
     },
     {
       "page_name": "Crown",
-      "base_weapon": [
-        "Prismatic Missile"
-      ],
+      "base_weapon": ["Prismatic Missile"],
       "evolution": "Luminaire",
       "passive_max": ""
     },
     {
       "page_name": "Crown",
-      "base_weapon": [
-        "Wind Whip"
-      ],
+      "base_weapon": ["Wind Whip"],
       "evolution": "Spirit Tornado Tip"
     },
     {
       "page_name": "Crown",
-      "base_weapon": [
-        "Luminatio"
-      ],
+      "base_weapon": ["Luminatio"],
       "evolution": "Vol Luminatio",
       "passive_max": ""
     },
     {
       "page_name": "Crown",
-      "base_weapon": [
-        "Emerald Rapture"
-      ],
+      "base_weapon": ["Emerald Rapture"],
       "evolution": "Emerald Wave"
     },
     {
       "page_name": "Stone Mask",
-      "base_weapon": [
-        "Gatti Amari"
-      ],
+      "base_weapon": ["Gatti Amari"],
       "evolution": "Vicious Hunger"
     },
     {
       "page_name": "Stone Mask",
-      "base_weapon": [
-        "Night Sword"
-      ],
+      "base_weapon": ["Night Sword"],
       "evolution": "Muramasa",
       "passive_max": ""
     },
     {
       "page_name": "Stone Mask",
-      "base_weapon": [
-        "Jet Black Whip"
-      ],
+      "base_weapon": ["Jet Black Whip"],
       "evolution": "Mormegil Tip"
     },
     {
       "page_name": "Stone Mask",
-      "base_weapon": [
-        "Rock Riot"
-      ],
+      "base_weapon": ["Rock Riot"],
       "evolution": "Gemma Torpor",
       "passive_max": ""
     },
     {
       "page_name": "Stone Mask",
-      "base_weapon": [
-        "Sanguine Star"
-      ],
+      "base_weapon": ["Sanguine Star"],
       "evolution": "Blood Chalice",
       "glimmer": "Blood Rage"
     },
     {
       "page_name": "Armor (item)",
-      "base_weapon": [
-        "Runetracer"
-      ],
+      "base_weapon": ["Runetracer"],
       "evolution": "NO FUTURE"
     },
     {
       "page_name": "Armor (item)",
-      "base_weapon": [
-        "Eskizzibur"
-      ],
+      "base_weapon": ["Eskizzibur"],
       "evolution": "Legionnaire",
       "passive_max": ""
     },
     {
       "page_name": "Armor (item)",
-      "base_weapon": [
-        "Sonic Bloom"
-      ],
+      "base_weapon": ["Sonic Bloom"],
       "evolution": "Wave Beam",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Armor (item)",
-      "base_weapon": [
-        "Iron Ball"
-      ],
+      "base_weapon": ["Iron Ball"],
       "evolution": "Wrecking Ball"
     },
     {
       "page_name": "Armor (item)",
-      "base_weapon": [
-        "Keremet Bubbles"
-      ],
+      "base_weapon": ["Keremet Bubbles"],
       "evolution": "Keremet Morbus",
       "passive_max": ""
     },
     {
       "page_name": "Tirajisú",
-      "base_weapon": [
-        "Phiera Der Tuphello",
-        "Eight The Sparrow"
-      ],
+      "base_weapon": ["Phiera Der Tuphello", "Eight The Sparrow"],
       "evolution": "Phieraggi"
     },
     {
       "page_name": "Tirajisú",
-      "base_weapon": [
-        "Unearthly Bolt"
-      ],
+      "base_weapon": ["Unearthly Bolt"],
       "evolution": "Spirit Disturbance",
       "passive_max": ""
     },
     {
       "page_name": "Tirajisú",
-      "base_weapon": [
-        "C-U-Laser"
-      ],
+      "base_weapon": ["C-U-Laser"],
       "evolution": "Pronto Beam",
       "secondary_passive": "Weapon Power-Up"
     },
     {
       "page_name": "Tirajisú",
-      "base_weapon": [
-        "Alchemy Whip"
-      ],
+      "base_weapon": ["Alchemy Whip"],
       "evolution": "Vampire Killer"
     },
     {
       "page_name": "Tirajisú",
-      "base_weapon": [
-        "Wine Glass"
-      ],
+      "base_weapon": ["Wine Glass"],
       "evolution": "Meal Ticket",
       "passive_max": ""
     },
     {
       "page_name": "Skull O'Maniac",
-      "base_weapon": [
-        "Song of Mana"
-      ],
+      "base_weapon": ["Song of Mana"],
       "evolution": "Mannajja"
     },
     {
       "page_name": "Skull O'Maniac",
-      "base_weapon": [
-        "Shadow Servant"
-      ],
+      "base_weapon": ["Shadow Servant"],
       "evolution": "Ophion",
       "passive_max": ""
     },
     {
       "page_name": "Skull O'Maniac",
-      "base_weapon": [
-        "Sonic Whip"
-      ],
+      "base_weapon": ["Sonic Whip"],
       "evolution": "Crissaegrim Tip"
     },
     {
       "page_name": "Skull O'Maniac",
-      "base_weapon": [
-        "Hex"
-      ],
+      "base_weapon": ["Hex"],
       "evolution": "Nightmare",
       "passive_max": ""
     },
     {
       "page_name": "Skull O'Maniac",
-      "base_weapon": [
-        "Bullova"
-      ],
+      "base_weapon": ["Bullova"],
       "evolution": "Falconwind",
       "glimmer": "Hell's Fury"
     },
     {
       "page_name": "Silver Ring",
-      "base_weapon": [
-        "Clock Lancet"
-      ],
+      "base_weapon": ["Clock Lancet"],
       "evolution": "Infinite Corridor",
       "secondary_passive": "Gold Ring",
       "passive_max": ""
     },
     {
       "page_name": "Metaglio Left",
-      "base_weapon": [
-        "Laurel"
-      ],
+      "base_weapon": ["Laurel"],
       "evolution": "Crimson Shroud",
       "secondary_passive": "Metaglio Right",
       "passive_max": ""
     },
     {
       "page_name": "Gold Ring",
-      "base_weapon": [
-        "Clock Lancet"
-      ],
+      "base_weapon": ["Clock Lancet"],
       "evolution": "Infinite Corridor",
       "secondary_passive": "Silver Ring",
       "passive_max": ""
     },
     {
       "page_name": "Metaglio Right",
-      "base_weapon": [
-        "Laurel"
-      ],
+      "base_weapon": ["Laurel"],
       "evolution": "Crimson Shroud",
       "secondary_passive": "Metaglio Left",
       "passive_max": ""
     },
     {
       "page_name": "Torrona's Box",
-      "base_weapon": [
-        "Flames of Misspell"
-      ],
+      "base_weapon": ["Flames of Misspell"],
       "evolution": "Ashes of Muspell",
       "passive_max": ""
     },
     {
       "page_name": "Torrona's Box",
-      "base_weapon": [
-        "Victory Sword"
-      ],
+      "base_weapon": ["Victory Sword"],
       "evolution": "Sole Solution",
       "gift": "",
       "passive_max": ""
     },
     {
       "page_name": "Torrona's Box",
-      "base_weapon": [
-        "Pocket Knife"
-      ],
+      "base_weapon": ["Pocket Knife"],
       "evolution": "Claimh Solais",
       "passive_max": ""
     },
     {
       "page_name": "Mini Crewmate",
-      "base_weapon": [
-        "Report!"
-      ],
+      "base_weapon": ["Report!"],
       "evolution": "Emergency Meeting (weapon)",
       "passive_max": ""
     },
     {
       "page_name": "Mini Engineer",
-      "base_weapon": [
-        "Lucky Swipe"
-      ],
+      "base_weapon": ["Lucky Swipe"],
       "evolution": "Crossed Wires",
       "passive_max": ""
     },
     {
       "page_name": "Mini Ghost",
-      "base_weapon": [
-        "Lifesign Scan"
-      ],
+      "base_weapon": ["Lifesign Scan"],
       "evolution": "Paranormal Scan",
       "passive_max": ""
     },
     {
       "page_name": "Mini Shapeshifter",
-      "base_weapon": [
-        "Just Vent"
-      ],
+      "base_weapon": ["Just Vent"],
       "evolution": "Unjust Ejection",
       "passive_max": ""
     },
     {
       "page_name": "Mini Guardian",
-      "base_weapon": [
-        "Clear Debris"
-      ],
+      "base_weapon": ["Clear Debris"],
       "evolution": "Clear Asteroids",
       "passive_max": ""
     },
     {
       "page_name": "Mini Impostor",
-      "base_weapon": [
-        "Sharp Tongue"
-      ],
+      "base_weapon": ["Sharp Tongue"],
       "evolution": "Impostongue",
       "passive_max": ""
     },
     {
       "page_name": "Mini Scientist",
-      "base_weapon": [
-        "Science Rocks"
-      ],
+      "base_weapon": ["Science Rocks"],
       "evolution": "Rocket Science",
       "passive_max": ""
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Long Gun"
-      ],
+      "base_weapon": ["Long Gun"],
       "evolution": "Prototype A"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Short Gun"
-      ],
+      "base_weapon": ["Short Gun"],
       "evolution": "Prototype B",
       "secondary_passive": "Bracer"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Spread Shot"
-      ],
+      "base_weapon": ["Spread Shot"],
       "evolution": "Prototype C",
       "secondary_passive": "Empty Tome"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "C-U-Laser"
-      ],
+      "base_weapon": ["C-U-Laser"],
       "evolution": "Pronto Beam",
       "secondary_passive": "Tirajisú"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Firearm"
-      ],
+      "base_weapon": ["Firearm"],
       "evolution": "Fire-L3GS",
       "secondary_passive": "Candelabrador"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Sonic Bloom"
-      ],
+      "base_weapon": ["Sonic Bloom"],
       "evolution": "Wave Beam",
       "secondary_passive": "Armor"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Homing Miss"
-      ],
+      "base_weapon": ["Homing Miss"],
       "evolution": "Multistage Missiles",
       "secondary_passive": "Duplicator"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Diver Mines"
-      ],
+      "base_weapon": ["Diver Mines"],
       "evolution": "Atmo-Torpedo",
       "secondary_passive": "Attractorb"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Blade Crossbow"
-      ],
+      "base_weapon": ["Blade Crossbow"],
       "evolution": "BFC2000-AD",
       "secondary_passive": "Clover"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Prism Lass"
-      ],
+      "base_weapon": ["Prism Lass"],
       "evolution": "Time Warp",
       "secondary_passive": "Wings"
     },
     {
       "page_name": "Weapon Power-Up",
-      "base_weapon": [
-        "Metal Claw"
-      ],
+      "base_weapon": ["Metal Claw"],
       "evolution": "Big Fuzzy Fist",
       "secondary_passive": "Hollow Heart"
     },
     {
       "page_name": "Karoma's Mana",
-      "base_weapon": [
-        "Silver Revolver"
-      ],
+      "base_weapon": ["Silver Revolver"],
       "evolution": "Jewel Gun"
     },
     {
       "page_name": "Karoma's Mana",
-      "base_weapon": [
-        "Optical Shot"
-      ],
+      "base_weapon": ["Optical Shot"],
       "evolution": "Acerbatus",
       "passive_max": ""
     },
     {
       "page_name": "Karoma's Mana",
-      "base_weapon": [
-        "Twin Dragon"
-      ],
+      "base_weapon": ["Twin Dragon"],
       "evolution": "Gekkabijin",
       "glimmer": "Gravedigger"
     },
     {
       "page_name": "Karoma's Mana",
-      "base_weapon": [
-        "Magi-Stone"
-      ],
+      "base_weapon": ["Magi-Stone"],
       "evolution": "Kyra-Stones"
     },
     {
       "page_name": "Parm Aegis",
-      "base_weapon": [
-        "Discus"
-      ],
+      "base_weapon": ["Discus"],
       "evolution": "Stellar Blade",
       "passive_max": ""
     },
     {
       "page_name": "Parm Aegis",
-      "base_weapon": [
-        "Iron Shield"
-      ],
+      "base_weapon": ["Iron Shield"],
       "evolution": "Dark Iron Shield"
     },
     {
       "page_name": "Parm Aegis",
-      "base_weapon": [
-        "Gaze of Gaea"
-      ],
+      "base_weapon": ["Gaze of Gaea"],
       "evolution": "Embrace of Gaea"
     },
     {
       "page_name": "Parm Aegis",
-      "base_weapon": [
-        "Khukuri"
-      ],
+      "base_weapon": ["Khukuri"],
       "evolution": "Jetstream",
       "glimmer": "Moonfall Slash"
     },
     {
       "page_name": "Outer Saboteur",
-      "base_weapon": [
-        "Infernolatro"
-      ],
+      "base_weapon": ["Infernolatro"],
       "evolution": "NaneInferno",
       "passive_max": ""
     },
     {
       "page_name": "Outer Saboteur",
-      "base_weapon": [
-        "Gros Michel"
-      ],
+      "base_weapon": ["Gros Michel"],
       "evolution": "Cavendish",
       "passive_max": ""
     },
     {
       "page_name": "Outer Saboteur",
-      "base_weapon": [
-        "Fibonacci Spritz"
-      ],
+      "base_weapon": ["Fibonacci Spritz"],
       "evolution": "Royal Flush",
       "passive_max": ""
     },
     {
       "page_name": "Outer Saboteur",
-      "base_weapon": [
-        "Celestial Booster"
-      ],
+      "base_weapon": ["Celestial Booster"],
       "evolution": "Negative Space",
       "passive_max": ""
     }

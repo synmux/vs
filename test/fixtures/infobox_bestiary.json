@@ -582,9 +582,7 @@
       "bestiary_number": 125,
       "name": "The Ender",
       "page_name": "The Ender",
-      "theme": [
-        "Cosmic Delight"
-      ],
+      "theme": ["Cosmic Delight"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -644,9 +642,7 @@
       "bestiary_number": 131,
       "name": "The Directer",
       "page_name": "The Directer",
-      "theme": [
-        "Cosmic Delight"
-      ],
+      "theme": ["Cosmic Delight"],
       "dlc": "Vampire Survivors"
     },
     {
@@ -838,9 +834,7 @@
     },
     {
       "page_name": "Avatar Infernas (enemy)",
-      "theme": [
-        "Extinguished Flame"
-      ],
+      "theme": ["Extinguished Flame"],
       "name": "Avatar Infernas",
       "dlc": "Vampire Survivors"
     },
@@ -858,9 +852,7 @@
       "bestiary_number": 238,
       "name": "Je-Ne-Viv",
       "page_name": "Je-Ne-Viv (enemy)",
-      "theme": [
-        "The World Eater (track)"
-      ],
+      "theme": ["The World Eater (track)"],
       "dlc": "Tides of the Foscari"
     },
     {
@@ -1839,9 +1831,7 @@
       "type": "Normal",
       "name": "Death",
       "page_name": "Death (boss)",
-      "theme": [
-        "Dance of Illusions (Harmony of Despair)"
-      ],
+      "theme": ["Dance of Illusions (Harmony of Despair)"],
       "dlc": "Ode to Castlevania"
     },
     {
@@ -1961,9 +1951,7 @@
       "type": "Normal",
       "name": "Doppelganger",
       "page_name": "Doppelganger",
-      "theme": [
-        "Festival Of Servants"
-      ],
+      "theme": ["Festival Of Servants"],
       "dlc": "Ode to Castlevania"
     },
     {
@@ -1998,18 +1986,14 @@
       "page_name": "Legion",
       "type": "Normal",
       "name": "Legion",
-      "theme": [
-        "Festival Of Servants"
-      ],
+      "theme": ["Festival Of Servants"],
       "dlc": "Ode to Castlevania"
     },
     {
       "page_name": "Beelzebub",
       "type": "Normal",
       "name": "Beelzebub",
-      "theme": [
-        "Festival Of Servants"
-      ],
+      "theme": ["Festival Of Servants"],
       "dlc": "Ode to Castlevania"
     },
     {

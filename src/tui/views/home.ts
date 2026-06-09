@@ -1,6 +1,7 @@
 /** Landing view: a welcome, the cache freshness, and dataset counts. */
-import { BoxRenderable, TextRenderable } from "@opentui/core";
+
 import type { CliRenderer } from "@opentui/core";
+import { BoxRenderable, TextRenderable } from "@opentui/core";
 import { cacheStaleness } from "../../data/cache.ts";
 import type { Repository } from "../../data/repository.ts";
 import type { Focusable } from "../focus.ts";
@@ -15,7 +16,7 @@ export class HomeView implements View {
 
   constructor(
     private readonly ctx: CliRenderer,
-    private readonly repo: Repository,
+    private readonly repo: Repository
   ) {}
 
   mount(container: BoxRenderable): void {
@@ -47,7 +48,11 @@ export class HomeView implements View {
       "",
       "↑/↓ pick a section · Tab focus it · / search · q quit",
     ];
-    const text = new TextRenderable(this.ctx, { id: "home-text", content: lines.join("\n"), fg: theme.text });
+    const text = new TextRenderable(this.ctx, {
+      id: "home-text",
+      content: lines.join("\n"),
+      fg: theme.text,
+    });
     this.root.add(text);
   }
 

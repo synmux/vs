@@ -1,5 +1,4 @@
 import { beforeAll, describe, expect, test } from "bun:test";
-import type { Repository } from "../../src/data/repository.ts";
 import { buildCommand } from "../../src/cli/commands/build.ts";
 import { characterCommand } from "../../src/cli/commands/character.ts";
 import { evolveCommand } from "../../src/cli/commands/evolve.ts";
@@ -7,6 +6,7 @@ import { randomCommand } from "../../src/cli/commands/random.ts";
 import { searchCommand } from "../../src/cli/commands/search.ts";
 import { weaponCommand } from "../../src/cli/commands/weapon.ts";
 import { CliError } from "../../src/cli/errors.ts";
+import type { Repository } from "../../src/data/repository.ts";
 import { loadFixtureRepo } from "../helpers/fixtures.ts";
 
 let repo: Repository;
@@ -46,11 +46,15 @@ describe("build", () => {
   });
 
   test("reports unrecognised tokens", () => {
-    expect(buildCommand(repo, "Whip, Zzzzzz").toLowerCase()).toContain("zzzzzz");
+    expect(buildCommand(repo, "Whip, Zzzzzz").toLowerCase()).toContain(
+      "zzzzzz"
+    );
   });
 
   test("emits JSON with the json option", () => {
-    const data = JSON.parse(buildCommand(repo, "Whip, Hollow Heart", { json: true }));
+    const data = JSON.parse(
+      buildCommand(repo, "Whip, Hollow Heart", { json: true })
+    );
     expect(Array.isArray(data.achievable)).toBe(true);
   });
 });

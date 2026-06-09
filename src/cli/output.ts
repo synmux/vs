@@ -7,27 +7,54 @@ function simpleList(names: string[], options: OutputOptions): string {
   return options.json ? JSON.stringify(names, null, 2) : names.join("\n");
 }
 
-export function sectionList(repo: Repository, section: string, options: OutputOptions = {}): string {
+export function sectionList(
+  repo: Repository,
+  section: string,
+  options: OutputOptions = {}
+): string {
   switch (section) {
     case "evolutions": {
       const recipes = repo.recipes();
-      if (options.json) return JSON.stringify(recipes, null, 2);
+      if (options.json) {
+        return JSON.stringify(recipes, null, 2);
+      }
       return recipes
-        .map((recipe) => `${recipe.result}  ← ${recipe.bases.join(" + ")} + ${recipe.requiredPassives.join(" + ")}`)
+        .map(
+          (recipe) =>
+            `${recipe.result}  ← ${recipe.bases.join(" + ")} + ${recipe.requiredPassives.join(" + ")}`
+        )
         .join("\n");
     }
     case "weapons":
-      return simpleList(repo.weapons().map((weapon) => weapon.name), options);
+      return simpleList(
+        repo.weapons().map((weapon) => weapon.name),
+        options
+      );
     case "passives":
-      return simpleList(repo.passives().map((passive) => passive.name), options);
+      return simpleList(
+        repo.passives().map((passive) => passive.name),
+        options
+      );
     case "characters":
-      return simpleList(uniqueBy(repo.characters(), (c) => c.pageName).map((c) => c.name), options);
+      return simpleList(
+        uniqueBy(repo.characters(), (c) => c.pageName).map((c) => c.name),
+        options
+      );
     case "stages":
-      return simpleList(uniqueBy(repo.stages(), (s) => s.pageName).map((s) => s.name), options);
+      return simpleList(
+        uniqueBy(repo.stages(), (s) => s.pageName).map((s) => s.name),
+        options
+      );
     case "arcanas":
-      return simpleList(repo.arcanas().map((arcana) => arcana.name), options);
+      return simpleList(
+        repo.arcanas().map((arcana) => arcana.name),
+        options
+      );
     case "bestiary":
-      return simpleList(uniqueBy(repo.bestiary(), (b) => b.pageName).map((b) => b.name), options);
+      return simpleList(
+        uniqueBy(repo.bestiary(), (b) => b.pageName).map((b) => b.name),
+        options
+      );
     default:
       return "";
   }

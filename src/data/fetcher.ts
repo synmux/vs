@@ -8,12 +8,12 @@
  * holds clean, typed data.
  */
 import { APP_VERSION } from "../version.ts";
-import { fetchBucket } from "./bucket/client.ts";
 import type { BucketRow, FetchBucketOptions } from "./bucket/client.ts";
+import { fetchBucket } from "./bucket/client.ts";
 import { normalizeRow } from "./bucket/normalize.ts";
 import { BucketQuery } from "./bucket/query.ts";
-import { DATASET_VERSION, TABLES, TABLE_NAMES } from "./schema.ts";
 import type { Dataset, TableName } from "./schema.ts";
+import { DATASET_VERSION, TABLE_NAMES, TABLES } from "./schema.ts";
 
 const WIKI_ID = "en_vswiki";
 const PAGE_SIZE = 5000;
@@ -24,20 +24,29 @@ export interface FetchAllOptions {
 }
 
 /** Fetch one table, following offset pagination if it ever exceeds the page size. */
-async function fetchTablePaged(table: TableName, options: FetchBucketOptions): Promise<BucketRow[]> {
+async function fetchTablePaged(
+  table: TableName,
+  options: FetchBucketOptions
+): Promise<BucketRow[]> {
   const fields = Object.keys(TABLES[table]);
-  const baseQuery = BucketQuery.table(table).select(...fields).limit(PAGE_SIZE);
+  const baseQuery = BucketQuery.table(table)
+    .select(...fields)
+    .limit(PAGE_SIZE);
 
   const rows: BucketRow[] = [];
   for (let offset = 0; ; offset += PAGE_SIZE) {
     const page = await fetchBucket(baseQuery.offset(offset), options);
     rows.push(...page);
-    if (page.length < PAGE_SIZE) break;
+    if (page.length < PAGE_SIZE) {
+      break;
+    }
   }
   return rows;
 }
 
-export async function fetchAllTables(options: FetchAllOptions = {}): Promise<Dataset> {
+export async function fetchAllTables(
+  options: FetchAllOptions = {}
+): Promise<Dataset> {
   const { fetchImpl, now = new Date() } = options;
 
   const entries = await Promise.all(
@@ -46,12 +55,14 @@ export async function fetchAllTables(options: FetchAllOptions = {}): Promise<Dat
       const rawRows = await fetchTablePaged(table, { fetchImpl });
       const rows = rawRows.map((row) => normalizeRow(row, spec));
       return [table, rows] as const;
-    }),
+    })
   );
 
   const tables = Object.fromEntries(entries) as unknown as Dataset["tables"];
   const counts: Record<string, number> = {};
-  for (const [table, rows] of entries) counts[table] = rows.length;
+  for (const [table, rows] of entries) {
+    counts[table] = rows.length;
+  }
 
   return {
     meta: {

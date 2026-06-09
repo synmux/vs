@@ -15,11 +15,19 @@ import {
   toStage,
   toWeapon,
 } from "../domain/entities.ts";
-import { buildEvolutionGraph } from "../domain/evolution-graph.ts";
 import type { EvolutionGraph } from "../domain/evolution-graph.ts";
-import { buildSearchIndex } from "../domain/search-index.ts";
+import { buildEvolutionGraph } from "../domain/evolution-graph.ts";
 import type { SearchEntry } from "../domain/search-index.ts";
-import type { Arcana, BestiaryEntry, Character, Passive, Recipe, Stage, Weapon } from "../domain/types.ts";
+import { buildSearchIndex } from "../domain/search-index.ts";
+import type {
+  Arcana,
+  BestiaryEntry,
+  Character,
+  Passive,
+  Recipe,
+  Stage,
+  Weapon,
+} from "../domain/types.ts";
 import { readDataset, writeDataset } from "./cache.ts";
 import { fetchAllTables } from "./fetcher.ts";
 import type {
@@ -38,19 +46,19 @@ type Env = Record<string, string | undefined>;
 export class NoCacheOfflineError extends Error {
   constructor() {
     super(
-      "No cached data is available and the wiki could not be reached. Run `vs refresh` while online to populate the cache.",
+      "No cached data is available and the wiki could not be reached. Run `vs refresh` while online to populate the cache."
     );
     this.name = "NoCacheOfflineError";
   }
 }
 
 export interface LoadOptions {
-  /** Skip the cache and fetch fresh from the wiki. */
-  forceRefresh?: boolean;
   /** When false, never fetch — fail with {@link NoCacheOfflineError} if no cache. */
   allowNetwork?: boolean;
   env?: Env;
   fetchImpl?: typeof fetch;
+  /** Skip the cache and fetch fresh from the wiki. */
+  forceRefresh?: boolean;
 }
 
 export class Repository {
@@ -72,13 +80,22 @@ export class Repository {
   }
 
   static async load(options: LoadOptions = {}): Promise<Repository> {
-    const { forceRefresh = false, allowNetwork = true, env = process.env, fetchImpl } = options;
+    const {
+      forceRefresh = false,
+      allowNetwork = true,
+      env = process.env,
+      fetchImpl,
+    } = options;
 
     if (!forceRefresh) {
       const cached = await readDataset(env);
-      if (cached) return new Repository(cached);
+      if (cached) {
+        return new Repository(cached);
+      }
     }
-    if (!allowNetwork) throw new NoCacheOfflineError();
+    if (!allowNetwork) {
+      throw new NoCacheOfflineError();
+    }
 
     const dataset = await fetchAllTables({ fetchImpl });
     await writeDataset(dataset, env);
@@ -90,37 +107,54 @@ export class Repository {
   }
 
   weapons(): Weapon[] {
-    this.weaponsCache ??= (this.dataset.tables.infobox_weapon as unknown as NormalizedWeaponRow[]).map(toWeapon);
+    this.weaponsCache ??= (
+      this.dataset.tables.infobox_weapon as unknown as NormalizedWeaponRow[]
+    ).map(toWeapon);
     return this.weaponsCache;
   }
 
   passives(): Passive[] {
-    this.passivesCache ??= (this.dataset.tables.infobox_passive_item as unknown as NormalizedPassiveRow[]).map(toPassive);
+    this.passivesCache ??= (
+      this.dataset.tables
+        .infobox_passive_item as unknown as NormalizedPassiveRow[]
+    ).map(toPassive);
     return this.passivesCache;
   }
 
   characters(): Character[] {
-    this.charactersCache ??= (this.dataset.tables.infobox_character as unknown as NormalizedCharacterRow[]).map(toCharacter);
+    this.charactersCache ??= (
+      this.dataset.tables
+        .infobox_character as unknown as NormalizedCharacterRow[]
+    ).map(toCharacter);
     return this.charactersCache;
   }
 
   stages(): Stage[] {
-    this.stagesCache ??= (this.dataset.tables.infobox_stage as unknown as NormalizedStageRow[]).map(toStage);
+    this.stagesCache ??= (
+      this.dataset.tables.infobox_stage as unknown as NormalizedStageRow[]
+    ).map(toStage);
     return this.stagesCache;
   }
 
   arcanas(): Arcana[] {
-    this.arcanasCache ??= (this.dataset.tables.infobox_arcana as unknown as NormalizedArcanaRow[]).map(toArcana);
+    this.arcanasCache ??= (
+      this.dataset.tables.infobox_arcana as unknown as NormalizedArcanaRow[]
+    ).map(toArcana);
     return this.arcanasCache;
   }
 
   bestiary(): BestiaryEntry[] {
-    this.bestiaryCache ??= (this.dataset.tables.infobox_bestiary as unknown as NormalizedBestiaryRow[]).map(toBestiaryEntry);
+    this.bestiaryCache ??= (
+      this.dataset.tables.infobox_bestiary as unknown as NormalizedBestiaryRow[]
+    ).map(toBestiaryEntry);
     return this.bestiaryCache;
   }
 
   recipes(): Recipe[] {
-    this.recipesCache ??= (this.dataset.tables.passive_evolutions as unknown as NormalizedEvolutionRow[]).map(toRecipe);
+    this.recipesCache ??= (
+      this.dataset.tables
+        .passive_evolutions as unknown as NormalizedEvolutionRow[]
+    ).map(toRecipe);
     return this.recipesCache;
   }
 

@@ -3,9 +3,9 @@ import { cleanWikiText, truncate } from "../../src/util/strings.ts";
 
 describe("cleanWikiText", () => {
   test("strips simple wiki links, keeping the target text", () => {
-    expect(cleanWikiText("Complete the [[World of Light and Dark]] Adventure.")).toBe(
-      "Complete the World of Light and Dark Adventure.",
-    );
+    expect(
+      cleanWikiText("Complete the [[World of Light and Dark]] Adventure.")
+    ).toBe("Complete the World of Light and Dark Adventure.");
   });
 
   test("strips piped wiki links, keeping the label", () => {

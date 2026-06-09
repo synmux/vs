@@ -9,23 +9,29 @@
 import type { Recipe, Weapon } from "./types.ts";
 
 export interface EvolutionGraph {
-  recipes: Recipe[];
-  byResult: Map<string, Recipe[]>;
   byBase: Map<string, Recipe[]>;
   byPassive: Map<string, Recipe[]>;
-  /** Page names of non-evolution weapons that are never a base in any recipe. */
-  weaponsWithoutEvolution: string[];
+  byResult: Map<string, Recipe[]>;
+  recipes: Recipe[];
   /** Non-fatal data issues (e.g. a base/result that has no weapon page). */
   warnings: string[];
+  /** Page names of non-evolution weapons that are never a base in any recipe. */
+  weaponsWithoutEvolution: string[];
 }
 
 function index(map: Map<string, Recipe[]>, key: string, recipe: Recipe): void {
   const existing = map.get(key);
-  if (existing) existing.push(recipe);
-  else map.set(key, [recipe]);
+  if (existing) {
+    existing.push(recipe);
+  } else {
+    map.set(key, [recipe]);
+  }
 }
 
-export function buildEvolutionGraph(recipes: Recipe[], weapons: Weapon[]): EvolutionGraph {
+export function buildEvolutionGraph(
+  recipes: Recipe[],
+  weapons: Weapon[]
+): EvolutionGraph {
   const byResult = new Map<string, Recipe[]>();
   const byBase = new Map<string, Recipe[]>();
   const byPassive = new Map<string, Recipe[]>();
@@ -34,20 +40,35 @@ export function buildEvolutionGraph(recipes: Recipe[], weapons: Weapon[]): Evolu
 
   for (const recipe of recipes) {
     index(byResult, recipe.result, recipe);
-    for (const base of recipe.bases) index(byBase, base, recipe);
-    for (const passive of recipe.requiredPassives) index(byPassive, passive, recipe);
+    for (const base of recipe.bases) {
+      index(byBase, base, recipe);
+    }
+    for (const passive of recipe.requiredPassives) {
+      index(byPassive, passive, recipe);
+    }
 
     if (!weaponPages.has(recipe.result)) {
-      warnings.push(`Evolution result not found as a weapon page: ${recipe.result}`);
+      warnings.push(
+        `Evolution result not found as a weapon page: ${recipe.result}`
+      );
     }
     for (const base of recipe.bases) {
-      if (!weaponPages.has(base)) warnings.push(`Base weapon not found as a weapon page: ${base}`);
+      if (!weaponPages.has(base)) {
+        warnings.push(`Base weapon not found as a weapon page: ${base}`);
+      }
     }
   }
 
   const weaponsWithoutEvolution = weapons
-    .filter((weapon) => !weapon.isEvolution && !byBase.has(weapon.pageName))
+    .filter((weapon) => !(weapon.isEvolution || byBase.has(weapon.pageName)))
     .map((weapon) => weapon.pageName);
 
-  return { recipes, byResult, byBase, byPassive, weaponsWithoutEvolution, warnings };
+  return {
+    recipes,
+    byResult,
+    byBase,
+    byPassive,
+    weaponsWithoutEvolution,
+    warnings,
+  };
 }

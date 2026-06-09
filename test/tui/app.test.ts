@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
-import { createTestRenderer } from "@opentui/core/testing";
 import type { CliRenderer } from "@opentui/core";
+import { createTestRenderer } from "@opentui/core/testing";
 import { Repository } from "../../src/data/repository.ts";
 import { createApp } from "../../src/tui/app.ts";
 import { loadFixtureDataset } from "../helpers/fixtures.ts";
@@ -8,7 +8,9 @@ import { loadFixtureDataset } from "../helpers/fixtures.ts";
 async function setup() {
   const repo = Repository.fromDataset(await loadFixtureDataset());
   const harness = await createTestRenderer({ width: 80, height: 24 });
-  const app = createApp(harness.renderer as CliRenderer, repo, { onQuit: () => {} });
+  const app = createApp(harness.renderer as CliRenderer, repo, {
+    onQuit: () => {},
+  });
   await harness.flush();
   return { harness, app };
 }

@@ -16,7 +16,9 @@ const MAX_DISTANCE_PENALTY = 10;
 const COVERAGE_WEIGHT = 20;
 
 function isWordBoundary(target: string, indexInTarget: number): boolean {
-  if (indexInTarget === 0) return true;
+  if (indexInTarget === 0) {
+    return true;
+  }
   const previous = target[indexInTarget - 1];
   return previous === " " || previous === "-" || previous === "_";
 }
@@ -24,18 +26,30 @@ function isWordBoundary(target: string, indexInTarget: number): boolean {
 export function fuzzyScore(query: string, target: string): number | null {
   const needle = query.toLowerCase();
   const haystack = target.toLowerCase();
-  if (needle.length === 0) return 0;
+  if (needle.length === 0) {
+    return 0;
+  }
 
   let score = 0;
   let needleIndex = 0;
   let previousMatch = -2;
 
-  for (let position = 0; position < haystack.length && needleIndex < needle.length; position++) {
-    if (haystack[position] !== needle[needleIndex]) continue;
+  for (
+    let position = 0;
+    position < haystack.length && needleIndex < needle.length;
+    position++
+  ) {
+    if (haystack[position] !== needle[needleIndex]) {
+      continue;
+    }
 
     let charScore = BASE;
-    if (position === previousMatch + 1) charScore += CONSECUTIVE_BONUS;
-    if (isWordBoundary(haystack, position)) charScore += WORD_BOUNDARY_BONUS;
+    if (position === previousMatch + 1) {
+      charScore += CONSECUTIVE_BONUS;
+    }
+    if (isWordBoundary(haystack, position)) {
+      charScore += WORD_BOUNDARY_BONUS;
+    }
     charScore -= Math.min(position, MAX_DISTANCE_PENALTY) * DISTANCE_PENALTY;
 
     score += charScore;
@@ -43,7 +57,9 @@ export function fuzzyScore(query: string, target: string): number | null {
     needleIndex++;
   }
 
-  if (needleIndex !== needle.length) return null;
+  if (needleIndex !== needle.length) {
+    return null;
+  }
 
   // Coverage: a query that fills more of the target is a tighter match. This
   // breaks prefix ties in favour of the shorter, more relevant entity.

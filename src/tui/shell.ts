@@ -3,8 +3,9 @@
  * (sidebar section list + content pane) above a one-line status bar. The status
  * bar is a normal flex row (not absolute) to avoid positioning surprises.
  */
-import { BoxRenderable, SelectRenderable, TextRenderable } from "@opentui/core";
+
 import type { CliRenderer } from "@opentui/core";
+import { BoxRenderable, SelectRenderable, TextRenderable } from "@opentui/core";
 import { theme } from "./theme.ts";
 
 export interface SectionMeta {
@@ -14,12 +15,16 @@ export interface SectionMeta {
 
 export interface Shell {
   app: BoxRenderable;
-  sidebar: SelectRenderable;
   content: BoxRenderable;
+  sidebar: SelectRenderable;
   statusbar: TextRenderable;
 }
 
-export function buildShell(ctx: CliRenderer, sections: SectionMeta[], statusText: string): Shell {
+export function buildShell(
+  ctx: CliRenderer,
+  sections: SectionMeta[],
+  statusText: string
+): Shell {
   const app = new BoxRenderable(ctx, {
     id: "app",
     flexDirection: "column",
@@ -28,7 +33,11 @@ export function buildShell(ctx: CliRenderer, sections: SectionMeta[], statusText
     backgroundColor: theme.bg,
   });
 
-  const main = new BoxRenderable(ctx, { id: "main", flexDirection: "row", flexGrow: 1 });
+  const main = new BoxRenderable(ctx, {
+    id: "main",
+    flexDirection: "row",
+    flexGrow: 1,
+  });
   app.add(main);
 
   const sidebarBox = new BoxRenderable(ctx, {
@@ -46,7 +55,10 @@ export function buildShell(ctx: CliRenderer, sections: SectionMeta[], statusText
   const sidebar = new SelectRenderable(ctx, {
     id: "sidebar",
     flexGrow: 1,
-    options: sections.map((section) => ({ name: section.label, description: "" })),
+    options: sections.map((section) => ({
+      name: section.label,
+      description: "",
+    })),
     showDescription: false,
     wrapSelection: true,
     selectedBackgroundColor: theme.selectedBg,
@@ -54,10 +66,19 @@ export function buildShell(ctx: CliRenderer, sections: SectionMeta[], statusText
   });
   sidebarBox.add(sidebar);
 
-  const content = new BoxRenderable(ctx, { id: "content", flexGrow: 1, flexDirection: "column" });
+  const content = new BoxRenderable(ctx, {
+    id: "content",
+    flexGrow: 1,
+    flexDirection: "column",
+  });
   main.add(content);
 
-  const statusbar = new TextRenderable(ctx, { id: "statusbar", content: statusText, fg: theme.dim, height: 1 });
+  const statusbar = new TextRenderable(ctx, {
+    id: "statusbar",
+    content: statusText,
+    fg: theme.dim,
+    height: 1,
+  });
   app.add(statusbar);
 
   return { app, sidebar, content, statusbar };

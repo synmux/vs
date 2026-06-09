@@ -3,7 +3,7 @@ import { NoCacheOfflineError, Repository } from "../data/repository.ts";
 
 export async function withRepo(
   options: { refresh?: boolean },
-  run: (repo: Repository) => Promise<void> | void,
+  run: (repo: Repository) => Promise<void> | void
 ): Promise<void> {
   let repo: Repository;
   try {

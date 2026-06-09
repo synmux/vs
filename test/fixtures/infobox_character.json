@@ -7,9 +7,7 @@
       "cost": 0,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1}]",
       "unlocked_by": "Available by default.",
-      "starting_weapon": [
-        "Whip"
-      ],
+      "starting_weapon": ["Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Vampire Survivors",
@@ -21,9 +19,7 @@
       "cost": 0,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1}]",
       "unlocked_by": "Available by default.",
-      "starting_weapon": [
-        "Whip"
-      ],
+      "starting_weapon": ["Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Vampire Survivors",
@@ -31,9 +27,7 @@
     },
     {
       "page_name": "Imelda Belpaese",
-      "starting_weapon": [
-        "Magic Wand"
-      ],
+      "starting_weapon": ["Magic Wand"],
       "cost": 10,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Available by default.",
@@ -44,9 +38,7 @@
     },
     {
       "page_name": "Imelda Belpaese",
-      "starting_weapon": [
-        "Magic Wand"
-      ],
+      "starting_weapon": ["Magic Wand"],
       "cost": 10,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Available by default.",
@@ -58,9 +50,7 @@
     {
       "page_name": "Imelda Belpaese",
       "description": "Also starts with a Level 5 Empty Tome.",
-      "starting_weapon": [
-        "Magic Wand"
-      ],
+      "starting_weapon": ["Magic Wand"],
       "cost": 0,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Speed\",\"value\":1.4},{\"name\":\"Cooldown\",\"value\":0.9}]",
@@ -73,9 +63,7 @@
     },
     {
       "page_name": "Pasqualina Belpaese",
-      "starting_weapon": [
-        "Runetracer"
-      ],
+      "starting_weapon": ["Runetracer"],
       "cost": 100,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.1}]",
       "unlocked_by": "Available by default.",
@@ -87,9 +75,7 @@
     },
     {
       "page_name": "Pasqualina Belpaese",
-      "starting_weapon": [
-        "Runetracer"
-      ],
+      "starting_weapon": ["Runetracer"],
       "cost": 100,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.1}]",
       "unlocked_by": "Available by default.",
@@ -101,9 +87,7 @@
     },
     {
       "page_name": "Gennaro Belpaese",
-      "starting_weapon": [
-        "Knife"
-      ],
+      "starting_weapon": ["Knife"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Amount\",\"value\":1}]",
       "unlocked_by": "Available by default.",
@@ -115,9 +99,7 @@
     },
     {
       "page_name": "Gennaro Belpaese",
-      "starting_weapon": [
-        "Knife"
-      ],
+      "starting_weapon": ["Knife"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Amount\",\"value\":1}]",
       "unlocked_by": "Available by default.",
@@ -129,9 +111,7 @@
     },
     {
       "page_name": "Arca Ladonna",
-      "starting_weapon": [
-        "Fire Wand"
-      ],
+      "starting_weapon": ["Fire Wand"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Might\",\"value\":1.1}]",
       "unlocked_by": "Get [[Fire Wand]] to level 4.",
@@ -143,9 +123,7 @@
     },
     {
       "page_name": "Arca Ladonna",
-      "starting_weapon": [
-        "Fire Wand"
-      ],
+      "starting_weapon": ["Fire Wand"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Might\",\"value\":1.1}]",
       "unlocked_by": "Get [[Fire Wand]] to level 4.",
@@ -157,9 +135,7 @@
     },
     {
       "page_name": "Mortaccio",
-      "starting_weapon": [
-        "Bone"
-      ],
+      "starting_weapon": ["Bone"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 skeletons or enter the Konami Code in the main menu.",
@@ -170,9 +146,7 @@
     },
     {
       "page_name": "Mortaccio",
-      "starting_weapon": [
-        "Bone"
-      ],
+      "starting_weapon": ["Bone"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 skeletons or enter the Konami Code in the main menu.",
@@ -183,9 +157,7 @@
     },
     {
       "page_name": "Porta Ladonna",
-      "starting_weapon": [
-        "Lightning Ring"
-      ],
+      "starting_weapon": ["Lightning Ring"],
       "cost": 500,
       "description": "Permanent +30% Area. Starts with temporary cooldown bonus.",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Area\",\"value\":1.3},{\"name\":\"Cooldown\",\"value\":0.09999999999999998}]",
@@ -198,9 +170,7 @@
     },
     {
       "page_name": "Porta Ladonna",
-      "starting_weapon": [
-        "Lightning Ring"
-      ],
+      "starting_weapon": ["Lightning Ring"],
       "cost": 500,
       "description": "Permanent +30% Area. Starts with temporary cooldown bonus.",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Area\",\"value\":1.3},{\"name\":\"Cooldown\",\"value\":0.09999999999999998}]",
@@ -214,9 +184,7 @@
     {
       "page_name": "Poe Ratcho",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Garlic"
-      ],
+      "starting_weapon": ["Garlic"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":70},{\"name\":\"Magnet\",\"value\":0.25}]",
       "unlocked_by": "Get Garlic to level 7.",
@@ -228,9 +196,7 @@
     {
       "page_name": "Poe Ratcho",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Garlic"
-      ],
+      "starting_weapon": ["Garlic"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":70},{\"name\":\"Magnet\",\"value\":0.25}]",
       "unlocked_by": "Get Garlic to level 7.",
@@ -246,9 +212,7 @@
       "cost": 0,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":5},{\"name\":\"Magnet\",\"value\":0.25}]",
       "unlocked_by": "Complete the [[A Garlic Paradise]] Adventure for the first time.",
-      "starting_weapon": [
-        "Garlic"
-      ],
+      "starting_weapon": ["Garlic"],
       "recovery": 5,
       "max_health": 100,
       "name": "Retired Poe Ratcho",
@@ -264,9 +228,7 @@
       "might": 0.9,
       "area": 0.9,
       "page_name": "Exdash Exiviiq",
-      "starting_weapon": [
-        "Ebony Wings"
-      ],
+      "starting_weapon": ["Ebony Wings"],
       "move_speed": 0.9,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":77},{\"name\":\"Move Speed\",\"value\":0.9},{\"name\":\"Might\",\"value\":0.9},{\"name\":\"Speed\",\"value\":0.5},{\"name\":\"Duration\",\"value\":0.9},{\"name\":\"Area\",\"value\":0.9},{\"name\":\"Cooldown\",\"value\":1.1},{\"name\":\"Luck\",\"value\":2}]",
@@ -277,9 +239,7 @@
     },
     {
       "page_name": "Dommario",
-      "starting_weapon": [
-        "King Bible"
-      ],
+      "starting_weapon": ["King Bible"],
       "cost": 500,
       "move_speed": 0.6,
       "duration": 1.4,
@@ -293,9 +253,7 @@
     },
     {
       "page_name": "Dommario",
-      "starting_weapon": [
-        "King Bible"
-      ],
+      "starting_weapon": ["King Bible"],
       "cost": 500,
       "move_speed": 0.6,
       "duration": 1.4,
@@ -311,9 +269,7 @@
       "page_name": "Suor Clerici",
       "description": "Permanent +0.5 HP/s and +50 Max Health. Starts with temporary Area bonus.",
       "cost": 500,
-      "starting_weapon": [
-        "Santa Water"
-      ],
+      "starting_weapon": ["Santa Water"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Recovery\",\"value\":0.5},{\"name\":\"Area\",\"value\":5}]",
       "unlocked_by": "Recover a total of 1000 HP.",
       "name": "Suor Clerici",
@@ -326,9 +282,7 @@
       "page_name": "Suor Clerici",
       "description": "Permanent +0.5 HP/s and +50 Max Health. Starts with temporary Area bonus.",
       "cost": 500,
-      "starting_weapon": [
-        "Santa Water"
-      ],
+      "starting_weapon": ["Santa Water"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Recovery\",\"value\":0.5},{\"name\":\"Area\",\"value\":5}]",
       "unlocked_by": "Recover a total of 1000 HP.",
       "name": "Suor Clerici (Legacy)",
@@ -339,9 +293,7 @@
     },
     {
       "page_name": "Krochi Freetto",
-      "starting_weapon": [
-        "Cross"
-      ],
+      "starting_weapon": ["Cross"],
       "cost": 500,
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Revival\",\"value\":1}]",
@@ -353,9 +305,7 @@
     },
     {
       "page_name": "Krochi Freetto",
-      "starting_weapon": [
-        "Cross"
-      ],
+      "starting_weapon": ["Cross"],
       "cost": 500,
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Revival\",\"value\":1}]",
@@ -367,9 +317,7 @@
     },
     {
       "page_name": "Krochi Freetto",
-      "starting_weapon": [
-        "Cross"
-      ],
+      "starting_weapon": ["Cross"],
       "cost": 500,
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Revival\",\"value\":1}]",
@@ -381,9 +329,7 @@
     },
     {
       "page_name": "MissingN▯",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 66666,
       "secret_character": "",
       "stats_json": "[]",
@@ -394,9 +340,7 @@
     },
     {
       "page_name": "MissingN▯",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 66666,
       "secret_character": "",
       "stats_json": "[]",
@@ -407,9 +351,7 @@
     },
     {
       "page_name": "MissingN▯",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 66666,
       "secret_character": "",
       "stats_json": "[]",
@@ -420,9 +362,7 @@
     },
     {
       "page_name": "Mask of the Red Death",
-      "starting_weapon": [
-        "Death Spiral"
-      ],
+      "starting_weapon": ["Death Spiral"],
       "cost": 666,
       "move_speed": 2,
       "secret_character": "",
@@ -436,9 +376,7 @@
     },
     {
       "page_name": "Mask of the Red Death",
-      "starting_weapon": [
-        "Death Spiral"
-      ],
+      "starting_weapon": ["Death Spiral"],
       "cost": 666,
       "move_speed": 2,
       "secret_character": "",
@@ -452,9 +390,7 @@
     },
     {
       "page_name": "Yatta Cavallo",
-      "starting_weapon": [
-        "Cherry Bomb"
-      ],
+      "starting_weapon": ["Cherry Bomb"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Lion Heads.",
@@ -465,9 +401,7 @@
     },
     {
       "page_name": "Yatta Cavallo",
-      "starting_weapon": [
-        "Cherry Bomb"
-      ],
+      "starting_weapon": ["Cherry Bomb"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Lion Heads.",
@@ -478,9 +412,7 @@
     },
     {
       "page_name": "Lama Ladonna",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 500,
       "move_speed": 1.1,
       "curse": 1.1,
@@ -494,9 +426,7 @@
     },
     {
       "page_name": "Lama Ladonna",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 500,
       "move_speed": 1.1,
       "curse": 1.1,
@@ -510,9 +440,7 @@
     },
     {
       "page_name": "Poppea Pecorina",
-      "starting_weapon": [
-        "Song of Mana"
-      ],
+      "starting_weapon": ["Song of Mana"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -524,9 +452,7 @@
     },
     {
       "page_name": "Poppea Pecorina",
-      "starting_weapon": [
-        "Song of Mana"
-      ],
+      "starting_weapon": ["Song of Mana"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -542,9 +468,7 @@
       "cost": 500,
       "move_speed": 1.3,
       "dlc": "Vampire Survivors",
-      "starting_weapon": [
-        "Pentagram"
-      ],
+      "starting_weapon": ["Pentagram"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":50},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Might\",\"value\":0.65},{\"name\":\"Cooldown\",\"value\":0.75}]",
       "name": "Christine Davain (Legacy)",
       "cooldown": 0.75,
@@ -558,9 +482,7 @@
       "cost": 500,
       "move_speed": 1.3,
       "dlc": "Vampire Survivors",
-      "starting_weapon": [
-        "Pentagram"
-      ],
+      "starting_weapon": ["Pentagram"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":50},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Might\",\"value\":0.65},{\"name\":\"Cooldown\",\"value\":0.75}]",
       "name": "Christine Davain",
       "cooldown": 0.75,
@@ -570,10 +492,7 @@
     },
     {
       "page_name": "Pugnala Provola",
-      "starting_weapon": [
-        "Phiera Der Tuphello",
-        "Eight The Sparrow"
-      ],
+      "starting_weapon": ["Phiera Der Tuphello", "Eight The Sparrow"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -585,10 +504,7 @@
     },
     {
       "page_name": "Pugnala Provola",
-      "starting_weapon": [
-        "Phiera Der Tuphello",
-        "Eight The Sparrow"
-      ],
+      "starting_weapon": ["Phiera Der Tuphello", "Eight The Sparrow"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -600,9 +516,7 @@
     },
     {
       "page_name": "Bianca Ramba",
-      "starting_weapon": [
-        "Carréllo"
-      ],
+      "starting_weapon": ["Carréllo"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Milk Elementals.",
@@ -613,9 +527,7 @@
     },
     {
       "page_name": "Bianca Ramba",
-      "starting_weapon": [
-        "Carréllo"
-      ],
+      "starting_weapon": ["Carréllo"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Milk Elementals.",
@@ -634,9 +546,7 @@
       "might": 0.9,
       "area": 0.9,
       "page_name": "Toastie",
-      "starting_weapon": [
-        "Peachone"
-      ],
+      "starting_weapon": ["Peachone"],
       "move_speed": 1.2,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":0.9},{\"name\":\"Speed\",\"value\":0.5},{\"name\":\"Duration\",\"value\":0.9},{\"name\":\"Area\",\"value\":0.9},{\"name\":\"Cooldown\",\"value\":1.1},{\"name\":\"Luck\",\"value\":2}]",
@@ -648,9 +558,7 @@
     {
       "page_name": "Leda",
       "cooldown": 0.9,
-      "starting_weapon": [
-        "Holy Wand"
-      ],
+      "starting_weapon": ["Holy Wand"],
       "cost": 666,
       "move_speed": 0.8,
       "greed": 0.2,
@@ -666,9 +574,7 @@
     },
     {
       "page_name": "Giovanna Grana",
-      "starting_weapon": [
-        "Gatti Amari"
-      ],
+      "starting_weapon": ["Gatti Amari"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -680,9 +586,7 @@
     },
     {
       "page_name": "Giovanna Grana",
-      "starting_weapon": [
-        "Gatti Amari"
-      ],
+      "starting_weapon": ["Gatti Amari"],
       "cost": 1000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -694,9 +598,7 @@
     },
     {
       "page_name": "O'Sole Meeo",
-      "starting_weapon": [
-        "Celestial Dusting"
-      ],
+      "starting_weapon": ["Celestial Dusting"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Dragon Shrimps.",
@@ -707,9 +609,7 @@
     },
     {
       "page_name": "O'Sole Meeo",
-      "starting_weapon": [
-        "Celestial Dusting"
-      ],
+      "starting_weapon": ["Celestial Dusting"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Defeat a total of 3000 Dragon Shrimps.",
@@ -720,9 +620,7 @@
     },
     {
       "page_name": "Concetta Caciotta",
-      "starting_weapon": [
-        "Shadow Pinion"
-      ],
+      "starting_weapon": ["Shadow Pinion"],
       "cost": 1000,
       "move_speed": 1.2,
       "curse": 1.1,
@@ -735,9 +633,7 @@
     },
     {
       "page_name": "Concetta Caciotta",
-      "starting_weapon": [
-        "Shadow Pinion"
-      ],
+      "starting_weapon": ["Shadow Pinion"],
       "cost": 1000,
       "move_speed": 1.2,
       "curse": 1.1,
@@ -750,9 +646,7 @@
     },
     {
       "page_name": "Iguana Gallo Valletto",
-      "starting_weapon": [
-        "Clock Lancet"
-      ],
+      "starting_weapon": ["Clock Lancet"],
       "cost": 2000,
       "duration": 1.15,
       "greed": 0.5,
@@ -772,9 +666,7 @@
       "greed": 0.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Luck\",\"value\":1.3},{\"name\":\"Greed\",\"value\":0.5},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Obtain the [[Crimson Shroud]]",
-      "starting_weapon": [
-        "Laurel"
-      ],
+      "starting_weapon": ["Laurel"],
       "recovery": 1,
       "max_health": 100,
       "name": "Divano Thelma",
@@ -782,9 +674,7 @@
     },
     {
       "page_name": "Boon Marrabbio",
-      "starting_weapon": [
-        "Thousand Edge"
-      ],
+      "starting_weapon": ["Thousand Edge"],
       "cost": 666,
       "move_speed": 1.3,
       "greed": 0.2,
@@ -800,9 +690,7 @@
     },
     {
       "page_name": "Zi'Assunta Belpaese",
-      "starting_weapon": [
-        "Vento Sacro"
-      ],
+      "starting_weapon": ["Vento Sacro"],
       "cost": 5000,
       "move_speed": 1.2,
       "curse": 1.1,
@@ -815,9 +703,7 @@
     },
     {
       "page_name": "Zi'Assunta Belpaese",
-      "starting_weapon": [
-        "Vento Sacro"
-      ],
+      "starting_weapon": ["Vento Sacro"],
       "cost": 5000,
       "move_speed": 1.2,
       "curse": 1.1,
@@ -832,9 +718,7 @@
       "page_name": "Minnah Mannarah",
       "description": "Might, Projectile Speed, Duration, Area, and Cooldown change every minute.",
       "cost": 666,
-      "starting_weapon": [
-        "Bloody Tear"
-      ],
+      "starting_weapon": ["Bloody Tear"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Recovery\",\"value\":0.5},{\"name\":\"Might\",\"value\":0.30000000000000004}]",
       "unlocked_by": "Deal with the consequence of stealing [[Pickups#Cheese|cheese]] from the [[Dairy Plant]].",
@@ -854,9 +738,7 @@
       "might": 0.9,
       "area": 0.9,
       "page_name": "Smith IV",
-      "starting_weapon": [
-        "Vandalier"
-      ],
+      "starting_weapon": ["Vandalier"],
       "move_speed": 1.2,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":7},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":0.9},{\"name\":\"Speed\",\"value\":0.5},{\"name\":\"Duration\",\"value\":0.9},{\"name\":\"Area\",\"value\":0.9},{\"name\":\"Cooldown\",\"value\":1.1},{\"name\":\"Luck\",\"value\":2}]",
@@ -868,9 +750,7 @@
     {
       "page_name": "Peppino",
       "magnet": 1,
-      "starting_weapon": [
-        "Soul Eater"
-      ],
+      "starting_weapon": ["Soul Eater"],
       "cost": 666,
       "move_speed": 0,
       "dlc": "Vampire Survivors",
@@ -886,9 +766,7 @@
     {
       "page_name": "Peppino",
       "magnet": 1,
-      "starting_weapon": [
-        "Soul Eater"
-      ],
+      "starting_weapon": ["Soul Eater"],
       "cost": 666,
       "move_speed": 0,
       "dlc": "Vampire Survivors",
@@ -904,9 +782,7 @@
     {
       "page_name": "Sir Ambrojoe",
       "magnet": 0.2,
-      "starting_weapon": [
-        "La Robba"
-      ],
+      "starting_weapon": ["La Robba"],
       "cost": 500,
       "luck": 1.2,
       "greed": 1.2,
@@ -920,9 +796,7 @@
     },
     {
       "page_name": "Gains Boros",
-      "starting_weapon": [
-        "Heaven Sword"
-      ],
+      "starting_weapon": ["Heaven Sword"],
       "cost": 666,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
@@ -934,9 +808,7 @@
     },
     {
       "page_name": "Gyorunton",
-      "starting_weapon": [
-        "Bracelet"
-      ],
+      "starting_weapon": ["Bracelet"],
       "cost": 5000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":300},{\"name\":\"Might\",\"value\":1.3},{\"name\":\"Revival\",\"value\":2}]",
@@ -949,9 +821,7 @@
     },
     {
       "page_name": "Big Trouser",
-      "starting_weapon": [
-        "Candybox"
-      ],
+      "starting_weapon": ["Candybox"],
       "cost": 5000,
       "move_speed": 1.3,
       "greed": 1.2,
@@ -988,9 +858,7 @@
       "armor": 3,
       "might": 1.5,
       "page_name": "Queen Sigma",
-      "starting_weapon": [
-        "Victory Sword"
-      ],
+      "starting_weapon": ["Victory Sword"],
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":333},{\"name\":\"Recovery\",\"value\":3},{\"name\":\"Armor\",\"value\":3},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Might\",\"value\":1.5},{\"name\":\"Duration\",\"value\":1.5},{\"name\":\"Cooldown\",\"value\":0.75},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Magnet\",\"value\":1},{\"name\":\"Luck\",\"value\":1.5},{\"name\":\"Curse\",\"value\":1.1},{\"name\":\"Reroll\",\"value\":108},{\"name\":\"Skip\",\"value\":108},{\"name\":\"Banish\",\"value\":108}]",
       "unlocked_by": "Complete the [[Collection]].",
@@ -1014,9 +882,7 @@
     {
       "page_name": "Avatar Infernas",
       "magnet": 1,
-      "starting_weapon": [
-        "Flames of Misspell"
-      ],
+      "starting_weapon": ["Flames of Misspell"],
       "cost": 666,
       "secret_character": "",
       "luck": 1.5,
@@ -1043,9 +909,7 @@
     },
     {
       "page_name": "Menya Moonspell",
-      "starting_weapon": [
-        "Four Seasons"
-      ],
+      "starting_weapon": ["Four Seasons"],
       "cost": 5000,
       "cooldown": 0.9,
       "luck": 1.1,
@@ -1059,9 +923,7 @@
     },
     {
       "page_name": "Gav'Et-Oni",
-      "starting_weapon": [
-        "Mille Bolle Blu"
-      ],
+      "starting_weapon": ["Mille Bolle Blu"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1074,9 +936,7 @@
     {
       "page_name": "Syuuto Moonspell",
       "speed": 0.7,
-      "starting_weapon": [
-        "Summon Night"
-      ],
+      "starting_weapon": ["Summon Night"],
       "cost": 5000,
       "move_speed": 0.8,
       "curse": 1.5,
@@ -1097,9 +957,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Find and open the coffin in [[Mt.Moonspell]].",
-      "starting_weapon": [
-        "Silver Wind"
-      ],
+      "starting_weapon": ["Silver Wind"],
       "recovery": 1,
       "max_health": 120,
       "name": "Miang Moonspell",
@@ -1107,9 +965,7 @@
     },
     {
       "page_name": "Babi-Onna",
-      "starting_weapon": [
-        "Mirage Robe"
-      ],
+      "starting_weapon": ["Mirage Robe"],
       "cost": 5000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Reroll\",\"value\":10}]",
       "unlocked_by": "Evolve the <span class=\"sprite-file noexcerpt\">[[File:Sprite-Summon Night.png|24x24px|link=Summon Night|alt=|Summon Night]]&nbsp;</span><span>[[Summon Night|Summon Night]]</span>.",
@@ -1134,9 +990,7 @@
     },
     {
       "page_name": "Megalo Syuuto Moonspell",
-      "starting_weapon": [
-        "Night Sword"
-      ],
+      "starting_weapon": ["Night Sword"],
       "cost": 5000,
       "move_speed": 1.2,
       "greed": 1.5,
@@ -1157,9 +1011,7 @@
       "growth": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":108},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Growth\",\"value\":1.2}]",
       "unlocked_by": "Evolve the <span class=\"sprite-file noexcerpt\">[[File:Sprite-Mirage Robe.png|24x24px|link=Mirage Robe|alt=|Mirage Robe]]&nbsp;</span><span>[[Mirage Robe|Mirage Robe]]</span>.",
-      "starting_weapon": [
-        "108 Bocce"
-      ],
+      "starting_weapon": ["108 Bocce"],
       "armor": 1,
       "max_health": 108,
       "dlc": "Legacy of the Moonspell",
@@ -1168,9 +1020,7 @@
     {
       "page_name": "Je-Ne-Viv",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Shadow Servant"
-      ],
+      "starting_weapon": ["Shadow Servant"],
       "cost": 300000,
       "greed": 1.5,
       "dlc": "Tides of the Foscari",
@@ -1189,9 +1039,7 @@
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":0.5},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Revival\",\"value\":7},{\"name\":\"Banish\",\"value\":5}]",
       "unlocked_by": "With [[Maruto]], break the Seal of the Abyss.",
-      "starting_weapon": [
-        "Prismatic Missile"
-      ],
+      "starting_weapon": ["Prismatic Missile"],
       "recovery": 0.5,
       "max_health": 100,
       "name": "Luminaire Foscari",
@@ -1200,9 +1048,7 @@
     {
       "page_name": "Genevieve Gruyère",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Shadow Servant"
-      ],
+      "starting_weapon": ["Shadow Servant"],
       "cost": 5000,
       "move_speed": 1.2,
       "greed": 1.5,
@@ -1215,9 +1061,7 @@
     },
     {
       "page_name": "Eleanor Uziron",
-      "starting_weapon": [
-        "SpellString"
-      ],
+      "starting_weapon": ["SpellString"],
       "cost": 500,
       "move_speed": 1.2,
       "growth": 1.25,
@@ -1230,9 +1074,7 @@
     },
     {
       "page_name": "Eleanor Uziron",
-      "starting_weapon": [
-        "SpellStream"
-      ],
+      "starting_weapon": ["SpellStream"],
       "cost": 500,
       "move_speed": 1.2,
       "growth": 1.25,
@@ -1245,9 +1087,7 @@
     },
     {
       "page_name": "Eleanor Uziron",
-      "starting_weapon": [
-        "SpellStrike"
-      ],
+      "starting_weapon": ["SpellStrike"],
       "cost": 500,
       "move_speed": 1.2,
       "growth": 1.25,
@@ -1262,9 +1102,7 @@
       "page_name": "Maruto Cuts",
       "description": "Gains temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30.",
       "cost": 3000,
-      "starting_weapon": [
-        "Eskizzibur"
-      ],
+      "starting_weapon": ["Eskizzibur"],
       "curse": 1.1,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.2},{\"name\":\"Curse\",\"value\":1.1}]",
       "unlocked_by": "Unite <span class=\"sprite-file noexcerpt\">[[File:Sprite-SpellString.png|24x24px|link=SpellString|alt=|SpellString]]&nbsp;</span><span>[[SpellString|SpellString]]</span>, <span class=\"sprite-file noexcerpt\">[[File:Sprite-SpellStream.png|24x24px|link=SpellStream|alt=|SpellStream]]&nbsp;</span><span>[[SpellStream|SpellStream]]</span>, and <span class=\"sprite-file noexcerpt\">[[File:Sprite-SpellStrike.png|24x24px|link=SpellStrike|alt=|SpellStrike]]&nbsp;</span><span>[[SpellStrike|SpellStrike]]</span>.",
@@ -1277,9 +1115,7 @@
     {
       "page_name": "Keitha Muort",
       "description": "Luck-based Charge ability: fires a volley of Flash Arrows. Gains +1% Luck every level. Receives Academy Badge at Level 30.",
-      "starting_weapon": [
-        "Flash Arrow"
-      ],
+      "starting_weapon": ["Flash Arrow"],
       "cost": 3000,
       "move_speed": 1.4,
       "curse": 1.1,
@@ -1296,9 +1132,7 @@
       "page_name": "Sammy",
       "description": "Gains XP when picking up Gold Coins and Coin Bags. Starts with temporarily reduced Might.",
       "cost": 50000,
-      "starting_weapon": [
-        "Vicious Hunger"
-      ],
+      "starting_weapon": ["Vicious Hunger"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":2},{\"name\":\"Might\",\"value\":0.4}]",
       "unlocked_by": "Defeat a total of 6000 Sammies.",
       "name": "Sammy",
@@ -1309,9 +1143,7 @@
     },
     {
       "page_name": "Rottin'Ghoul",
-      "starting_weapon": [
-        "Party Popper"
-      ],
+      "starting_weapon": ["Party Popper"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1328,9 +1160,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Survive 20 minutes in [[Whiteout]].",
-      "starting_weapon": [
-        "Glass Fandango"
-      ],
+      "starting_weapon": ["Glass Fandango"],
       "armor": 2,
       "max_health": 100,
       "dlc": "Vampire Survivors",
@@ -1344,9 +1174,7 @@
       "luck": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Revival\",\"value\":7},{\"name\":\"Luck\",\"value\":2}]",
       "unlocked_by": "Complete the [[To End an Ice Age]] Adventure for the first time.",
-      "starting_weapon": [
-        "Glass Fandango"
-      ],
+      "starting_weapon": ["Glass Fandango"],
       "armor": 2,
       "max_health": 100,
       "dlc": "Vampire Survivors",
@@ -1354,9 +1182,7 @@
     },
     {
       "page_name": "Rose De Infernas",
-      "starting_weapon": [
-        "Fuwalafuwaloo"
-      ],
+      "starting_weapon": ["Fuwalafuwaloo"],
       "cost": 5000,
       "move_speed": 1.2,
       "growth": 0.2,
@@ -1371,9 +1197,7 @@
     },
     {
       "page_name": "Crewmate Dino",
-      "starting_weapon": [
-        "Report!"
-      ],
+      "starting_weapon": ["Report!"],
       "cost": 100,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1385,9 +1209,7 @@
     },
     {
       "page_name": "Engineer Gino",
-      "starting_weapon": [
-        "Lucky Swipe"
-      ],
+      "starting_weapon": ["Lucky Swipe"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -1399,9 +1221,7 @@
     },
     {
       "page_name": "Ghost Lino",
-      "starting_weapon": [
-        "Lifesign Scan"
-      ],
+      "starting_weapon": ["Lifesign Scan"],
       "cost": 500,
       "luck": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":256},{\"name\":\"Might\",\"value\":0},{\"name\":\"Luck\",\"value\":2}]",
@@ -1419,9 +1239,7 @@
       "move_speed": 1.1,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.1}]",
       "unlocked_by": "Evolve the Science Rocks",
-      "starting_weapon": [
-        "Just Vent"
-      ],
+      "starting_weapon": ["Just Vent"],
       "recovery": 1,
       "max_health": 100,
       "name": "Shapeshifter Nino",
@@ -1429,9 +1247,7 @@
     },
     {
       "page_name": "Guardian Pina",
-      "starting_weapon": [
-        "Clear Debris"
-      ],
+      "starting_weapon": ["Clear Debris"],
       "cost": 500,
       "move_speed": 1.2,
       "dlc": "Emergency Meeting",
@@ -1445,9 +1261,7 @@
     },
     {
       "page_name": "Impostor Rina",
-      "starting_weapon": [
-        "Sharp Tongue"
-      ],
+      "starting_weapon": ["Sharp Tongue"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":1.2}]",
@@ -1460,9 +1274,7 @@
     },
     {
       "page_name": "Scientist Mina",
-      "starting_weapon": [
-        "Science Rocks"
-      ],
+      "starting_weapon": ["Science Rocks"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
       "unlocked_by": "Evolve the Lucky Swipe",
@@ -1473,9 +1285,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1487,9 +1297,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1501,9 +1309,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1515,9 +1321,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1529,9 +1333,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1543,9 +1345,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1557,9 +1357,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1571,9 +1369,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1585,9 +1381,7 @@
     },
     {
       "page_name": "Horse",
-      "starting_weapon": [
-        "Hats"
-      ],
+      "starting_weapon": ["Hats"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1599,9 +1393,7 @@
     },
     {
       "page_name": "Bat Robbert",
-      "starting_weapon": [
-        "Pako Battiliar"
-      ],
+      "starting_weapon": ["Pako Battiliar"],
       "cost": 100,
       "move_speed": 1.2,
       "dlc": "Vampire Survivors",
@@ -1615,9 +1407,7 @@
     },
     {
       "page_name": "Space Dude",
-      "starting_weapon": [
-        "Phas3r"
-      ],
+      "starting_weapon": ["Phas3r"],
       "cost": 500,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4}]",
@@ -1648,9 +1438,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Armor\",\"value\":3},{\"name\":\"Move Speed\",\"value\":1.8}]",
       "unlocked_by": "Forsake victory in favor of sightseeing in [[Carlo Cart]].",
-      "starting_weapon": [
-        "NO FUTURE"
-      ],
+      "starting_weapon": ["NO FUTURE"],
       "armor": 3,
       "max_health": 130,
       "dlc": "Vampire Survivors",
@@ -1660,9 +1448,7 @@
       "page_name": "Santa Ladonna",
       "description": "Starts with temporary cooldown bonus. Triggers a <span class=\"sprite-file noexcerpt\">[[File:Sprite-Rosary.png|24x24px|link=Rosary|alt=|Rosary]]&nbsp;</span><span>[[Rosary|Rosary]]</span> when health reaches a critically low level. Likes to keep secrets.",
       "cost": 666,
-      "starting_weapon": [
-        "Santa Javelin"
-      ],
+      "starting_weapon": ["Santa Javelin"],
       "luck": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Cooldown\",\"value\":0.30000000000000004},{\"name\":\"Luck\",\"value\":1.3}]",
       "unlocked_by": "Survive 20 minutes in The [[Laborratory]].",
@@ -1674,9 +1460,7 @@
     },
     {
       "page_name": "Bill Rizer",
-      "starting_weapon": [
-        "Long Gun"
-      ],
+      "starting_weapon": ["Long Gun"],
       "cost": 100,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Skip\",\"value\":4},{\"name\":\"Banish\",\"value\":4}]",
       "unlocked_by": "Find and open the coffin in Neo Galuga",
@@ -1688,9 +1472,7 @@
     },
     {
       "page_name": "Lance Bean",
-      "starting_weapon": [
-        "Short Gun"
-      ],
+      "starting_weapon": ["Short Gun"],
       "cost": 100,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Skip\",\"value\":4},{\"name\":\"Banish\",\"value\":4}]",
       "unlocked_by": "Evolving Long Gun",
@@ -1702,9 +1484,7 @@
     },
     {
       "page_name": "Ariana",
-      "starting_weapon": [
-        "Spread Shot"
-      ],
+      "starting_weapon": ["Spread Shot"],
       "cost": 100,
       "move_speed": 1.2,
       "growth": 1.1,
@@ -1723,9 +1503,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Reroll\",\"value\":8}]",
       "unlocked_by": "Evolving the Spread Shot",
-      "starting_weapon": [
-        "C-U-Laser"
-      ],
+      "starting_weapon": ["C-U-Laser"],
       "recovery": 1,
       "max_health": 100,
       "name": "Lucia Zero",
@@ -1733,9 +1511,7 @@
     },
     {
       "page_name": "Brad Fang",
-      "starting_weapon": [
-        "Firearm"
-      ],
+      "starting_weapon": ["Firearm"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Find and open the coffin in Hectic Highway.",
@@ -1753,9 +1529,7 @@
       "luck": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Luck\",\"value\":1.2}]",
       "unlocked_by": "Evolving Firearm",
-      "starting_weapon": [
-        "Sonic Bloom"
-      ],
+      "starting_weapon": ["Sonic Bloom"],
       "armor": 1,
       "max_health": 140,
       "dlc": "Operation Guns",
@@ -1768,9 +1542,7 @@
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Reroll\",\"value\":8}]",
       "unlocked_by": "Evolving Sonic Bloom",
-      "starting_weapon": [
-        "Blade Crossbow"
-      ],
+      "starting_weapon": ["Blade Crossbow"],
       "recovery": 1,
       "max_health": 100,
       "name": "Sheena Etranzi",
@@ -1780,9 +1552,7 @@
       "page_name": "Probotector",
       "description": "Armour<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup> increases Might. Can find special pickups.",
       "cost": 500,
-      "starting_weapon": [
-        "Prism Lass"
-      ],
+      "starting_weapon": ["Prism Lass"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Finding 7 Barriers",
       "dlc": "Operation Guns",
@@ -1795,9 +1565,7 @@
       "page_name": "Stanley",
       "description": "Might increases Armour<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup>. Can find special pickups.",
       "cost": 500,
-      "starting_weapon": [
-        "Homing Miss"
-      ],
+      "starting_weapon": ["Homing Miss"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Finding 14 Rapid Fires",
       "dlc": "Operation Guns",
@@ -1808,9 +1576,7 @@
     },
     {
       "page_name": "Newt Plissken",
-      "starting_weapon": [
-        "Diver Mines"
-      ],
+      "starting_weapon": ["Diver Mines"],
       "cost": 500,
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Luck\",\"value\":1.2}]",
@@ -1824,9 +1590,7 @@
     {
       "page_name": "Colonel Bahamut",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Metal Claw"
-      ],
+      "starting_weapon": ["Metal Claw"],
       "cost": 5000,
       "move_speed": 1.8,
       "dlc": "Operation Guns",
@@ -1850,9 +1614,7 @@
     },
     {
       "page_name": "Bats Bats Bats",
-      "starting_weapon": [
-        "Mazo Familiar"
-      ],
+      "starting_weapon": ["Mazo Familiar"],
       "cost": 5000,
       "move_speed": 1.8,
       "secret_character": "",
@@ -1869,9 +1631,7 @@
       "cost": 10,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Reroll\",\"value\":5}]",
       "unlocked_by": "Find and open the first coffin in [[Ode to Castlevania]]",
-      "starting_weapon": [
-        "Alchemy Whip"
-      ],
+      "starting_weapon": ["Alchemy Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -1883,9 +1643,7 @@
       "cost": 10,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Reroll\",\"value\":5}]",
       "unlocked_by": "Find and open the first coffin in [[Ode to Castlevania]]",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -1893,9 +1651,7 @@
     },
     {
       "page_name": "Sonia Belmont",
-      "starting_weapon": [
-        "Sonic Whip"
-      ],
+      "starting_weapon": ["Sonic Whip"],
       "cost": 500,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Luck\",\"value\":1.1}]",
@@ -1908,9 +1664,7 @@
     },
     {
       "page_name": "Sonia Belmont",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 500,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Luck\",\"value\":1.1}]",
@@ -1923,9 +1677,7 @@
     },
     {
       "page_name": "Trevor Belmont",
-      "starting_weapon": [
-        "Dragon Water Whip"
-      ],
+      "starting_weapon": ["Dragon Water Whip"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1937,9 +1689,7 @@
     },
     {
       "page_name": "Trevor Belmont",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -1955,9 +1705,7 @@
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Banish\",\"value\":5}]",
       "unlocked_by": "Evolve the [[Alucart Sworb]].",
-      "starting_weapon": [
-        "Jet Black Whip"
-      ],
+      "starting_weapon": ["Jet Black Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -1969,9 +1717,7 @@
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Banish\",\"value\":5}]",
       "unlocked_by": "Evolve the [[Alucart Sworb]].",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -1983,9 +1729,7 @@
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Reroll\",\"value\":5}]",
       "unlocked_by": "Evolve the Jet Black Whip.",
-      "starting_weapon": [
-        "Wind Whip"
-      ],
+      "starting_weapon": ["Wind Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -1997,9 +1741,7 @@
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Reroll\",\"value\":5}]",
       "unlocked_by": "Evolve the Jet Black Whip.",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -2007,9 +1749,7 @@
     },
     {
       "page_name": "Juste Belmont",
-      "starting_weapon": [
-        "Vibhuti Whip"
-      ],
+      "starting_weapon": ["Vibhuti Whip"],
       "cost": 2200,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -2023,9 +1763,7 @@
     },
     {
       "page_name": "Juste Belmont",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 2200,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -2039,9 +1777,7 @@
     },
     {
       "page_name": "Richter Belmont",
-      "starting_weapon": [
-        "Platinum Whip"
-      ],
+      "starting_weapon": ["Platinum Whip"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.9}]",
@@ -2054,9 +1790,7 @@
     },
     {
       "page_name": "Richter Belmont",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 500,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.9}]",
@@ -2069,9 +1803,7 @@
     },
     {
       "page_name": "Julius Belmont",
-      "starting_weapon": [
-        "Vanitas Whip"
-      ],
+      "starting_weapon": ["Vanitas Whip"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":180},{\"name\":\"Might\",\"value\":1.4},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Find and open the second coffin in Ode to Castlevania.",
@@ -2083,9 +1815,7 @@
     },
     {
       "page_name": "Julius Belmont",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":180},{\"name\":\"Might\",\"value\":1.4},{\"name\":\"Revival\",\"value\":1},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Find and open the second coffin in Ode to Castlevania.",
@@ -2097,9 +1827,7 @@
     },
     {
       "page_name": "Grant Danasty",
-      "starting_weapon": [
-        "Curved Knife"
-      ],
+      "starting_weapon": ["Curved Knife"],
       "cost": 200,
       "move_speed": 1.6,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.6},{\"name\":\"Luck\",\"value\":1.4}]",
@@ -2112,9 +1840,7 @@
     },
     {
       "page_name": "Grant Danasty",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 200,
       "move_speed": 1.6,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.6},{\"name\":\"Luck\",\"value\":1.4}]",
@@ -2127,9 +1853,7 @@
     },
     {
       "page_name": "John Morris",
-      "starting_weapon": [
-        "Iron Ball"
-      ],
+      "starting_weapon": ["Iron Ball"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Raging Fire]], [[Ice Fang]], [[Gale Force]], and [[Rock Riot]] across any amount of runs.",
@@ -2141,9 +1865,7 @@
     },
     {
       "page_name": "John Morris",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Raging Fire]], [[Ice Fang]], [[Gale Force]], and [[Rock Riot]] across any amount of runs.",
@@ -2155,9 +1877,7 @@
     },
     {
       "page_name": "John Morris",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 500,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Raging Fire]], [[Ice Fang]], [[Gale Force]], and [[Rock Riot]] across any amount of runs.",
@@ -2169,9 +1889,7 @@
     },
     {
       "page_name": "Jonathan Morris",
-      "starting_weapon": [
-        "Javelin"
-      ],
+      "starting_weapon": ["Javelin"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Hand Grenade]].",
@@ -2183,9 +1901,7 @@
     },
     {
       "page_name": "Jonathan Morris",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Hand Grenade]].",
@@ -2197,9 +1913,7 @@
     },
     {
       "page_name": "Jonathan Morris",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Hand Grenade]].",
@@ -2211,9 +1925,7 @@
     },
     {
       "page_name": "Jonathan Morris",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Hand Grenade]].",
@@ -2225,9 +1937,7 @@
     },
     {
       "page_name": "Soma Cruz",
-      "starting_weapon": [
-        "Hand Grenade"
-      ],
+      "starting_weapon": ["Hand Grenade"],
       "cost": 1000,
       "move_speed": 1.2,
       "greed": 1.5,
@@ -2240,9 +1950,7 @@
     },
     {
       "page_name": "Soma Cruz",
-      "starting_weapon": [
-        "Candybox"
-      ],
+      "starting_weapon": ["Candybox"],
       "cost": 1000,
       "move_speed": 1.2,
       "greed": 1.5,
@@ -2255,9 +1963,7 @@
     },
     {
       "page_name": "Soma Cruz",
-      "starting_weapon": [
-        "Candybox"
-      ],
+      "starting_weapon": ["Candybox"],
       "cost": 0,
       "move_speed": 1.2,
       "greed": 1.5,
@@ -2270,9 +1976,7 @@
     },
     {
       "page_name": "Charlotte Aulin",
-      "starting_weapon": [
-        "Raging Fire"
-      ],
+      "starting_weapon": ["Raging Fire"],
       "cost": 2000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -2286,9 +1990,7 @@
     },
     {
       "page_name": "Charlotte Aulin",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 2000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -2307,9 +2009,7 @@
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.5}]",
       "unlocked_by": "Defeat the Doppelganger with Trevor Belmont.",
-      "starting_weapon": [
-        "Alucart Sworb"
-      ],
+      "starting_weapon": ["Alucart Sworb"],
       "armor": 2,
       "max_health": 200,
       "dlc": "Ode to Castlevania",
@@ -2322,9 +2022,7 @@
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.5}]",
       "unlocked_by": "Defeat the Doppelganger with Trevor Belmont.",
-      "starting_weapon": [
-        "Candybox"
-      ],
+      "starting_weapon": ["Candybox"],
       "armor": 2,
       "max_health": 200,
       "dlc": "Ode to Castlevania",
@@ -2332,9 +2030,7 @@
     },
     {
       "page_name": "Sypha Belnades",
-      "starting_weapon": [
-        "Ice Fang"
-      ],
+      "starting_weapon": ["Ice Fang"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2346,9 +2042,7 @@
     },
     {
       "page_name": "Sypha Belnades",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2361,9 +2055,7 @@
     {
       "page_name": "Yoko Belnades",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Fulgur"
-      ],
+      "starting_weapon": ["Fulgur"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Speed\",\"value\":1.4},{\"name\":\"Magnet\",\"value\":0.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2377,9 +2069,7 @@
     {
       "page_name": "Yoko Belnades",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Speed\",\"value\":1.4},{\"name\":\"Magnet\",\"value\":0.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2396,9 +2086,7 @@
       "cost": 500,
       "move_speed": 1.2,
       "dlc": "Ode to Castlevania",
-      "starting_weapon": [
-        "Alucard Spear"
-      ],
+      "starting_weapon": ["Alucard Spear"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":1.2},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "name": "Eric Lecarde",
       "cooldown": 0.95,
@@ -2413,9 +2101,7 @@
       "cost": 500,
       "move_speed": 1.2,
       "dlc": "Ode to Castlevania",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":1.2},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "name": "Eric Lecarde",
       "cooldown": 0.95,
@@ -2430,9 +2116,7 @@
       "cost": 500,
       "move_speed": 1.2,
       "dlc": "Ode to Castlevania",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Might\",\"value\":1.2},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "name": "Eric Lecarde",
       "cooldown": 0.95,
@@ -2444,9 +2128,7 @@
     {
       "page_name": "Hector",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Mace"
-      ],
+      "starting_weapon": ["Mace"],
       "cost": 500,
       "growth": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Growth\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -2459,9 +2141,7 @@
     {
       "page_name": "Hector",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 500,
       "growth": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Growth\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -2474,9 +2154,7 @@
     {
       "page_name": "Hector",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 500,
       "growth": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Growth\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -2488,9 +2166,7 @@
     },
     {
       "page_name": "Maria Renard",
-      "starting_weapon": [
-        "Guardian's Targe"
-      ],
+      "starting_weapon": ["Guardian's Targe"],
       "cost": 1000,
       "move_speed": 1.4,
       "luck": 1.25,
@@ -2504,9 +2180,7 @@
     },
     {
       "page_name": "Maria Renard",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 1000,
       "move_speed": 1.4,
       "luck": 1.25,
@@ -2520,9 +2194,7 @@
     },
     {
       "page_name": "Maria Renard",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1000,
       "move_speed": 1.4,
       "luck": 1.25,
@@ -2536,9 +2208,7 @@
     },
     {
       "page_name": "Shanoa",
-      "starting_weapon": [
-        "Confodere"
-      ],
+      "starting_weapon": ["Confodere"],
       "cost": 1000,
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2550,9 +2220,7 @@
     },
     {
       "page_name": "Shanoa",
-      "starting_weapon": [
-        "Candybox"
-      ],
+      "starting_weapon": ["Candybox"],
       "cost": 1000,
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2564,9 +2232,7 @@
     },
     {
       "page_name": "Vlad Tepes Dracula",
-      "starting_weapon": [
-        "Wine Glass"
-      ],
+      "starting_weapon": ["Wine Glass"],
       "cost": 0,
       "greed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":666},{\"name\":\"Might\",\"value\":2},{\"name\":\"Greed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2579,9 +2245,7 @@
     },
     {
       "page_name": "Vlad Tepes Dracula",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 0,
       "greed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":666},{\"name\":\"Might\",\"value\":2},{\"name\":\"Greed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2594,9 +2258,7 @@
     },
     {
       "page_name": "Lisa Tepes",
-      "starting_weapon": [
-        "Luminatio"
-      ],
+      "starting_weapon": ["Luminatio"],
       "cost": 2000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5}]",
@@ -2608,9 +2270,7 @@
     },
     {
       "page_name": "Lisa Tepes",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 2000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5}]",
@@ -2622,9 +2282,7 @@
     },
     {
       "page_name": "Sara Trantoul",
-      "starting_weapon": [
-        "Star Flail"
-      ],
+      "starting_weapon": ["Star Flail"],
       "cost": 1665,
       "move_speed": 1.2,
       "duration": 1.4,
@@ -2637,9 +2295,7 @@
     },
     {
       "page_name": "Sara Trantoul",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1665,
       "move_speed": 1.2,
       "duration": 1.4,
@@ -2654,9 +2310,7 @@
       "page_name": "Nathan Graves",
       "description": "Starts with extra Arcana IV - Awake. Gain an extra choice of Arcana after survivng 7 and 14 minutes.",
       "cost": 2000,
-      "starting_weapon": [
-        "Sonic Dash"
-      ],
+      "starting_weapon": ["Sonic Dash"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "unlocked_by": "Evolve the [[Sonic Whip]].",
       "dlc": "Ode to Castlevania",
@@ -2669,9 +2323,7 @@
       "page_name": "Nathan Graves",
       "description": "Starts with extra Arcana IV - Awake. Gain an extra choice of Arcana after survivng 7 and 14 minutes.",
       "cost": 2000,
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "unlocked_by": "Evolve the [[Sonic Whip]].",
       "dlc": "Ode to Castlevania",
@@ -2684,9 +2336,7 @@
       "page_name": "Nathan Graves",
       "description": "Starts with extra Arcana IV - Awake. Gain an extra choice of Arcana after survivng 7 and 14 minutes.",
       "cost": 2000,
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.95}]",
       "unlocked_by": "Evolve the [[Sonic Whip]].",
       "dlc": "Ode to Castlevania",
@@ -2703,9 +2353,7 @@
       "luck": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":108},{\"name\":\"Recovery\",\"value\":3},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Luck\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve [[Globus]]",
-      "starting_weapon": [
-        "Gale Force"
-      ],
+      "starting_weapon": ["Gale Force"],
       "recovery": 3,
       "max_health": 108,
       "name": "Julia Laforeze",
@@ -2719,9 +2367,7 @@
       "luck": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":108},{\"name\":\"Recovery\",\"value\":3},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Luck\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve [[Globus]]",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "recovery": 3,
       "max_health": 108,
       "name": "Julia Laforeze",
@@ -2729,9 +2375,7 @@
     },
     {
       "page_name": "Maxim Kischine",
-      "starting_weapon": [
-        "Discus"
-      ],
+      "starting_weapon": ["Discus"],
       "cost": 2000,
       "move_speed": 1.8,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.8}]",
@@ -2743,9 +2387,7 @@
     },
     {
       "page_name": "Maxim Kischine",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 2000,
       "move_speed": 1.8,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.8}]",
@@ -2762,9 +2404,7 @@
       "greed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Greed\",\"value\":1.2},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Fulgur]] and [[Keremet Bubbles]] across any amount of runs.",
-      "starting_weapon": [
-        "Iron Shield"
-      ],
+      "starting_weapon": ["Iron Shield"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -2777,9 +2417,7 @@
       "greed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Greed\",\"value\":1.2},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Fulgur]] and [[Keremet Bubbles]] across any amount of runs.",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -2787,9 +2425,7 @@
     },
     {
       "page_name": "Reinhardt Schneider",
-      "starting_weapon": [
-        "Tyrfing"
-      ],
+      "starting_weapon": ["Tyrfing"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Find and open the fourth Coffin in Ode to Castlevania.",
@@ -2801,9 +2437,7 @@
     },
     {
       "page_name": "Reinhardt Schneider",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Find and open the fourth Coffin in Ode to Castlevania.",
@@ -2815,9 +2449,7 @@
     },
     {
       "page_name": "Reinhardt Schneider",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Find and open the fourth Coffin in Ode to Castlevania.",
@@ -2829,9 +2461,7 @@
     },
     {
       "page_name": "Reinhardt Schneider",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Find and open the fourth Coffin in Ode to Castlevania.",
@@ -2843,9 +2473,7 @@
     },
     {
       "page_name": "Quincy Morris",
-      "starting_weapon": [
-        "Shuriken"
-      ],
+      "starting_weapon": ["Shuriken"],
       "cost": 2000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Revival\",\"value\":4}]",
@@ -2857,9 +2485,7 @@
     },
     {
       "page_name": "Quincy Morris",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 2000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Revival\",\"value\":4}]",
@@ -2876,9 +2502,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Tyrfing]]",
-      "starting_weapon": [
-        "Silver Revolver"
-      ],
+      "starting_weapon": ["Silver Revolver"],
       "armor": 2,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -2891,9 +2515,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Evolve the [[Tyrfing]]",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "armor": 2,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -2902,9 +2524,7 @@
     {
       "page_name": "Carrie Fernandez",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Rock Riot"
-      ],
+      "starting_weapon": ["Rock Riot"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Magnet\",\"value\":0.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2918,9 +2538,7 @@
     {
       "page_name": "Carrie Fernandez",
       "magnet": 0.5,
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1665,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.4},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Magnet\",\"value\":0.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -2935,9 +2553,7 @@
       "page_name": "Rinaldo Gandolfi",
       "description": "Starts with extra Arcana I - Gemini.",
       "cost": 1665,
-      "starting_weapon": [
-        "Keremet Bubbles"
-      ],
+      "starting_weapon": ["Keremet Bubbles"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Star Flail]].",
       "dlc": "Ode to Castlevania",
@@ -2950,9 +2566,7 @@
       "page_name": "Rinaldo Gandolfi",
       "description": "Starts with extra Arcana I - Gemini.",
       "cost": 1665,
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.5},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Star Flail]].",
       "dlc": "Ode to Castlevania",
@@ -2963,9 +2577,7 @@
     },
     {
       "page_name": "Mina Hakuba",
-      "starting_weapon": [
-        "Refectio"
-      ],
+      "starting_weapon": ["Refectio"],
       "cost": 1665,
       "move_speed": 1.2,
       "dlc": "Ode to Castlevania",
@@ -2980,9 +2592,7 @@
     },
     {
       "page_name": "Mina Hakuba",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 1665,
       "move_speed": 1.2,
       "dlc": "Ode to Castlevania",
@@ -2997,9 +2607,7 @@
     },
     {
       "page_name": "Cornell",
-      "starting_weapon": [
-        "Dextro Custos"
-      ],
+      "starting_weapon": ["Dextro Custos"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Reroll\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Silver Revolver]].",
@@ -3011,9 +2619,7 @@
     },
     {
       "page_name": "Cornell",
-      "starting_weapon": [
-        "Sinestro Custos"
-      ],
+      "starting_weapon": ["Sinestro Custos"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Reroll\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Silver Revolver]].",
@@ -3025,9 +2631,7 @@
     },
     {
       "page_name": "Cornell",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Reroll\",\"value\":10}]",
       "unlocked_by": "Evolve the [[Silver Revolver]].",
@@ -3039,9 +2643,7 @@
     },
     {
       "page_name": "Familiar",
-      "starting_weapon": [
-        "Refectio"
-      ],
+      "starting_weapon": ["Refectio"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3054,9 +2656,7 @@
     },
     {
       "page_name": "Familiar",
-      "starting_weapon": [
-        "Raging Fire"
-      ],
+      "starting_weapon": ["Raging Fire"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3069,9 +2669,7 @@
     },
     {
       "page_name": "Familiar",
-      "starting_weapon": [
-        "Fulgur"
-      ],
+      "starting_weapon": ["Fulgur"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3084,9 +2682,7 @@
     },
     {
       "page_name": "Familiar",
-      "starting_weapon": [
-        "Ice Fang"
-      ],
+      "starting_weapon": ["Ice Fang"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3099,9 +2695,7 @@
     },
     {
       "page_name": "Familiar",
-      "starting_weapon": [
-        "Rock Riot"
-      ],
+      "starting_weapon": ["Rock Riot"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3114,9 +2708,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Svarog Statue"
-      ],
+      "starting_weapon": ["Svarog Statue"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3129,9 +2721,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Trident"
-      ],
+      "starting_weapon": ["Trident"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3144,9 +2734,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Summon Spirit"
-      ],
+      "starting_weapon": ["Summon Spirit"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3159,9 +2747,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Garlic"
-      ],
+      "starting_weapon": ["Garlic"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3174,11 +2760,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Fire Wand",
-        "Lightning Ring",
-        "Magic Wand"
-      ],
+      "starting_weapon": ["Fire Wand", "Lightning Ring", "Magic Wand"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3191,10 +2773,7 @@
     },
     {
       "page_name": "Innocent Devil",
-      "starting_weapon": [
-        "Curved Knife",
-        "Troll Bomb"
-      ],
+      "starting_weapon": ["Curved Knife", "Troll Bomb"],
       "cost": 100,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3214,9 +2793,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":150},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Let the alchemist personally avenge his family.",
-      "starting_weapon": [
-        "Nitesco"
-      ],
+      "starting_weapon": ["Nitesco"],
       "armor": 2,
       "max_health": 150,
       "dlc": "Ode to Castlevania",
@@ -3224,9 +2801,7 @@
     },
     {
       "page_name": "Barlowe",
-      "starting_weapon": [
-        "Dominus Anger"
-      ],
+      "starting_weapon": ["Dominus Anger"],
       "cost": 2000,
       "duration": 1.2,
       "description": "Overhealing slightly increase Might and Curse. Might receive [[Ebony Diabologue]] as 4th level up option until Level 11.",
@@ -3240,9 +2815,7 @@
     },
     {
       "page_name": "Barlowe",
-      "starting_weapon": [
-        "Dominus Hatred"
-      ],
+      "starting_weapon": ["Dominus Hatred"],
       "cost": 2000,
       "duration": 1.2,
       "description": "Overhealing slightly increase Might and Curse. Might receive [[Ebony Diabologue]] as 4th level up option until Level 11.",
@@ -3256,9 +2829,7 @@
     },
     {
       "page_name": "Barlowe",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "duration": 1.2,
       "description": "Overhealing slightly increase Might and Curse. Might receive [[Ebony Diabologue]] as 4th level up option until Level 11.",
@@ -3272,9 +2843,7 @@
     },
     {
       "page_name": "Barlowe",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 2000,
       "duration": 1.2,
       "description": "Overhealing slightly increase Might and Curse. Might receive [[Ebony Diabologue]] as 4th level up option until Level 11.",
@@ -3293,11 +2862,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Revival\",\"value\":1}]",
       "unlocked_by": "Save the son with holy magic before the transformation is complete.",
-      "starting_weapon": [
-        "Jet Black Whip",
-        "Vibhuti Whip",
-        "Vanitas Whip"
-      ],
+      "starting_weapon": ["Jet Black Whip", "Vibhuti Whip", "Vanitas Whip"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -3312,9 +2877,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Rewrite the fate of the damsel in distress.",
-      "starting_weapon": [
-        "Rune Sword"
-      ],
+      "starting_weapon": ["Rune Sword"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3329,9 +2892,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Shelter their twin souls with holy magic to restore their humanity.",
-      "starting_weapon": [
-        "Pneuma Tempestas"
-      ],
+      "starting_weapon": ["Pneuma Tempestas"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3346,9 +2907,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Shelter their twin souls with holy magic to restore their humanity.",
-      "starting_weapon": [
-        "Pneuma Tempestas"
-      ],
+      "starting_weapon": ["Pneuma Tempestas"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3363,9 +2922,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Shelter their twin souls with holy magic to restore their humanity.",
-      "starting_weapon": [
-        "Cocytus"
-      ],
+      "starting_weapon": ["Cocytus"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3380,9 +2937,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Shelter their twin souls with holy magic to restore their humanity.",
-      "starting_weapon": [
-        "Cocytus"
-      ],
+      "starting_weapon": ["Cocytus"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3390,9 +2945,7 @@
     },
     {
       "page_name": "Dario Bossi",
-      "starting_weapon": [
-        "Salamender"
-      ],
+      "starting_weapon": ["Salamender"],
       "cost": 1665,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
@@ -3410,9 +2963,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Turn her from a blue shadow into a real crystal.",
-      "starting_weapon": [
-        "Icebrand"
-      ],
+      "starting_weapon": ["Icebrand"],
       "armor": 2,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3420,9 +2971,7 @@
     },
     {
       "page_name": "Galamoth",
-      "starting_weapon": [
-        "Tenebris Tonitrus"
-      ],
+      "starting_weapon": ["Tenebris Tonitrus"],
       "cost": 16650,
       "greed": 2,
       "dlc": "Ode to Castlevania",
@@ -3438,9 +2987,7 @@
     {
       "page_name": "Count Olrox",
       "description": "Count on him to change halfway through dinner.",
-      "starting_weapon": [
-        "Dark Rift"
-      ],
+      "starting_weapon": ["Dark Rift"],
       "cost": 16650,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -3456,9 +3003,7 @@
     },
     {
       "page_name": "Keremet",
-      "starting_weapon": [
-        "Keremet Morbus"
-      ],
+      "starting_weapon": ["Keremet Morbus"],
       "cost": 16650,
       "move_speed": 0,
       "dlc": "Ode to Castlevania",
@@ -3481,9 +3026,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":1},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Bring bad luck to the count's belligerent bosses.",
-      "starting_weapon": [
-        "Vol Umbra"
-      ],
+      "starting_weapon": ["Vol Umbra"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -3491,10 +3034,7 @@
     },
     {
       "page_name": "Celia Fortner",
-      "starting_weapon": [
-        "Luminatio",
-        "Umbra"
-      ],
+      "starting_weapon": ["Luminatio", "Umbra"],
       "cost": 1665,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
@@ -3522,9 +3062,7 @@
     {
       "page_name": "Blackmore",
       "greed": 2,
-      "starting_weapon": [
-        "Summon Spirit"
-      ],
+      "starting_weapon": ["Summon Spirit"],
       "cost": 16650,
       "move_speed": 1.4,
       "duration": 1.4,
@@ -3564,9 +3102,7 @@
     },
     {
       "page_name": "Axe Armor",
-      "starting_weapon": [
-        "Axe"
-      ],
+      "starting_weapon": ["Axe"],
       "cost": 2000,
       "move_speed": 1.1,
       "curse": 1.1,
@@ -3581,9 +3117,7 @@
     },
     {
       "page_name": "Alamaric Sniper",
-      "starting_weapon": [
-        "Arrow of Goth"
-      ],
+      "starting_weapon": ["Arrow of Goth"],
       "cost": 16650,
       "move_speed": 1.8,
       "secret_character": "",
@@ -3597,9 +3131,7 @@
     },
     {
       "page_name": "Cave Troll",
-      "starting_weapon": [
-        "Troll Bomb"
-      ],
+      "starting_weapon": ["Troll Bomb"],
       "cost": 500,
       "move_speed": 1.2,
       "secret_character": "",
@@ -3612,9 +3144,7 @@
     },
     {
       "page_name": "Death (character)",
-      "starting_weapon": [
-        "Death Spiral"
-      ],
+      "starting_weapon": ["Death Spiral"],
       "cost": 16650,
       "move_speed": 2,
       "secret_character": "",
@@ -3628,9 +3158,7 @@
     },
     {
       "page_name": "Dmitrii Blinov",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 1665,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100}]",
@@ -3643,9 +3171,7 @@
     {
       "page_name": "Isaac",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Trident"
-      ],
+      "starting_weapon": ["Trident"],
       "cost": 2000,
       "description": "Gains a random [[Familiar]] as a follower every 10 levels (max 6).",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Area\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -3659,9 +3185,7 @@
     {
       "page_name": "Isaac",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 2000,
       "description": "Gains a random [[Familiar]] as a follower every 10 levels (max 6).",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Area\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -3675,9 +3199,7 @@
     {
       "page_name": "Isaac",
       "magnet": 0.25,
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "description": "Gains a random [[Familiar]] as a follower every 10 levels (max 6).",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Area\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":0.25},{\"name\":\"Reroll\",\"value\":20},{\"name\":\"Skip\",\"value\":20},{\"name\":\"Banish\",\"value\":20}]",
@@ -3690,9 +3212,7 @@
     },
     {
       "page_name": "Saint Germain",
-      "starting_weapon": [
-        "Globus"
-      ],
+      "starting_weapon": ["Globus"],
       "cost": 2000,
       "move_speed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -3704,9 +3224,7 @@
     },
     {
       "page_name": "Saint Germain",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 2000,
       "move_speed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -3718,9 +3236,7 @@
     },
     {
       "page_name": "Saint Germain",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "move_speed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -3732,9 +3248,7 @@
     },
     {
       "page_name": "Albus",
-      "starting_weapon": [
-        "Optical Shot"
-      ],
+      "starting_weapon": ["Optical Shot"],
       "cost": 2000,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Move Speed\",\"value\":1.4}]",
@@ -3746,9 +3260,7 @@
     },
     {
       "page_name": "Albus",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "move_speed": 1.4,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Move Speed\",\"value\":1.4}]",
@@ -3760,9 +3272,7 @@
     },
     {
       "page_name": "Elizabeth Bartley",
-      "starting_weapon": [
-        "Hex"
-      ],
+      "starting_weapon": ["Hex"],
       "cost": 6665,
       "move_speed": 1.5,
       "greed": 2,
@@ -3777,9 +3287,7 @@
     },
     {
       "page_name": "Elizabeth Bartley",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 6665,
       "move_speed": 1.5,
       "greed": 2,
@@ -3794,9 +3302,7 @@
     },
     {
       "page_name": "Elizabeth Bartley",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 6665,
       "move_speed": 1.5,
       "greed": 2,
@@ -3811,9 +3317,7 @@
     },
     {
       "page_name": "Shaft",
-      "starting_weapon": [
-        "Umbra"
-      ],
+      "starting_weapon": ["Umbra"],
       "cost": 2000,
       "move_speed": 1.3,
       "duration": 1.5,
@@ -3826,9 +3330,7 @@
     },
     {
       "page_name": "Shaft",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 2000,
       "move_speed": 1.3,
       "duration": 1.5,
@@ -3841,9 +3343,7 @@
     },
     {
       "page_name": "Young Maria Renard",
-      "starting_weapon": [
-        "Familiar Forge"
-      ],
+      "starting_weapon": ["Familiar Forge"],
       "cost": 9000,
       "move_speed": 1.8,
       "secret_character": "",
@@ -3857,9 +3357,7 @@
     },
     {
       "page_name": "Blue Crescent Moon Cornell",
-      "starting_weapon": [
-        "Trinum Custodem"
-      ],
+      "starting_weapon": ["Trinum Custodem"],
       "cost": 9000,
       "move_speed": 1.4,
       "dlc": "Ode to Castlevania",
@@ -3874,9 +3372,7 @@
     },
     {
       "page_name": "Blue Crescent Moon Cornell",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 9000,
       "move_speed": 1.4,
       "dlc": "Ode to Castlevania",
@@ -3902,9 +3398,7 @@
     },
     {
       "page_name": "Master Librarian",
-      "starting_weapon": [
-        "Rapidus Fio"
-      ],
+      "starting_weapon": ["Rapidus Fio"],
       "cost": 65536,
       "move_speed": 0,
       "greed": 11,
@@ -3918,9 +3412,7 @@
     },
     {
       "page_name": "Hammer",
-      "starting_weapon": [
-        "The RPG"
-      ],
+      "starting_weapon": ["The RPG"],
       "cost": 9000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Amount\",\"value\":1}]",
@@ -3939,9 +3431,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Witness the Burning Alcarde three times.",
-      "starting_weapon": [
-        "Aura Blast"
-      ],
+      "starting_weapon": ["Aura Blast"],
       "recovery": 1,
       "max_health": 100,
       "name": "Wind",
@@ -3950,9 +3440,7 @@
     {
       "page_name": "Chaos",
       "magnet": 2,
-      "starting_weapon": [
-        "Infinite Corridor"
-      ],
+      "starting_weapon": ["Infinite Corridor"],
       "cost": 1048576,
       "growth": 0.01,
       "secret_character": "",
@@ -3965,9 +3453,7 @@
     },
     {
       "page_name": "Succubus",
-      "starting_weapon": [
-        "Nightmare"
-      ],
+      "starting_weapon": ["Nightmare"],
       "cost": 16650,
       "move_speed": 1.8,
       "greed": 2,
@@ -3983,9 +3469,7 @@
     {
       "page_name": "Megalo Death",
       "secret_character": "",
-      "starting_weapon": [
-        "Death Spiral"
-      ],
+      "starting_weapon": ["Death Spiral"],
       "cost": 16650,
       "move_speed": 2,
       "greed": 2,
@@ -4002,9 +3486,7 @@
     {
       "page_name": "Megalo Death",
       "secret_character": "",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 16650,
       "move_speed": 2,
       "greed": 2,
@@ -4025,9 +3507,7 @@
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
-      "starting_weapon": [
-        "Dark Rift"
-      ],
+      "starting_weapon": ["Dark Rift"],
       "secret_character": "",
       "duration": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":400},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Might\",\"value\":3.5},{\"name\":\"Duration\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.8},{\"name\":\"Greed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -4045,9 +3525,7 @@
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "secret_character": "",
       "duration": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":400},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.5},{\"name\":\"Might\",\"value\":3.5},{\"name\":\"Duration\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.8},{\"name\":\"Greed\",\"value\":2},{\"name\":\"Reroll\",\"value\":10},{\"name\":\"Skip\",\"value\":10},{\"name\":\"Banish\",\"value\":10}]",
@@ -4061,9 +3539,7 @@
     {
       "page_name": "Megalo Elizabeth Bartley",
       "secret_character": "",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
@@ -4080,9 +3556,7 @@
     {
       "page_name": "Megalo Elizabeth Bartley",
       "secret_character": "",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
@@ -4099,9 +3573,7 @@
     {
       "page_name": "Megalo Dracula",
       "secret_character": "",
-      "starting_weapon": [
-        "Wine Glass"
-      ],
+      "starting_weapon": ["Wine Glass"],
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
@@ -4118,11 +3590,7 @@
     {
       "page_name": "Megalo Dracula",
       "secret_character": "",
-      "starting_weapon": [
-        "Dominus Agony",
-        "Dominus Anger",
-        "Dominus Hatred"
-      ],
+      "starting_weapon": ["Dominus Agony", "Dominus Anger", "Dominus Hatred"],
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
@@ -4139,9 +3607,7 @@
     {
       "page_name": "Megalo Dracula",
       "secret_character": "",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "cost": 16650,
       "move_speed": 1.5,
       "greed": 2,
@@ -4165,9 +3631,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":1},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Drain the crimson \"paint\" from his most lively works.",
-      "starting_weapon": [
-        "Ebony Diabologue"
-      ],
+      "starting_weapon": ["Ebony Diabologue"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Ode to Castlevania",
@@ -4175,9 +3639,7 @@
     },
     {
       "page_name": "Jonathan & Charlotte",
-      "starting_weapon": [
-        "Javelin"
-      ],
+      "starting_weapon": ["Javelin"],
       "cost": 2000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
@@ -4190,9 +3652,7 @@
     },
     {
       "page_name": "Jonathan & Charlotte",
-      "starting_weapon": [
-        "Morning Star"
-      ],
+      "starting_weapon": ["Morning Star"],
       "cost": 2000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
@@ -4205,9 +3665,7 @@
     },
     {
       "page_name": "Jonathan & Charlotte",
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "cost": 2000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
@@ -4220,9 +3678,7 @@
     },
     {
       "page_name": "Jonathan & Charlotte",
-      "starting_weapon": [
-        "Spectral Sword"
-      ],
+      "starting_weapon": ["Spectral Sword"],
       "cost": 2000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":130},{\"name\":\"Might\",\"value\":1.2}]",
@@ -4235,9 +3691,7 @@
     },
     {
       "page_name": "Charlotte & Jonathan",
-      "starting_weapon": [
-        "Raging Fire"
-      ],
+      "starting_weapon": ["Raging Fire"],
       "cost": 2000,
       "move_speed": 1.2,
       "duration": 1.4,
@@ -4252,9 +3706,7 @@
     },
     {
       "page_name": "Charlotte & Jonathan",
-      "starting_weapon": [
-        "Belnades' Spellbook"
-      ],
+      "starting_weapon": ["Belnades' Spellbook"],
       "cost": 2000,
       "move_speed": 1.2,
       "duration": 1.4,
@@ -4270,9 +3722,7 @@
     {
       "page_name": "Persephone",
       "magnet": 1,
-      "starting_weapon": [
-        "Summon Spirit Tornado"
-      ],
+      "starting_weapon": ["Summon Spirit Tornado"],
       "cost": 5000,
       "move_speed": 1.2,
       "secret_character": "",
@@ -4286,9 +3736,7 @@
     {
       "page_name": "Zephyr",
       "description": "Adept with knives. Gains a Cooldown and MoveSpeed bonus when picking up Orologions. Orologions are easier to find.",
-      "starting_weapon": [
-        "Knife"
-      ],
+      "starting_weapon": ["Knife"],
       "cost": 5000,
       "move_speed": 1.5,
       "secret_character": "",
@@ -4303,9 +3751,7 @@
     {
       "page_name": "Zephyr",
       "description": "Adept with knives. Gains a Cooldown and MoveSpeed bonus when picking up Orologions. Orologions are easier to find.",
-      "starting_weapon": [
-        "Curved Knife"
-      ],
+      "starting_weapon": ["Curved Knife"],
       "cost": 5000,
       "move_speed": 1.5,
       "secret_character": "",
@@ -4319,9 +3765,7 @@
     },
     {
       "page_name": "Gazebo",
-      "starting_weapon": [
-        "Gaze of Gaea"
-      ],
+      "starting_weapon": ["Gaze of Gaea"],
       "cost": 5000,
       "move_speed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.5}]",
@@ -4333,9 +3777,7 @@
     },
     {
       "page_name": "Tsunanori Mido",
-      "starting_weapon": [
-        "Fleuret"
-      ],
+      "starting_weapon": ["Fleuret"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -4349,9 +3791,7 @@
     },
     {
       "page_name": "Tsunanori Mido",
-      "starting_weapon": [
-        "Splashers"
-      ],
+      "starting_weapon": ["Splashers"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -4365,9 +3805,7 @@
     },
     {
       "page_name": "Tsunanori Mido",
-      "starting_weapon": [
-        "Fleuret"
-      ],
+      "starting_weapon": ["Fleuret"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -4381,9 +3819,7 @@
     },
     {
       "page_name": "Tsunanori Mido",
-      "starting_weapon": [
-        "Splashers"
-      ],
+      "starting_weapon": ["Splashers"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -4397,9 +3833,7 @@
     },
     {
       "page_name": "Ameya Aisling",
-      "starting_weapon": [
-        "Spirit Rings"
-      ],
+      "starting_weapon": ["Spirit Rings"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5}]",
@@ -4411,9 +3845,7 @@
     },
     {
       "page_name": "Ameya Aisling",
-      "starting_weapon": [
-        "Intuition"
-      ],
+      "starting_weapon": ["Intuition"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5}]",
@@ -4425,9 +3857,7 @@
     },
     {
       "page_name": "Bonnie Blair",
-      "starting_weapon": [
-        "Punch"
-      ],
+      "starting_weapon": ["Punch"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -4439,9 +3869,7 @@
     },
     {
       "page_name": "Bonnie Blair",
-      "starting_weapon": [
-        "Kick"
-      ],
+      "starting_weapon": ["Kick"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -4453,9 +3881,7 @@
     },
     {
       "page_name": "Bonnie Blair",
-      "starting_weapon": [
-        "Punch"
-      ],
+      "starting_weapon": ["Punch"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -4467,9 +3893,7 @@
     },
     {
       "page_name": "Bonnie Blair",
-      "starting_weapon": [
-        "Kick"
-      ],
+      "starting_weapon": ["Kick"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":140},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -4486,9 +3910,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Fully evolving <span class=\"sprite-file noexcerpt\">[[File:Sprite-Kick.png|24x24px|link=Kick|alt=|Kick]]&nbsp;</span><span>[[Kick|Kick]]</span>.",
-      "starting_weapon": [
-        "Saber Machine Gun"
-      ],
+      "starting_weapon": ["Saber Machine Gun"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Emerald Diorama",
@@ -4501,9 +3923,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Fully evolving <span class=\"sprite-file noexcerpt\">[[File:Sprite-Kick.png|24x24px|link=Kick|alt=|Kick]]&nbsp;</span><span>[[Kick|Kick]]</span>.",
-      "starting_weapon": [
-        "Eagle Gun"
-      ],
+      "starting_weapon": ["Eagle Gun"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Emerald Diorama",
@@ -4516,9 +3936,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Fully evolving <span class=\"sprite-file noexcerpt\">[[File:Sprite-Kick.png|24x24px|link=Kick|alt=|Kick]]&nbsp;</span><span>[[Kick|Kick]]</span>.",
-      "starting_weapon": [
-        "Saber Machine Gun"
-      ],
+      "starting_weapon": ["Saber Machine Gun"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Emerald Diorama",
@@ -4531,9 +3949,7 @@
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.2}]",
       "unlocked_by": "Fully evolving <span class=\"sprite-file noexcerpt\">[[File:Sprite-Kick.png|24x24px|link=Kick|alt=|Kick]]&nbsp;</span><span>[[Kick|Kick]]</span>.",
-      "starting_weapon": [
-        "Eagle Gun"
-      ],
+      "starting_weapon": ["Eagle Gun"],
       "armor": 1,
       "max_health": 100,
       "dlc": "Emerald Diorama",
@@ -4545,9 +3961,7 @@
       "cost": 5000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1}]",
       "unlocked_by": "Fully evolving the [[Eagle Gun]].",
-      "starting_weapon": [
-        "Super Missile"
-      ],
+      "starting_weapon": ["Super Missile"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4560,9 +3974,7 @@
       "move_speed": 0.8,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":0.8}]",
       "unlocked_by": "With Diva No.5 \"Virginia\", glimmer at least 11 techs.",
-      "starting_weapon": [
-        "Super Missile"
-      ],
+      "starting_weapon": ["Super Missile"],
       "armor": 2,
       "max_health": 200,
       "dlc": "Emerald Diorama",
@@ -4576,9 +3988,7 @@
       "move_speed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":50},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":2},{\"name\":\"Magnet\",\"value\":1}]",
       "unlocked_by": "With Diva No.5 \"Retro Pod\", glimmer at least 7 techs.",
-      "starting_weapon": [
-        "Super Missile"
-      ],
+      "starting_weapon": ["Super Missile"],
       "armor": 1,
       "max_health": 50,
       "dlc": "Emerald Diorama",
@@ -4589,9 +3999,7 @@
       "description": "Charge: triggers the \"Ballistic Missiles\" tech.",
       "cost": 5000,
       "speed": 1.3,
-      "starting_weapon": [
-        "Super Missile"
-      ],
+      "starting_weapon": ["Super Missile"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Speed\",\"value\":1.3},{\"name\":\"Area\",\"value\":1.3}]",
       "unlocked_by": "With Diva No.5, defeat all bosses in Emerald Diorama in a single run.",
       "dlc": "Emerald Diorama",
@@ -4602,9 +4010,7 @@
     },
     {
       "page_name": "Diva No. 5",
-      "starting_weapon": [
-        "Super Missile"
-      ],
+      "starting_weapon": ["Super Missile"],
       "cost": 5000,
       "duration": 1.3,
       "description": "Can fly. Can innately use the \"Cosmic Rave\" tech.",
@@ -4622,9 +4028,7 @@
       "cost": 5000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1}]",
       "unlocked_by": "Fully evolve the [[Super Missile]].",
-      "starting_weapon": [
-        "Twin Dragon"
-      ],
+      "starting_weapon": ["Twin Dragon"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4632,9 +4036,7 @@
     },
     {
       "page_name": "Siugnas",
-      "starting_weapon": [
-        "Town Sword"
-      ],
+      "starting_weapon": ["Town Sword"],
       "cost": 5000,
       "move_speed": 1.2,
       "dlc": "Emerald Diorama",
@@ -4648,9 +4050,7 @@
     },
     {
       "page_name": "Siugnas",
-      "starting_weapon": [
-        "Sanguine Star"
-      ],
+      "starting_weapon": ["Sanguine Star"],
       "cost": 5000,
       "move_speed": 1.2,
       "dlc": "Emerald Diorama",
@@ -4664,9 +4064,7 @@
     },
     {
       "page_name": "Dolores",
-      "starting_weapon": [
-        "Bullova"
-      ],
+      "starting_weapon": ["Bullova"],
       "cost": 25000,
       "move_speed": 1.2,
       "luck": 1.2,
@@ -4680,9 +4078,7 @@
     },
     {
       "page_name": "Final Emperor",
-      "starting_weapon": [
-        "Flamberge"
-      ],
+      "starting_weapon": ["Flamberge"],
       "cost": 25000,
       "greed": 1.5,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Might\",\"value\":1.5},{\"name\":\"Greed\",\"value\":1.5}]",
@@ -4700,9 +4096,7 @@
       "duration": 1.2,
       "growth": 1.2,
       "dlc": "Emerald Diorama",
-      "starting_weapon": [
-        "Khukuri"
-      ],
+      "starting_weapon": ["Khukuri"],
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Duration\",\"value\":1.2},{\"name\":\"Area\",\"value\":1.2},{\"name\":\"Cooldown\",\"value\":0.9},{\"name\":\"Growth\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5},{\"name\":\"Charm\",\"value\":50}]",
       "name": "Macha Alter Ego",
       "unlocked_by": "Defeating the <span class=\"sprite-file noexcerpt\">[[File:Sprite-Iron Maiden.png|24x24px|link=Iron Maiden|alt=|Iron Maiden]]&nbsp;</span><span>[[Iron Maiden|Iron Maiden]]</span> in Avalon in Inverse Emerald Diorama with <span class=\"sprite-file noexcerpt\">[[File:Sprite-Ameya Aisling.png|24x24px|link=Ameya Aisling|alt=|Ameya Aisling]]&nbsp;</span><span>[[Ameya Aisling|Ameya Aisling]]</span>.",
@@ -4713,9 +4107,7 @@
     },
     {
       "page_name": "Lita Caryx",
-      "starting_weapon": [
-        "Glaive"
-      ],
+      "starting_weapon": ["Glaive"],
       "cost": 25000,
       "move_speed": 2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":2},{\"name\":\"Amount\",\"value\":1},{\"name\":\"Reroll\",\"value\":5},{\"name\":\"Skip\",\"value\":5},{\"name\":\"Banish\",\"value\":5}]",
@@ -4733,9 +4125,7 @@
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.3}]",
       "unlocked_by": "Defeating <span class=\"sprite-file noexcerpt\">[[File:Sprite-Divine Wood Spirit.png|24x24px|link=Divine Wood Spirit|alt=|Divine Wood Spirit]]&nbsp;</span><span>[[Divine Wood Spirit|Divine Wood Spirit]]</span> in Miyako City in Inverse Emerald Diorama.",
-      "starting_weapon": [
-        "Twin Dragon"
-      ],
+      "starting_weapon": ["Twin Dragon"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4748,9 +4138,7 @@
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.3}]",
       "unlocked_by": "Defeating <span class=\"sprite-file noexcerpt\">[[File:Sprite-Divine Wood Spirit.png|24x24px|link=Divine Wood Spirit|alt=|Divine Wood Spirit]]&nbsp;</span><span>[[Divine Wood Spirit|Divine Wood Spirit]]</span> in Miyako City in Inverse Emerald Diorama.",
-      "starting_weapon": [
-        "Khukuri"
-      ],
+      "starting_weapon": ["Khukuri"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4763,9 +4151,7 @@
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.3}]",
       "unlocked_by": "Defeating <span class=\"sprite-file noexcerpt\">[[File:Sprite-Divine Wood Spirit.png|24x24px|link=Divine Wood Spirit|alt=|Divine Wood Spirit]]&nbsp;</span><span>[[Divine Wood Spirit|Divine Wood Spirit]]</span> in Miyako City in Inverse Emerald Diorama.",
-      "starting_weapon": [
-        "Eagle Gun"
-      ],
+      "starting_weapon": ["Eagle Gun"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4778,9 +4164,7 @@
       "move_speed": 1.3,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.3}]",
       "unlocked_by": "Defeating <span class=\"sprite-file noexcerpt\">[[File:Sprite-Divine Wood Spirit.png|24x24px|link=Divine Wood Spirit|alt=|Divine Wood Spirit]]&nbsp;</span><span>[[Divine Wood Spirit|Divine Wood Spirit]]</span> in Miyako City in Inverse Emerald Diorama.",
-      "starting_weapon": [
-        "Punch"
-      ],
+      "starting_weapon": ["Punch"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Emerald Diorama",
@@ -4788,9 +4172,7 @@
     },
     {
       "page_name": "Mr. S",
-      "starting_weapon": [
-        "Intuition"
-      ],
+      "starting_weapon": ["Intuition"],
       "cost": 100000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2}]",
@@ -4846,9 +4228,7 @@
     {
       "page_name": "Malevolent Door Spirit",
       "secret_character": "",
-      "starting_weapon": [
-        "Blood Chalice"
-      ],
+      "starting_weapon": ["Blood Chalice"],
       "cost": 5000,
       "move_speed": 0.7,
       "curse": 2,
@@ -4865,9 +4245,7 @@
     },
     {
       "page_name": "Space Dette",
-      "starting_weapon": [
-        "Photonstorm"
-      ],
+      "starting_weapon": ["Photonstorm"],
       "cost": 5000,
       "move_speed": 1.4,
       "secret_character": "",
@@ -4882,9 +4260,7 @@
       "page_name": "Slogra and Gaibon",
       "description": "Adept with Trident. Always followed by Gaibon. Gets enraged if its partner dies.",
       "cost": 5000,
-      "starting_weapon": [
-        "Trident"
-      ],
+      "starting_weapon": ["Trident"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.3}]",
       "unlocked_by": "Defeat Death's demonic knight duo with Dracula's smallest henchman.",
@@ -4898,9 +4274,7 @@
       "page_name": "Slogra and Gaibon",
       "description": "Adept with Fire Wand. Always followed by Slogra. Gets enraged if its partner dies. Flies.",
       "cost": 5000,
-      "starting_weapon": [
-        "Fire Wand"
-      ],
+      "starting_weapon": ["Fire Wand"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Might\",\"value\":1.3}]",
       "unlocked_by": "Defeat Death's demonic knight duo with Dracula's smallest henchman.",
@@ -4927,9 +4301,7 @@
     {
       "page_name": "Chula-Reh",
       "magnet": 0.07,
-      "starting_weapon": [
-        "Magi-Stone"
-      ],
+      "starting_weapon": ["Magi-Stone"],
       "cost": 777,
       "move_speed": 1.07,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.07},{\"name\":\"Magnet\",\"value\":0.07},{\"name\":\"Luck\",\"value\":1.07},{\"name\":\"Reroll\",\"value\":7}]",
@@ -4947,9 +4319,7 @@
       "cost": 500,
       "move_speed": 1.3,
       "duration": 1.2,
-      "starting_weapon": [
-        "Ammo Appalate"
-      ],
+      "starting_weapon": ["Ammo Appalate"],
       "dlc": "Vampire Survivors",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.3},{\"name\":\"Speed\",\"value\":1.2},{\"name\":\"Duration\",\"value\":1.2},{\"name\":\"Magnet\",\"value\":0.3},{\"name\":\"Luck\",\"value\":1.2}]",
       "name": "Zi'Appunta Belpaese",
@@ -4960,9 +4330,7 @@
     },
     {
       "page_name": "Secretino Dagsson",
-      "starting_weapon": [
-        "Kyra-Stones"
-      ],
+      "starting_weapon": ["Kyra-Stones"],
       "cost": 50000,
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Reroll\",\"value\":7},{\"name\":\"Skip\",\"value\":7},{\"name\":\"Banish\",\"value\":7}]",
@@ -4976,9 +4344,7 @@
       "page_name": "Annette",
       "description": "Summons a selection of clockwork weapons.",
       "cost": 5000,
-      "starting_weapon": [
-        "Endo Gears"
-      ],
+      "starting_weapon": ["Endo Gears"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.9}]",
       "unlocked_by": "Build one tower inside another",
@@ -4992,9 +4358,7 @@
       "page_name": "Annette",
       "description": "Summons a selection of clockwork weapons.",
       "cost": 5000,
-      "starting_weapon": [
-        "Peri Pendulum"
-      ],
+      "starting_weapon": ["Peri Pendulum"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.9}]",
       "unlocked_by": "Build one tower inside another",
@@ -5008,9 +4372,7 @@
       "page_name": "Annette",
       "description": "Summons a selection of clockwork weapons.",
       "cost": 5000,
-      "starting_weapon": [
-        "Myo Lift"
-      ],
+      "starting_weapon": ["Myo Lift"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.9}]",
       "unlocked_by": "Build one tower inside another",
@@ -5024,9 +4386,7 @@
       "page_name": "Annette",
       "description": "Summons a selection of clockwork weapons.",
       "cost": 5000,
-      "starting_weapon": [
-        "Epi Head"
-      ],
+      "starting_weapon": ["Epi Head"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Cooldown\",\"value\":0.9}]",
       "unlocked_by": "Build one tower inside another",
@@ -5052,9 +4412,7 @@
     },
     {
       "page_name": "Atlantis Shrine Wizard",
-      "starting_weapon": [
-        "Hydro Storm"
-      ],
+      "starting_weapon": ["Hydro Storm"],
       "cost": 5000,
       "move_speed": 1.4,
       "duration": 1.4,
@@ -5068,9 +4426,7 @@
     },
     {
       "page_name": "Canio",
-      "starting_weapon": [
-        "Fibonacci Spritz"
-      ],
+      "starting_weapon": ["Fibonacci Spritz"],
       "cost": 5000,
       "luck": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Cooldown\",\"value\":0.9},{\"name\":\"Luck\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":7}]",
@@ -5083,9 +4439,7 @@
     },
     {
       "page_name": "Chicot",
-      "starting_weapon": [
-        "Gros Michel"
-      ],
+      "starting_weapon": ["Gros Michel"],
       "cost": 5000,
       "move_speed": 1.2,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":100},{\"name\":\"Move Speed\",\"value\":1.2},{\"name\":\"Luck\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":7}]",
@@ -5098,9 +4452,7 @@
     },
     {
       "page_name": "Drolta Tzuentes",
-      "starting_weapon": [
-        "Anura"
-      ],
+      "starting_weapon": ["Anura"],
       "cost": 5000,
       "duration": 1.7,
       "secret_character": "",
@@ -5113,9 +4465,7 @@
     },
     {
       "page_name": "Fake Trio",
-      "starting_weapon": [
-        "Bone"
-      ],
+      "starting_weapon": ["Bone"],
       "cost": 5000,
       "move_speed": 1.2,
       "secret_character": "",
@@ -5128,9 +4478,7 @@
     },
     {
       "page_name": "Fake Trio",
-      "starting_weapon": [
-        "Bracelet"
-      ],
+      "starting_weapon": ["Bracelet"],
       "cost": 5000,
       "move_speed": 1.4,
       "duration": 1.2,
@@ -5144,9 +4492,7 @@
     },
     {
       "page_name": "Fake Trio",
-      "starting_weapon": [
-        "Pocket Knife"
-      ],
+      "starting_weapon": ["Pocket Knife"],
       "cost": 5000,
       "move_speed": 1.6,
       "secret_character": "",
@@ -5166,9 +4512,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Move Speed\",\"value\":1.5}]",
       "unlocked_by": "Let Hakuba rebuke the lying Reaper to reveal her allies' truth.",
-      "starting_weapon": [
-        "Pocket Knife"
-      ],
+      "starting_weapon": ["Pocket Knife"],
       "armor": 2,
       "max_health": 200,
       "dlc": "Ode to Castlevania",
@@ -5182,9 +4526,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Armor\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.4}]",
       "unlocked_by": "Cut butter with six swords forged to slay vampires.",
-      "starting_weapon": [
-        "Valmanway"
-      ],
+      "starting_weapon": ["Valmanway"],
       "armor": 1,
       "max_health": 120,
       "dlc": "Ode to Castlevania",
@@ -5199,9 +4541,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":47},{\"name\":\"Recovery\",\"value\":1},{\"name\":\"Move Speed\",\"value\":1.1},{\"name\":\"Greed\",\"value\":2}]",
       "unlocked_by": "Eat the souls of 10,000<sup>&#91;<span style=\"color:var(--theme-link-color);font-style:italic;cursor:help;border-bottom:dotted 1px;\" title=\"The preceding quote has been reproduced verbatim and is not a transcription error.\">sic</span>&#93;</sup> Forest frogs.",
-      "starting_weapon": [
-        "Soul Steal"
-      ],
+      "starting_weapon": ["Soul Steal"],
       "recovery": 1,
       "max_health": 47,
       "name": "Jiangshi",
@@ -5209,9 +4549,7 @@
     },
     {
       "page_name": "Jimbo",
-      "starting_weapon": [
-        "Infernolatro"
-      ],
+      "starting_weapon": ["Infernolatro"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -5227,9 +4565,7 @@
       "page_name": "Morris Baldwin",
       "description": "Adept with all weapons from the Coat of Arms. Retaliates by triggering Kaiser Knuckle, Lapiste Tepisto, and any Bracelet.",
       "cost": 5000,
-      "starting_weapon": [
-        "Kaiser Knuckle"
-      ],
+      "starting_weapon": ["Kaiser Knuckle"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Combine Heaven and Cross with the Grave Inheritor of Vampire Killer.",
@@ -5243,9 +4579,7 @@
       "page_name": "Morris Baldwin",
       "description": "Adept with all weapons from the Coat of Arms. Retaliates by triggering Kaiser Knuckle, Lapiste Tepisto, and any Bracelet.",
       "cost": 5000,
-      "starting_weapon": [
-        "Coat of Arms"
-      ],
+      "starting_weapon": ["Coat of Arms"],
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":2},{\"name\":\"Might\",\"value\":1.2}]",
       "unlocked_by": "Combine Heaven and Cross with the Grave Inheritor of Vampire Killer.",
@@ -5257,9 +4591,7 @@
     },
     {
       "page_name": "Perkeo",
-      "starting_weapon": [
-        "Celestial Booster"
-      ],
+      "starting_weapon": ["Celestial Booster"],
       "cost": 5000,
       "stats_json": "[{\"name\":\"Max Health\",\"value\":120},{\"name\":\"Luck\",\"value\":1.2},{\"name\":\"Reroll\",\"value\":7}]",
       "unlocked_by": "Evolve the Gros Michel.",
@@ -5276,9 +4608,7 @@
       "secret_character": "",
       "stats_json": "[{\"name\":\"Max Health\",\"value\":200},{\"name\":\"Armor\",\"value\":1}]",
       "unlocked_by": "Spell the ruler's word",
-      "starting_weapon": [
-        "Sword Brothers"
-      ],
+      "starting_weapon": ["Sword Brothers"],
       "armor": 1,
       "max_health": 200,
       "dlc": "Ode to Castlevania",
@@ -5314,9 +4644,7 @@
     },
     {
       "page_name": "Tera",
-      "starting_weapon": [
-        "Grand Cross"
-      ],
+      "starting_weapon": ["Grand Cross"],
       "cost": 5000,
       "secret_character": "",
       "luck": 1.2,
@@ -5330,9 +4658,7 @@
     },
     {
       "page_name": "Witch Actrise",
-      "starting_weapon": [
-        "Gemma Torpor"
-      ],
+      "starting_weapon": ["Gemma Torpor"],
       "cost": 5000,
       "move_speed": 1.2,
       "duration": 1.2,
@@ -5349,9 +4675,7 @@
     {
       "page_name": "LATODISOTTO",
       "magnet": 1,
-      "starting_weapon": [
-        "Duplicator"
-      ],
+      "starting_weapon": ["Duplicator"],
       "name": "LATODISOTTO",
       "move_speed": 0,
       "dlc": "Vampire Survivors",
@@ -5363,9 +4687,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Penshin Fatcha"
-      ],
+      "starting_weapon": ["Penshin Fatcha"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5378,9 +4700,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Tonno Subito"
-      ],
+      "starting_weapon": ["Tonno Subito"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5393,9 +4713,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Tonnado"
-      ],
+      "starting_weapon": ["Tonnado"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5408,9 +4726,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Tonn'omoto"
-      ],
+      "starting_weapon": ["Tonn'omoto"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5423,9 +4739,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Tonn'oddeeo"
-      ],
+      "starting_weapon": ["Tonn'oddeeo"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5438,9 +4752,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Tonne"
-      ],
+      "starting_weapon": ["Tonne"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5453,9 +4765,7 @@
     },
     {
       "page_name": "Para Kooleo",
-      "starting_weapon": [
-        "Unsurpassed"
-      ],
+      "starting_weapon": ["Unsurpassed"],
       "cost": 153,
       "move_speed": 1.3,
       "duration": 1.3,
@@ -5468,9 +4778,7 @@
     },
     {
       "page_name": "Big Troubler",
-      "starting_weapon": [
-        "Unearthly Bolt"
-      ],
+      "starting_weapon": ["Unearthly Bolt"],
       "cost": 50000,
       "move_speed": 1.2,
       "greed": 1.3,

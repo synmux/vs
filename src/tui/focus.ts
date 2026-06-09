@@ -6,8 +6,8 @@
  */
 
 export interface Focusable {
-  focus(): void;
   blur(): void;
+  focus(): void;
 }
 
 export class FocusRing {
@@ -24,11 +24,18 @@ export class FocusRing {
   }
 
   focusIndex(index: number): void {
-    if (this.targets.length === 0) return;
-    const next = ((index % this.targets.length) + this.targets.length) % this.targets.length;
+    if (this.targets.length === 0) {
+      return;
+    }
+    const next =
+      ((index % this.targets.length) + this.targets.length) %
+      this.targets.length;
     for (let position = 0; position < this.targets.length; position++) {
-      if (position === next) this.targets[position]!.focus();
-      else this.targets[position]!.blur();
+      if (position === next) {
+        this.targets[position]?.focus();
+      } else {
+        this.targets[position]?.blur();
+      }
     }
     this.index = next;
   }

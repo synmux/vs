@@ -15,11 +15,15 @@ describe("fuzzyScore", () => {
   });
 
   test("scores a contiguous prefix higher than a scattered match", () => {
-    expect(fuzzyScore("whip", "Whip")!).toBeGreaterThan(fuzzyScore("whip", "Warship")!);
+    expect(fuzzyScore("whip", "Whip")!).toBeGreaterThan(
+      fuzzyScore("whip", "Warship")!
+    );
   });
 
   test("scores an earlier match higher than a later one", () => {
-    expect(fuzzyScore("w", "Whip")!).toBeGreaterThan(fuzzyScore("w", "Glow Worm")!);
+    expect(fuzzyScore("w", "Whip")!).toBeGreaterThan(
+      fuzzyScore("w", "Glow Worm")!
+    );
   });
 
   test("matches across word boundaries (initials)", () => {

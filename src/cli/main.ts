@@ -21,11 +21,19 @@ import { CliError } from "./errors.ts";
 import { sectionList } from "./output.ts";
 import type { OutputOptions } from "./types.ts";
 
-const SECTIONS = ["evolutions", "weapons", "passives", "characters", "stages", "arcanas", "bestiary"];
+const SECTIONS = [
+  "evolutions",
+  "weapons",
+  "passives",
+  "characters",
+  "stages",
+  "arcanas",
+  "bestiary",
+];
 
 interface GlobalOptions {
-  json?: boolean;
   color?: boolean;
+  json?: boolean;
   refresh?: boolean;
 }
 
@@ -45,16 +53,25 @@ function outputOptions(options: GlobalOptions): OutputOptions {
 }
 
 /** Launch the TUI on a section, or print a plain listing when output is piped. */
-async function launchOrList(repo: Repository, section: string, options: GlobalOptions): Promise<void> {
-  if (process.stdout.isTTY) await runTui(repo, section);
-  else print(sectionList(repo, section, outputOptions(options)));
+async function launchOrList(
+  repo: Repository,
+  section: string,
+  options: GlobalOptions
+): Promise<void> {
+  if (process.stdout.isTTY) {
+    await runTui(repo, section);
+  } else {
+    print(sectionList(repo, section, outputOptions(options)));
+  }
 }
 
 export async function main(argv: string[]): Promise<void> {
   const program = new Command();
   shared(program)
     .name("vs")
-    .description("Vampire Survivors companion — browse weapon evolutions and game data")
+    .description(
+      "Vampire Survivors companion — browse weapon evolutions and game data"
+    )
     .version(APP_VERSION);
 
   // Bare `vs`: launch the TUI home (or, piped, the evolution cheat sheet).
@@ -73,46 +90,65 @@ export async function main(argv: string[]): Promise<void> {
   }
 
   shared(program.command("evolve <name>"))
-    .description("How a weapon evolves — what it is made from and what it evolves into")
+    .description(
+      "How a weapon evolves — what it is made from and what it evolves into"
+    )
     .action(async (name: string, _options, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(evolveCommand(repo, name, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(evolveCommand(repo, name, outputOptions(options)))
+      );
     });
 
   shared(program.command("weapon <name>"))
     .description("Weapon details and evolution relationships")
     .action(async (name: string, _options, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(weaponCommand(repo, name, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(weaponCommand(repo, name, outputOptions(options)))
+      );
     });
 
   shared(program.command("character <name>"))
     .description("Character details and base stats")
     .action(async (name: string, _options, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(characterCommand(repo, name, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(characterCommand(repo, name, outputOptions(options)))
+      );
     });
 
   shared(program.command("search <query>"))
     .description("Fuzzy search across every entity")
     .action(async (query: string, _options, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(searchCommand(repo, query, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(searchCommand(repo, query, outputOptions(options)))
+      );
     });
 
   shared(program.command("build"))
     .description("Evolutions achievable from the items you own")
-    .requiredOption("--have <items>", "comma-separated weapons and passives you own")
+    .requiredOption(
+      "--have <items>",
+      "comma-separated weapons and passives you own"
+    )
     .action(async (commandOptions: { have: string }, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(buildCommand(repo, commandOptions.have, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(buildCommand(repo, commandOptions.have, outputOptions(options)))
+      );
     });
 
   shared(program.command("random"))
-    .description("Suggest a random character and its starting weapon's evolution path")
+    .description(
+      "Suggest a random character and its starting weapon's evolution path"
+    )
     .action(async (_options, command: Command) => {
       const options = command.optsWithGlobals() as GlobalOptions;
-      await withRepo(options, (repo) => print(randomCommand(repo, outputOptions(options))));
+      await withRepo(options, (repo) =>
+        print(randomCommand(repo, outputOptions(options)))
+      );
     });
 
   program

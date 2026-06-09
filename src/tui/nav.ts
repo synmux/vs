@@ -5,8 +5,8 @@
  */
 
 export interface NavTarget {
-  section: string;
   entityKey?: string;
+  section: string;
 }
 
 export class NavStack {
@@ -15,7 +15,7 @@ export class NavStack {
 
   constructor(
     private readonly navigate: (target: NavTarget) => void,
-    initial: NavTarget,
+    initial: NavTarget
   ) {
     this.current = initial;
   }
@@ -34,7 +34,9 @@ export class NavStack {
 
   back(): boolean {
     const previous = this.history.pop();
-    if (previous === undefined) return false;
+    if (previous === undefined) {
+      return false;
+    }
     this.current = previous;
     this.navigate(previous);
     return true;
